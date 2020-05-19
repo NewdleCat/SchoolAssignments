@@ -1,0 +1,25 @@
+------------------------------------
+        README for HW2
+------------------------------------
+
+Files to Submit:
+1) nqueens.cpp
+    - Code is a modified version of an assignment from CSE 15 with
+      professor Patrick Tantalo. The assignment was also nqueens but using recursion
+      the code is modified to use stacks instead of recursion and most functions
+      were also modified to work better with the structure of the new code
+
+    - placeQueen and removeQueen updated to mark unsafe spots above the queen
+    - findSolutions changed to work with stacks instead of recursion
+
+    - File input/output example from CSE 15:
+      https://classes.soe.ucsc.edu/cse015/Fall19/Examples/Programs/pa4/FileIO.c
+
+    - CSE 15 nqueens assignment pdf:
+      https://classes.soe.ucsc.edu/cse015/Fall19/pa2.pdf
+
+2) Makefile
+    - File to make the executable
+
+3) README
+    - This file

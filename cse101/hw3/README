@@ -1,0 +1,17 @@
+----------------------------
+        README
+----------------------------
+
+Files to submit:
+
+1) WordTree.h
+    - WordTree ADT header file
+
+2) WordTree.c
+    - ADT FILE
+    - Looked at https://www.geeksforgeeks.org/avl-tree-set-1-insertion/
+      as a reference for code
+    - Talked to Thomas Cannon for rangefind logic
+
+3) wordrange.c
+    - I/O code taken from previous cse15 assignment
