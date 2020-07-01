@@ -1,0 +1,2589 @@
+
+Round 0, fight!
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 2, 2) with expected score 0.200000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.200000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.200000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.300000
+Rollout bot picking (2, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (0, 1, 2, 1) with expected score 0.300000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 2) with expected score 1.000000
+Rollout bot picking (1, 0, 2, 0) with expected score 2.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 1.900000
+Rollout bot picking (1, 2, 1, 1) with expected score 1.900000
+Rollout bot picking (2, 0, 1, 0) with expected score 2.100000
+Rollout bot picking (1, 1, 1, 1) with expected score 2.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 5.400000
+Rollout bot picking (0, 2, 0, 2) with expected score 4.900000
+Rollout bot picking (0, 1, 1, 2) with expected score 5.100000
+Rollout bot picking (1, 1, 2, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 1, fight!
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 2, 1) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 1, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 0, 2, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 2, 0) with expected score 0.200000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.200000
+Rollout bot picking (1, 1, 2, 2) with expected score 0.700000
+Rollout bot picking (2, 1, 0, 0) with expected score 1.200000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.800000
+Rollout bot picking (1, 0, 1, 2) with expected score 0.900000
+Rollout bot picking (0, 1, 2, 2) with expected score 0.900000
+Rollout bot picking (1, 2, 2, 0) with expected score 1.800000
+Rollout bot picking (2, 2, 2, 2) with expected score 1.800000
+Rollout bot picking (0, 0, 2, 1) with expected score 1.700000
+Rollout bot picking (0, 0, 2, 0) with expected score 2.500000
+Rollout bot picking (0, 1, 0, 2) with expected score 4.100000
+Rollout bot picking (1, 0, 0, 2) with expected score 2.100000
+Rollout bot picking (2, 0, 0, 1) with expected score 2.300000
+Rollout bot picking (1, 0, 0, 0) with expected score 8.400000
+Rollout bot picking (1, 0, 0, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 2, fight!
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 1, 2, 1) with expected score 0.100000
+Rollout bot picking (0, 0, 2, 0) with expected score 0.900000
+Rollout bot picking (2, 1, 1, 2) with expected score 1.100000
+Rollout bot picking (2, 1, 1, 0) with expected score 2.000000
+Rollout bot picking (2, 2, 0, 0) with expected score 2.000000
+Rollout bot picking (2, 2, 1, 2) with expected score 2.000000
+Rollout bot picking (0, 1, 0, 2) with expected score 2.000000
+Rollout bot picking (2, 0, 0, 2) with expected score 1.900000
+Rollout bot picking (2, 2, 2, 2) with expected score 2.100000
+Rollout bot picking (1, 1, 0, 0) with expected score 1.900000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.800000
+Rollout bot picking (2, 0, 2, 2) with expected score 1.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 4.800000
+Rollout bot picking (0, 1, 1, 1) with expected score 4.800000
+Rollout bot picking (1, 1, 2, 0) with expected score 5.000000
+Rollout bot picking (2, 0, 1, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 3, fight!
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 2, 0) with expected score -0.100000
+Rollout bot picking (2, 0, 1, 2) with expected score 0.000000
+Rollout bot picking (0, 1, 2, 2) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 2, 0) with expected score 0.200000
+Rollout bot picking (0, 0, 1, 2) with expected score -0.100000
+Rollout bot picking (1, 2, 0, 2) with expected score -0.100000
+Rollout bot picking (0, 1, 2, 1) with expected score 0.200000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.700000
+Rollout bot picking (1, 2, 2, 1) with expected score 0.800000
+Rollout bot picking (1, 2, 1, 0) with expected score 1.200000
+Rollout bot picking (0, 1, 2, 0) with expected score 1.700000
+Rollout bot picking (2, 2, 2, 2) with expected score 2.000000
+Rollout bot picking (2, 1, 1, 0) with expected score 3.300000
+Rollout bot picking (2, 1, 2, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 4, fight!
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 1) with expected score 0.200000
+Rollout bot picking (0, 2, 1, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 2, 2) with expected score 0.900000
+Rollout bot picking (0, 1, 0, 1) with expected score 1.100000
+Rollout bot picking (2, 1, 2, 0) with expected score 1.200000
+Rollout bot picking (1, 0, 0, 2) with expected score 1.100000
+Rollout bot picking (0, 0, 1, 2) with expected score 1.100000
+Rollout bot picking (1, 0, 0, 1) with expected score 1.800000
+Rollout bot picking (1, 1, 2, 1) with expected score 2.900000
+Rollout bot picking (1, 2, 1, 2) with expected score 3.000000
+Rollout bot picking (2, 0, 1, 2) with expected score 2.800000
+Rollout bot picking (2, 0, 2, 2) with expected score 5.200000
+Rollout bot picking (2, 0, 0, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 5, fight!
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 0) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 2) with expected score 0.200000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.200000
+Rollout bot picking (2, 2, 2, 1) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.800000
+Rollout bot picking (2, 1, 2, 0) with expected score 1.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 1.100000
+Rollout bot picking (0, 2, 0, 2) with expected score 2.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 3.400000
+Rollout bot picking (1, 1, 0, 0) with expected score 1.700000
+Rollout bot picking (0, 1, 2, 0) with expected score 1.800000
+Rollout bot picking (2, 2, 1, 0) with expected score 1.600000
+Rollout bot picking (1, 0, 2, 0) with expected score 2.100000
+Rollout bot picking (1, 1, 0, 1) with expected score 1.600000
+Rollout bot picking (1, 1, 0, 2) with expected score 4.500000
+Rollout bot picking (1, 0, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 6, fight!
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (2, 0, 1, 2) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 2) with expected score 0.100000
+Rollout bot picking (1, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 0, 2, 2) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.300000
+Rollout bot picking (1, 0, 2, 2) with expected score 1.100000
+Rollout bot picking (0, 1, 0, 2) with expected score 1.500000
+Rollout bot picking (1, 1, 2, 0) with expected score 8.400000
+Rollout bot picking (2, 1, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 7, fight!
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 1) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 0, 2, 2) with expected score 0.900000
+Rollout bot picking (0, 1, 1, 2) with expected score 1.100000
+Rollout bot picking (2, 1, 0, 2) with expected score 1.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.900000
+Rollout bot picking (0, 1, 2, 0) with expected score 1.000000
+Rollout bot picking (2, 2, 2, 1) with expected score 1.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 1.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 1.800000
+Rollout bot picking (0, 0, 2, 2) with expected score 1.900000
+Rollout bot picking (1, 1, 2, 2) with expected score 1.900000
+Rollout bot picking (0, 0, 0, 2) with expected score 1.600000
+Rollout bot picking (2, 2, 2, 0) with expected score 2.100000
+Rollout bot picking (0, 0, 0, 0) with expected score 2.500000
+Rollout bot picking (1, 2, 0, 2) with expected score 2.500000
+Rollout bot picking (0, 1, 0, 2) with expected score 3.000000
+Rollout bot picking (1, 1, 1, 0) with expected score 5.400000
+Rollout bot picking (2, 0, 2, 1) with expected score 0.100000
+Rollout bot picking (1, 1, 1, 2) with expected score 6.600000
+Rollout bot picking (1, 1, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 8, fight!
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.200000
+Rollout bot picking (1, 1, 0, 1) with expected score 1.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 1.100000
+Rollout bot picking (2, 0, 2, 2) with expected score 1.900000
+Rollout bot picking (0, 2, 1, 0) with expected score 2.000000
+Rollout bot picking (0, 0, 1, 2) with expected score 2.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 3.000000
+Rollout bot picking (2, 1, 0, 2) with expected score 2.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 3.000000
+Rollout bot picking (1, 0, 2, 2) with expected score 3.500000
+Rollout bot picking (2, 2, 1, 1) with expected score 2.700000
+Rollout bot picking (0, 0, 0, 2) with expected score 2.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 9.900000
+Rollout bot picking (2, 2, 2, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 9, fight!
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 1) with expected score 0.100000
+Rollout bot picking (1, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 0, 1, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 2, 0) with expected score 0.200000
+Rollout bot picking (0, 2, 2, 1) with expected score 0.100000
+Rollout bot picking (0, 0, 0, 2) with expected score 0.900000
+Rollout bot picking (1, 0, 2, 0) with expected score 1.100000
+Rollout bot picking (2, 1, 1, 0) with expected score 1.000000
+Rollout bot picking (2, 1, 2, 2) with expected score 1.100000
+Rollout bot picking (2, 2, 2, 0) with expected score 1.000000
+Rollout bot picking (0, 1, 1, 2) with expected score 1.100000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.900000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.900000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.800000
+Rollout bot picking (0, 1, 2, 1) with expected score 0.900000
+Rollout bot picking (1, 1, 1, 2) with expected score 1.200000
+Rollout bot picking (2, 2, 1, 2) with expected score 1.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.800000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.900000
+Rollout bot picking (1, 0, 1, 1) with expected score 1.400000
+Rollout bot picking (2, 1, 1, 2) with expected score 7.700000
+Rollout bot picking (2, 0, 2, 2) with expected score 1.400000
+Rollout bot picking (1, 1, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 10, fight!
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.200000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 0, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 0, 1, 0) with expected score 0.200000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.400000
+Rollout bot picking (2, 0, 1, 2) with expected score 0.200000
+Rollout bot picking (2, 0, 1, 1) with expected score 1.100000
+Rollout bot picking (1, 1, 0, 1) with expected score 3.500000
+Rollout bot picking (1, 0, 2, 1) with expected score 2.200000
+Rollout bot picking (1, 0, 1, 2) with expected score 1.900000
+Rollout bot picking (2, 2, 1, 0) with expected score 2.400000
+Rollout bot picking (2, 1, 0, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 11, fight!
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 0, 1, 0) with expected score 0.200000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.100000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.300000
+Rollout bot picking (2, 1, 1, 2) with expected score 0.200000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (0, 0, 2, 0) with expected score -0.700000
+Rollout bot picking (0, 2, 0, 0) with expected score -0.700000
+Rollout bot picking (0, 2, 0, 2) with expected score -0.100000
+Rollout bot picking (1, 1, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.600000
+Rollout bot picking (2, 0, 1, 2) with expected score 0.900000
+Rollout bot picking (1, 1, 0, 2) with expected score 2.500000
+Rollout bot picking (0, 0, 0, 0) with expected score 3.900000
+Rollout bot picking (1, 1, 1, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 12, fight!
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 1, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 1, 1, 2) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.100000
+Rollout bot picking (0, 1, 1, 0) with expected score -0.100000
+Rollout bot picking (1, 1, 1, 1) with expected score 0.200000
+Rollout bot picking (0, 1, 0, 2) with expected score -0.100000
+Rollout bot picking (1, 1, 2, 2) with expected score 0.700000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.900000
+Rollout bot picking (0, 1, 2, 0) with expected score 0.800000
+Rollout bot picking (2, 2, 1, 1) with expected score 1.500000
+Rollout bot picking (0, 0, 2, 1) with expected score 1.600000
+Rollout bot picking (0, 2, 2, 2) with expected score 4.800000
+Rollout bot picking (1, 0, 2, 2) with expected score 1.700000
+Rollout bot picking (0, 1, 1, 1) with expected score 2.300000
+Rollout bot picking (2, 0, 2, 0) with expected score 2.600000
+Rollout bot picking (1, 2, 0, 2) with expected score 2.000000
+Rollout bot picking (2, 0, 0, 2) with expected score 1.500000
+Rollout bot picking (0, 0, 1, 0) with expected score 1.500000
+Rollout bot picking (0, 0, 1, 1) with expected score 7.400000
+Rollout bot picking (2, 0, 1, 1) with expected score 7.400000
+Rollout bot picking (0, 0, 1, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 13, fight!
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 2) with expected score 0.200000
+Rollout bot picking (0, 1, 1, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 2, 1) with expected score 0.200000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.400000
+Rollout bot picking (0, 2, 2, 2) with expected score 0.800000
+Rollout bot picking (2, 0, 2, 1) with expected score 1.000000
+Rollout bot picking (2, 2, 1, 1) with expected score 1.000000
+Rollout bot picking (1, 2, 1, 1) with expected score 3.400000
+Rollout bot picking (1, 1, 2, 2) with expected score 2.000000
+Rollout bot picking (2, 2, 2, 2) with expected score 3.300000
+Rollout bot picking (0, 1, 0, 0) with expected score 6.600000
+Rollout bot picking (2, 0, 1, 2) with expected score 3.400000
+Rollout bot picking (2, 2, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 14, fight!
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (2, 2, 2, 1) with expected score 0.200000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.200000
+Rollout bot picking (1, 0, 2, 1) with expected score 0.200000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 1) with expected score 1.900000
+Rollout bot picking (1, 0, 0, 0) with expected score 1.600000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.800000
+Rollout bot picking (1, 1, 2, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 15, fight!
+Rollout bot picking (1, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (2, 0, 2, 2) with expected score 0.100000
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 1) with expected score 0.200000
+Rollout bot picking (1, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 1, 1) with expected score 0.200000
+Rollout bot picking (1, 2, 2, 1) with expected score 1.100000
+Rollout bot picking (1, 0, 2, 1) with expected score 1.900000
+Rollout bot picking (0, 0, 0, 2) with expected score 2.100000
+Rollout bot picking (0, 1, 0, 2) with expected score 2.100000
+Rollout bot picking (0, 2, 0, 0) with expected score 2.100000
+Rollout bot picking (1, 1, 2, 1) with expected score 3.400000
+Rollout bot picking (2, 1, 2, 2) with expected score 2.200000
+Rollout bot picking (0, 2, 1, 1) with expected score 2.300000
+Rollout bot picking (0, 1, 0, 0) with expected score 2.000000
+Rollout bot picking (2, 0, 2, 0) with expected score 2.300000
+Rollout bot picking (2, 1, 1, 2) with expected score 1.800000
+Rollout bot picking (0, 2, 2, 2) with expected score 2.300000
+Rollout bot picking (2, 0, 0, 1) with expected score 2.900000
+Rollout bot picking (1, 1, 2, 0) with expected score 7.200000
+Rollout bot picking (1, 1, 2, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 16, fight!
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.100000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 2, 2) with expected score 0.200000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.800000
+Rollout bot picking (1, 2, 1, 2) with expected score 1.100000
+Rollout bot picking (2, 0, 1, 1) with expected score 1.100000
+Rollout bot picking (1, 1, 0, 2) with expected score 1.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 1.100000
+Rollout bot picking (2, 0, 2, 1) with expected score 1.100000
+Rollout bot picking (1, 1, 0, 0) with expected score 1.700000
+Rollout bot picking (0, 2, 2, 0) with expected score 4.900000
+Rollout bot picking (2, 1, 0, 2) with expected score 5.000000
+Rollout bot picking (1, 2, 2, 1) with expected score 6.700000
+Rollout bot picking (0, 0, 1, 2) with expected score 6.700000
+Rollout bot picking (0, 2, 1, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 17, fight!
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 2, 1) with expected score 0.100000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 2, 2) with expected score 0.200000
+Rollout bot picking (0, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 1, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 2, 2) with expected score 0.300000
+Rollout bot picking (2, 0, 1, 2) with expected score 0.100000
+Rollout bot picking (0, 0, 1, 1) with expected score 1.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 1.100000
+Rollout bot picking (2, 0, 0, 1) with expected score 1.200000
+Rollout bot picking (2, 1, 1, 2) with expected score 1.900000
+Rollout bot picking (0, 2, 0, 0) with expected score 3.900000
+Rollout bot picking (1, 0, 0, 0) with expected score 2.200000
+Rollout bot picking (0, 2, 2, 0) with expected score 2.900000
+Rollout bot picking (0, 1, 2, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 18, fight!
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 2, 2) with expected score 0.200000
+Rollout bot picking (1, 2, 2, 1) with expected score 0.300000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.200000
+Rollout bot picking (0, 0, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 1) with expected score 0.500000
+Rollout bot picking (1, 0, 2, 1) with expected score 0.800000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.800000
+Rollout bot picking (0, 1, 2, 1) with expected score 1.600000
+Rollout bot picking (2, 2, 0, 0) with expected score 2.300000
+Rollout bot picking (2, 0, 0, 0) with expected score 1.600000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.700000
+Rollout bot picking (0, 2, 0, 2) with expected score 2.300000
+Rollout bot picking (0, 2, 1, 1) with expected score 9.300000
+Rollout bot picking (0, 2, 2, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 19, fight!
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 2, 2) with expected score 0.000000
+Rollout bot picking (1, 2, 1, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.600000
+Rollout bot picking (2, 1, 1, 1) with expected score 0.900000
+Rollout bot picking (0, 0, 2, 1) with expected score 0.800000
+Rollout bot picking (0, 1, 2, 1) with expected score 1.000000
+Rollout bot picking (2, 1, 1, 2) with expected score 1.000000
+Rollout bot picking (1, 1, 2, 2) with expected score 2.300000
+Rollout bot picking (0, 1, 1, 1) with expected score 3.100000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.700000
+Rollout bot picking (2, 0, 1, 1) with expected score -1.400000
+Rollout bot picking (1, 2, 2, 0) with expected score -2.200000
+Rollout bot picking (2, 0, 0, 1) with expected score -5.000000
+Finished!
+
+The 1 bot wins this round! ({1: 1, 2: -1})
+
+Round 20, fight!
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 2, 2) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 2) with expected score 0.100000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 0, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 2, 2) with expected score 0.100000
+Rollout bot picking (1, 0, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 1) with expected score 0.600000
+Rollout bot picking (0, 0, 2, 2) with expected score 0.900000
+Rollout bot picking (1, 0, 1, 0) with expected score 1.400000
+Rollout bot picking (0, 1, 2, 0) with expected score 1.800000
+Rollout bot picking (2, 0, 2, 1) with expected score 6.500000
+Rollout bot picking (2, 0, 0, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 21, fight!
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 1, 2) with expected score 0.100000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.100000
+Rollout bot picking (1, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.200000
+Rollout bot picking (0, 0, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.400000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 2, 1) with expected score 0.200000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 0, 2, 1) with expected score 1.300000
+Rollout bot picking (2, 0, 0, 2) with expected score 1.900000
+Rollout bot picking (0, 2, 2, 2) with expected score 2.200000
+Rollout bot picking (2, 2, 1, 1) with expected score 5.400000
+Rollout bot picking (0, 1, 2, 1) with expected score 5.700000
+Rollout bot picking (1, 0, 2, 1) with expected score 5.200000
+Rollout bot picking (0, 1, 0, 1) with expected score 6.700000
+Rollout bot picking (1, 0, 2, 2) with expected score 4.700000
+Rollout bot picking (1, 2, 2, 2) with expected score 9.700000
+Rollout bot picking (2, 1, 2, 2) with expected score 6.700000
+Rollout bot picking (1, 1, 2, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 22, fight!
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.200000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.800000
+Rollout bot picking (0, 1, 1, 0) with expected score 1.000000
+Rollout bot picking (0, 0, 1, 1) with expected score 0.900000
+Rollout bot picking (1, 2, 2, 0) with expected score 1.600000
+Rollout bot picking (2, 1, 1, 0) with expected score 2.000000
+Rollout bot picking (2, 1, 2, 0) with expected score 2.500000
+Rollout bot picking (2, 0, 0, 2) with expected score 5.100000
+Rollout bot picking (2, 0, 0, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 23, fight!
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 2, 2, 1) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 1) with expected score 0.800000
+Rollout bot picking (1, 0, 2, 0) with expected score 1.100000
+Rollout bot picking (2, 2, 1, 2) with expected score 1.100000
+Rollout bot picking (0, 0, 1, 1) with expected score 1.000000
+Rollout bot picking (2, 0, 0, 0) with expected score 1.300000
+Rollout bot picking (2, 0, 0, 1) with expected score 1.700000
+Rollout bot picking (2, 2, 2, 2) with expected score 1.900000
+Rollout bot picking (1, 0, 1, 0) with expected score 2.600000
+Rollout bot picking (2, 2, 0, 2) with expected score 2.500000
+Rollout bot picking (0, 1, 0, 1) with expected score 4.400000
+Rollout bot picking (1, 1, 0, 2) with expected score 4.100000
+Rollout bot picking (1, 1, 0, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 24, fight!
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 1) with expected score 0.300000
+Rollout bot picking (0, 2, 1, 2) with expected score 0.200000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.700000
+Rollout bot picking (1, 1, 1, 0) with expected score 1.100000
+Rollout bot picking (0, 1, 1, 2) with expected score 1.100000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.900000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.700000
+Rollout bot picking (1, 0, 2, 0) with expected score 1.500000
+Rollout bot picking (0, 0, 2, 2) with expected score 2.100000
+Rollout bot picking (2, 1, 2, 0) with expected score 2.000000
+Rollout bot picking (0, 1, 0, 1) with expected score 3.000000
+Rollout bot picking (2, 1, 1, 1) with expected score 1.600000
+Rollout bot picking (0, 0, 0, 2) with expected score 9.100000
+Rollout bot picking (2, 2, 2, 0) with expected score 5.800000
+Rollout bot picking (0, 0, 1, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 25, fight!
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 1, 1, 2) with expected score 0.100000
+Rollout bot picking (0, 1, 1, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 2) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 2) with expected score 0.100000
+Rollout bot picking (2, 0, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 1, 2, 2) with expected score 1.100000
+Rollout bot picking (1, 0, 2, 2) with expected score 1.600000
+Rollout bot picking (0, 0, 2, 1) with expected score 1.600000
+Rollout bot picking (2, 0, 1, 0) with expected score 5.500000
+Rollout bot picking (1, 2, 1, 0) with expected score 3.400000
+Rollout bot picking (0, 1, 1, 1) with expected score 5.600000
+Rollout bot picking (0, 0, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 26, fight!
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 1, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 2) with expected score 0.000000
+Rollout bot picking (2, 1, 2, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 2, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 1, 1) with expected score 0.200000
+Rollout bot picking (1, 2, 1, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 2, 1) with expected score 0.900000
+Rollout bot picking (0, 0, 2, 1) with expected score 1.000000
+Rollout bot picking (1, 0, 1, 1) with expected score 1.100000
+Rollout bot picking (0, 1, 2, 1) with expected score 1.200000
+Rollout bot picking (2, 1, 1, 1) with expected score 2.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 3.500000
+Rollout bot picking (0, 2, 1, 0) with expected score 2.300000
+Rollout bot picking (1, 0, 0, 2) with expected score 1.700000
+Rollout bot picking (0, 2, 1, 1) with expected score 3.600000
+Rollout bot picking (2, 0, 1, 1) with expected score 4.900000
+Rollout bot picking (2, 0, 1, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 27, fight!
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 2, 1) with expected score 0.100000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 0, 1, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 2, 2) with expected score 0.200000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.900000
+Rollout bot picking (1, 0, 0, 1) with expected score 2.000000
+Rollout bot picking (2, 1, 1, 0) with expected score 2.000000
+Rollout bot picking (1, 2, 1, 0) with expected score 2.100000
+Rollout bot picking (1, 1, 2, 0) with expected score 2.100000
+Rollout bot picking (0, 2, 1, 2) with expected score 2.000000
+Rollout bot picking (0, 2, 0, 2) with expected score 4.100000
+Rollout bot picking (1, 1, 0, 0) with expected score 5.800000
+Rollout bot picking (0, 0, 2, 2) with expected score 5.500000
+Rollout bot picking (0, 1, 0, 2) with expected score 4.300000
+Rollout bot picking (1, 2, 2, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 28, fight!
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 0, 2, 0) with expected score 0.200000
+Rollout bot picking (0, 1, 1, 0) with expected score 0.200000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.200000
+Rollout bot picking (1, 2, 2, 1) with expected score 0.100000
+Rollout bot picking (0, 2, 2, 0) with expected score 0.400000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.300000
+Rollout bot picking (2, 1, 2, 0) with expected score 0.400000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.900000
+Rollout bot picking (2, 2, 0, 2) with expected score 1.200000
+Rollout bot picking (2, 1, 2, 2) with expected score 1.200000
+Rollout bot picking (0, 1, 0, 1) with expected score 2.700000
+Rollout bot picking (2, 0, 1, 0) with expected score 1.700000
+Rollout bot picking (0, 2, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 29, fight!
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.100000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 1, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 2, 2, 2) with expected score 0.100000
+Rollout bot picking (0, 0, 2, 0) with expected score 0.100000
+Rollout bot picking (2, 2, 1, 1) with expected score 0.300000
+Rollout bot picking (2, 2, 1, 2) with expected score 1.000000
+Rollout bot picking (2, 1, 1, 0) with expected score 1.600000
+Rollout bot picking (0, 1, 1, 1) with expected score 2.000000
+Rollout bot picking (0, 1, 2, 0) with expected score 3.100000
+Rollout bot picking (0, 1, 0, 2) with expected score 2.800000
+Rollout bot picking (0, 0, 1, 1) with expected score 2.900000
+Rollout bot picking (1, 1, 1, 0) with expected score 3.500000
+Rollout bot picking (0, 2, 0, 0) with expected score 2.500000
+Rollout bot picking (2, 0, 1, 0) with expected score 5.100000
+Rollout bot picking (0, 0, 1, 2) with expected score 3.400000
+Rollout bot picking (0, 2, 1, 1) with expected score 6.900000
+Rollout bot picking (2, 0, 2, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 30, fight!
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (2, 0, 1, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 1, 2) with expected score 0.200000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.200000
+Rollout bot picking (0, 1, 2, 0) with expected score 0.900000
+Rollout bot picking (1, 0, 0, 1) with expected score 1.000000
+Rollout bot picking (0, 2, 2, 2) with expected score 1.200000
+Rollout bot picking (1, 0, 0, 2) with expected score 1.000000
+Rollout bot picking (0, 2, 1, 1) with expected score 2.000000
+Rollout bot picking (2, 0, 2, 1) with expected score 2.200000
+Rollout bot picking (1, 0, 0, 0) with expected score 3.000000
+Rollout bot picking (1, 1, 0, 2) with expected score 2.800000
+Rollout bot picking (2, 1, 0, 2) with expected score 2.100000
+Rollout bot picking (2, 0, 1, 1) with expected score 2.700000
+Rollout bot picking (1, 1, 1, 2) with expected score 4.400000
+Rollout bot picking (1, 1, 2, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 31, fight!
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.200000
+Rollout bot picking (0, 1, 2, 0) with expected score 0.800000
+Rollout bot picking (1, 0, 1, 0) with expected score 1.000000
+Rollout bot picking (1, 2, 2, 2) with expected score 1.000000
+Rollout bot picking (0, 2, 2, 0) with expected score 1.100000
+Rollout bot picking (0, 2, 1, 1) with expected score 1.900000
+Rollout bot picking (2, 2, 1, 0) with expected score 2.000000
+Rollout bot picking (2, 1, 1, 2) with expected score 1.900000
+Rollout bot picking (1, 1, 0, 2) with expected score 1.800000
+Rollout bot picking (1, 1, 0, 1) with expected score 2.400000
+Rollout bot picking (1, 0, 0, 1) with expected score 4.200000
+Rollout bot picking (2, 0, 2, 2) with expected score 3.700000
+Rollout bot picking (0, 0, 1, 0) with expected score 6.700000
+Rollout bot picking (2, 0, 1, 1) with expected score 5.400000
+Rollout bot picking (0, 0, 2, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 32, fight!
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 1, 1) with expected score 0.100000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.200000
+Rollout bot picking (1, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 0, 2, 0) with expected score 0.900000
+Rollout bot picking (2, 2, 1, 0) with expected score 1.100000
+Rollout bot picking (0, 1, 1, 0) with expected score 1.000000
+Rollout bot picking (1, 1, 1, 2) with expected score 1.000000
+Rollout bot picking (1, 1, 1, 1) with expected score 1.000000
+Rollout bot picking (1, 0, 2, 0) with expected score 1.100000
+Rollout bot picking (1, 2, 0, 1) with expected score 1.100000
+Rollout bot picking (2, 1, 2, 1) with expected score 1.100000
+Rollout bot picking (0, 1, 1, 2) with expected score 1.200000
+Rollout bot picking (1, 0, 1, 0) with expected score 1.600000
+Rollout bot picking (2, 2, 1, 2) with expected score 3.200000
+Rollout bot picking (1, 1, 2, 2) with expected score 4.200000
+Rollout bot picking (2, 2, 0, 2) with expected score 7.000000
+Rollout bot picking (2, 1, 0, 2) with expected score 8.500000
+Rollout bot picking (0, 1, 1, 1) with expected score 4.400000
+Rollout bot picking (2, 2, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 33, fight!
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (0, 0, 2, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 1, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 2, 1) with expected score 0.700000
+Rollout bot picking (0, 0, 1, 0) with expected score 1.100000
+Rollout bot picking (0, 1, 1, 1) with expected score 1.000000
+Rollout bot picking (2, 1, 1, 2) with expected score 1.000000
+Rollout bot picking (1, 2, 1, 0) with expected score 1.100000
+Rollout bot picking (1, 1, 1, 2) with expected score 1.100000
+Rollout bot picking (0, 0, 1, 2) with expected score 0.900000
+Rollout bot picking (0, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (0, 2, 2, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 2, 2) with expected score 0.200000
+Rollout bot picking (1, 0, 1, 2) with expected score 0.700000
+Rollout bot picking (1, 0, 2, 2) with expected score 1.200000
+Rollout bot picking (0, 1, 2, 2) with expected score 1.700000
+Rollout bot picking (0, 0, 2, 0) with expected score 7.000000
+Rollout bot picking (0, 0, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 34, fight!
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 2) with expected score 0.200000
+Rollout bot picking (1, 0, 2, 2) with expected score 1.000000
+Rollout bot picking (0, 2, 0, 2) with expected score 1.000000
+Rollout bot picking (1, 2, 2, 1) with expected score 1.100000
+Rollout bot picking (2, 2, 0, 1) with expected score 1.100000
+Rollout bot picking (0, 2, 0, 1) with expected score 1.800000
+Rollout bot picking (1, 2, 0, 1) with expected score 2.500000
+Rollout bot picking (1, 1, 2, 0) with expected score 2.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 2.000000
+Rollout bot picking (2, 2, 1, 1) with expected score 5.300000
+Rollout bot picking (2, 2, 2, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 35, fight!
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 2, 0) with expected score 0.100000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (2, 1, 2, 2) with expected score 0.200000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.100000
+Rollout bot picking (0, 0, 2, 2) with expected score 0.200000
+Rollout bot picking (2, 1, 2, 1) with expected score 0.700000
+Rollout bot picking (2, 0, 0, 2) with expected score 2.000000
+Rollout bot picking (0, 0, 1, 1) with expected score 3.000000
+Rollout bot picking (1, 1, 0, 0) with expected score 3.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 3.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 4.200000
+Rollout bot picking (1, 0, 1, 1) with expected score 5.600000
+Rollout bot picking (1, 0, 0, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 36, fight!
+Rollout bot picking (1, 0, 0, 0) with expected score 0.100000
+Rollout bot picking (0, 1, 2, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (0, 0, 1, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 2) with expected score 0.000000
+Rollout bot picking (0, 0, 1, 2) with expected score 0.300000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (2, 0, 1, 2) with expected score -0.100000
+Rollout bot picking (2, 2, 2, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 1, 0) with expected score 1.000000
+Rollout bot picking (1, 1, 2, 2) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 1) with expected score -0.300000
+Rollout bot picking (0, 1, 1, 0) with expected score -0.300000
+Rollout bot picking (0, 0, 2, 0) with expected score -0.400000
+Rollout bot picking (0, 2, 0, 2) with expected score 11.000000
+Rollout bot picking (1, 2, 2, 0) with expected score 10.700000
+Rollout bot picking (1, 1, 0, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 37, fight!
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.800000
+Rollout bot picking (0, 1, 1, 2) with expected score 1.100000
+Rollout bot picking (1, 2, 2, 0) with expected score 1.100000
+Rollout bot picking (2, 0, 1, 1) with expected score 1.100000
+Rollout bot picking (2, 0, 2, 0) with expected score 1.500000
+Rollout bot picking (2, 2, 2, 0) with expected score 4.900000
+Rollout bot picking (0, 2, 1, 0) with expected score 3.100000
+Rollout bot picking (0, 2, 1, 1) with expected score 5.000000
+Rollout bot picking (0, 1, 2, 2) with expected score 1.900000
+Rollout bot picking (2, 2, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 38, fight!
+Rollout bot picking (1, 1, 2, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (0, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (0, 2, 2, 0) with expected score 0.200000
+Rollout bot picking (1, 0, 1, 2) with expected score 0.300000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.100000
+Rollout bot picking (0, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 1, 2) with expected score 0.300000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.300000
+Rollout bot picking (0, 0, 0, 2) with expected score 0.200000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.300000
+Rollout bot picking (1, 0, 2, 2) with expected score 1.000000
+Rollout bot picking (0, 0, 1, 2) with expected score 1.100000
+Rollout bot picking (1, 2, 0, 1) with expected score 1.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 1.800000
+Rollout bot picking (0, 2, 1, 0) with expected score 4.200000
+Rollout bot picking (1, 1, 0, 0) with expected score 6.600000
+Rollout bot picking (0, 0, 2, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 39, fight!
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 1, 2) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.200000
+Rollout bot picking (2, 0, 2, 0) with expected score 0.200000
+Rollout bot picking (0, 0, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 2) with expected score 0.900000
+Rollout bot picking (2, 1, 0, 0) with expected score 1.000000
+Rollout bot picking (0, 2, 0, 2) with expected score 1.000000
+Rollout bot picking (1, 0, 2, 0) with expected score 1.100000
+Rollout bot picking (1, 0, 1, 0) with expected score 1.800000
+Rollout bot picking (2, 2, 2, 2) with expected score 2.100000
+Rollout bot picking (2, 1, 1, 1) with expected score 2.000000
+Rollout bot picking (0, 2, 2, 0) with expected score 2.200000
+Rollout bot picking (2, 1, 2, 2) with expected score 2.900000
+Rollout bot picking (2, 0, 2, 2) with expected score 3.000000
+Rollout bot picking (1, 1, 0, 0) with expected score 2.600000
+Rollout bot picking (2, 0, 2, 1) with expected score 4.500000
+Rollout bot picking (0, 2, 2, 2) with expected score 4.000000
+Rollout bot picking (0, 0, 2, 1) with expected score 7.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 8.100000
+Rollout bot picking (0, 1, 2, 1) with expected score 6.600000
+Rollout bot picking (0, 0, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 40, fight!
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.200000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.200000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.100000
+Rollout bot picking (2, 2, 1, 2) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 1, 2) with expected score 0.200000
+Rollout bot picking (0, 1, 0, 1) with expected score -0.100000
+Rollout bot picking (2, 1, 2, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 2, 1) with expected score 0.100000
+Rollout bot picking (0, 1, 1, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 2) with expected score 0.900000
+Rollout bot picking (2, 2, 1, 1) with expected score 1.300000
+Rollout bot picking (0, 0, 1, 1) with expected score 6.500000
+Rollout bot picking (0, 2, 0, 0) with expected score 3.300000
+Rollout bot picking (2, 0, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 41, fight!
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (0, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.200000
+Rollout bot picking (0, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 0, 2, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 2, 1) with expected score 0.700000
+Rollout bot picking (0, 2, 2, 0) with expected score 0.900000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.900000
+Rollout bot picking (1, 2, 1, 2) with expected score 1.000000
+Rollout bot picking (0, 2, 1, 2) with expected score 0.900000
+Rollout bot picking (2, 1, 1, 1) with expected score 1.300000
+Rollout bot picking (0, 1, 0, 0) with expected score 1.800000
+Rollout bot picking (2, 2, 2, 1) with expected score 2.100000
+Rollout bot picking (0, 0, 0, 0) with expected score 1.700000
+Rollout bot picking (1, 0, 1, 1) with expected score 2.000000
+Rollout bot picking (1, 1, 1, 0) with expected score 2.200000
+Rollout bot picking (1, 0, 2, 2) with expected score 3.000000
+Rollout bot picking (2, 1, 1, 2) with expected score 5.400000
+Rollout bot picking (2, 2, 1, 1) with expected score 6.900000
+Rollout bot picking (2, 2, 1, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 42, fight!
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 1) with expected score 0.300000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.100000
+Rollout bot picking (0, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (0, 1, 0, 2) with expected score 0.200000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.300000
+Rollout bot picking (0, 0, 0, 2) with expected score 0.200000
+Rollout bot picking (1, 0, 2, 0) with expected score 0.300000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.200000
+Rollout bot picking (0, 0, 0, 0) with expected score 1.000000
+Rollout bot picking (0, 2, 2, 2) with expected score 1.400000
+Rollout bot picking (1, 1, 0, 0) with expected score 1.300000
+Rollout bot picking (0, 1, 2, 0) with expected score 2.000000
+Rollout bot picking (1, 1, 2, 2) with expected score 1.100000
+Rollout bot picking (1, 1, 2, 0) with expected score 3.000000
+Rollout bot picking (0, 2, 0, 2) with expected score 2.800000
+Rollout bot picking (1, 1, 1, 0) with expected score 2.500000
+Rollout bot picking (1, 0, 2, 1) with expected score 2.900000
+Rollout bot picking (1, 2, 1, 2) with expected score 4.000000
+Rollout bot picking (1, 2, 0, 2) with expected score 7.600000
+Rollout bot picking (1, 0, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 43, fight!
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 1) with expected score 1.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 1.000000
+Rollout bot picking (2, 1, 2, 0) with expected score 1.000000
+Rollout bot picking (1, 0, 1, 2) with expected score 1.000000
+Rollout bot picking (2, 2, 2, 0) with expected score 1.100000
+Rollout bot picking (0, 2, 1, 0) with expected score 1.200000
+Rollout bot picking (0, 1, 0, 2) with expected score 1.000000
+Rollout bot picking (1, 0, 2, 2) with expected score 1.700000
+Rollout bot picking (1, 2, 0, 1) with expected score 4.900000
+Rollout bot picking (0, 1, 1, 2) with expected score 3.500000
+Rollout bot picking (2, 0, 2, 2) with expected score 6.700000
+Rollout bot picking (0, 2, 0, 0) with expected score 5.100000
+Rollout bot picking (0, 1, 2, 2) with expected score 4.500000
+Rollout bot picking (1, 2, 2, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 44, fight!
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 1) with expected score 0.200000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.200000
+Rollout bot picking (0, 0, 0, 2) with expected score 0.200000
+Rollout bot picking (0, 0, 2, 1) with expected score 0.200000
+Rollout bot picking (0, 2, 2, 1) with expected score 0.200000
+Rollout bot picking (0, 1, 1, 1) with expected score 1.000000
+Rollout bot picking (0, 0, 1, 0) with expected score 1.200000
+Rollout bot picking (2, 1, 1, 2) with expected score 2.000000
+Rollout bot picking (1, 1, 1, 2) with expected score 3.300000
+Rollout bot picking (1, 2, 2, 2) with expected score 2.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 2.100000
+Rollout bot picking (0, 0, 2, 0) with expected score 1.900000
+Rollout bot picking (1, 1, 2, 2) with expected score 2.300000
+Rollout bot picking (1, 1, 0, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 45, fight!
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 1, 1, 2) with expected score 0.200000
+Rollout bot picking (0, 0, 2, 0) with expected score 0.200000
+Rollout bot picking (0, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 1) with expected score 0.100000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.100000
+Rollout bot picking (0, 2, 2, 1) with expected score 0.900000
+Rollout bot picking (1, 2, 1, 0) with expected score 1.100000
+Rollout bot picking (2, 1, 0, 2) with expected score 1.100000
+Rollout bot picking (2, 1, 2, 1) with expected score 1.100000
+Rollout bot picking (0, 0, 1, 2) with expected score 1.000000
+Rollout bot picking (2, 0, 2, 2) with expected score 1.600000
+Rollout bot picking (2, 1, 2, 0) with expected score 1.500000
+Rollout bot picking (1, 1, 0, 0) with expected score 2.900000
+Rollout bot picking (2, 2, 1, 1) with expected score 1.800000
+Rollout bot picking (2, 2, 2, 2) with expected score 1.700000
+Rollout bot picking (0, 1, 1, 2) with expected score 3.400000
+Rollout bot picking (2, 2, 0, 0) with expected score 2.700000
+Rollout bot picking (1, 1, 2, 0) with expected score 4.900000
+Rollout bot picking (0, 1, 0, 1) with expected score 12.600000
+Rollout bot picking (1, 1, 1, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 46, fight!
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 0, 2, 1) with expected score 0.100000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 2, 1) with expected score -0.900000
+Rollout bot picking (1, 1, 0, 0) with expected score -0.300000
+Rollout bot picking (2, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.200000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (1, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 2, 2) with expected score 0.800000
+Rollout bot picking (0, 0, 2, 2) with expected score 4.300000
+Rollout bot picking (0, 2, 1, 1) with expected score 5.900000
+Rollout bot picking (0, 2, 1, 2) with expected score 5.800000
+Rollout bot picking (2, 1, 1, 1) with expected score 5.300000
+Rollout bot picking (2, 2, 2, 1) with expected score 3.300000
+Rollout bot picking (1, 0, 0, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 47, fight!
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 2) with expected score 0.000000
+Rollout bot picking (2, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.900000
+Rollout bot picking (0, 1, 1, 0) with expected score 1.200000
+Rollout bot picking (2, 1, 0, 2) with expected score 1.800000
+Rollout bot picking (0, 2, 1, 1) with expected score 1.600000
+Rollout bot picking (2, 0, 1, 1) with expected score 1.700000
+Rollout bot picking (2, 0, 2, 2) with expected score 2.300000
+Rollout bot picking (1, 0, 1, 0) with expected score 2.600000
+Rollout bot picking (2, 2, 0, 0) with expected score 10.300000
+Rollout bot picking (0, 2, 0, 0) with expected score 6.900000
+Rollout bot picking (2, 2, 0, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 48, fight!
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 0) with expected score -0.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.900000
+Rollout bot picking (2, 1, 2, 2) with expected score 0.800000
+Rollout bot picking (1, 2, 1, 1) with expected score 1.000000
+Rollout bot picking (0, 2, 2, 0) with expected score 0.900000
+Rollout bot picking (1, 2, 0, 2) with expected score 1.200000
+Rollout bot picking (0, 2, 2, 2) with expected score 1.500000
+Rollout bot picking (1, 1, 1, 2) with expected score 1.100000
+Rollout bot picking (2, 1, 1, 1) with expected score 1.700000
+Rollout bot picking (1, 0, 1, 1) with expected score 2.000000
+Rollout bot picking (2, 2, 0, 2) with expected score 1.700000
+Rollout bot picking (1, 2, 2, 0) with expected score 2.500000
+Rollout bot picking (0, 2, 1, 1) with expected score 3.500000
+Rollout bot picking (0, 0, 1, 0) with expected score 4.500000
+Rollout bot picking (2, 2, 0, 1) with expected score 8.500000
+Rollout bot picking (2, 2, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 49, fight!
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (0, 2, 2, 1) with expected score 0.800000
+Rollout bot picking (2, 2, 0, 1) with expected score 1.000000
+Rollout bot picking (2, 2, 0, 0) with expected score 1.000000
+Rollout bot picking (1, 0, 2, 2) with expected score 1.000000
+Rollout bot picking (1, 1, 1, 2) with expected score 1.000000
+Rollout bot picking (0, 0, 2, 1) with expected score 1.000000
+Rollout bot picking (1, 1, 1, 1) with expected score 0.900000
+Rollout bot picking (0, 0, 1, 1) with expected score 1.400000
+Rollout bot picking (1, 0, 1, 1) with expected score 1.100000
+Rollout bot picking (1, 0, 0, 0) with expected score 1.600000
+Rollout bot picking (2, 0, 1, 1) with expected score 2.500000
+Rollout bot picking (2, 0, 2, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 50, fight!
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.200000
+Rollout bot picking (1, 2, 2, 1) with expected score 0.300000
+Rollout bot picking (0, 1, 2, 0) with expected score 1.200000
+Rollout bot picking (0, 0, 1, 1) with expected score 1.100000
+Rollout bot picking (1, 0, 0, 1) with expected score 1.300000
+Rollout bot picking (1, 2, 0, 1) with expected score 1.200000
+Rollout bot picking (1, 2, 1, 1) with expected score 2.000000
+Rollout bot picking (0, 0, 2, 2) with expected score 2.100000
+Rollout bot picking (1, 0, 0, 2) with expected score 2.900000
+Rollout bot picking (0, 2, 2, 2) with expected score 3.000000
+Rollout bot picking (2, 0, 2, 1) with expected score 7.100000
+Rollout bot picking (2, 0, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 51, fight!
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (0, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 1, 1, 1) with expected score 0.700000
+Rollout bot picking (0, 2, 2, 0) with expected score 1.900000
+Rollout bot picking (1, 0, 1, 0) with expected score 1.900000
+Rollout bot picking (2, 1, 2, 0) with expected score 2.100000
+Rollout bot picking (2, 1, 1, 2) with expected score 2.000000
+Rollout bot picking (2, 1, 2, 1) with expected score 1.900000
+Rollout bot picking (2, 1, 2, 2) with expected score 2.800000
+Rollout bot picking (2, 2, 0, 1) with expected score 2.800000
+Rollout bot picking (1, 2, 1, 2) with expected score 2.900000
+Rollout bot picking (1, 1, 2, 2) with expected score 4.300000
+Rollout bot picking (1, 0, 2, 2) with expected score 7.100000
+Rollout bot picking (0, 0, 2, 2) with expected score 5.500000
+Rollout bot picking (1, 2, 1, 1) with expected score 5.600000
+Rollout bot picking (1, 1, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 52, fight!
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 1, 1) with expected score 0.200000
+Rollout bot picking (2, 1, 2, 2) with expected score 1.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 1.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 1.100000
+Rollout bot picking (1, 2, 0, 2) with expected score 2.000000
+Rollout bot picking (0, 0, 0, 0) with expected score 2.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 2.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 1.900000
+Rollout bot picking (0, 2, 1, 0) with expected score 2.000000
+Rollout bot picking (0, 0, 2, 0) with expected score 2.200000
+Rollout bot picking (0, 0, 1, 0) with expected score 3.000000
+Rollout bot picking (0, 1, 2, 2) with expected score 3.100000
+Rollout bot picking (0, 2, 1, 1) with expected score 3.100000
+Rollout bot picking (0, 1, 0, 0) with expected score 5.100000
+Rollout bot picking (0, 2, 1, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 53, fight!
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 1, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 2, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 1.000000
+Rollout bot picking (2, 1, 2, 0) with expected score 1.000000
+Rollout bot picking (0, 1, 0, 1) with expected score 1.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 1.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 1.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 1.100000
+Rollout bot picking (2, 1, 1, 1) with expected score 1.800000
+Rollout bot picking (1, 1, 2, 0) with expected score 2.000000
+Rollout bot picking (1, 1, 1, 0) with expected score 2.600000
+Rollout bot picking (2, 0, 2, 2) with expected score 2.900000
+Rollout bot picking (0, 1, 1, 2) with expected score 2.700000
+Rollout bot picking (0, 1, 1, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 54, fight!
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.100000
+Rollout bot picking (1, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 1) with expected score 0.900000
+Rollout bot picking (0, 2, 0, 2) with expected score 1.100000
+Rollout bot picking (1, 2, 0, 0) with expected score 1.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 1.100000
+Rollout bot picking (2, 0, 1, 2) with expected score 1.000000
+Rollout bot picking (2, 2, 1, 1) with expected score 1.200000
+Rollout bot picking (1, 2, 2, 0) with expected score 1.000000
+Rollout bot picking (0, 0, 0, 0) with expected score 1.100000
+Rollout bot picking (0, 1, 2, 1) with expected score 1.300000
+Rollout bot picking (2, 0, 2, 0) with expected score 1.200000
+Rollout bot picking (2, 1, 0, 2) with expected score 1.700000
+Rollout bot picking (1, 1, 0, 1) with expected score 2.000000
+Rollout bot picking (1, 2, 1, 0) with expected score 2.500000
+Rollout bot picking (2, 0, 1, 1) with expected score 2.900000
+Rollout bot picking (2, 0, 0, 2) with expected score 3.100000
+Rollout bot picking (2, 2, 2, 1) with expected score 5.500000
+Rollout bot picking (1, 1, 2, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 55, fight!
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.200000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 2, 2) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 2) with expected score 0.300000
+Rollout bot picking (2, 1, 2, 1) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.200000
+Rollout bot picking (1, 2, 1, 2) with expected score 0.800000
+Rollout bot picking (2, 1, 0, 0) with expected score 1.100000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.900000
+Rollout bot picking (0, 2, 1, 0) with expected score 1.600000
+Rollout bot picking (1, 1, 0, 1) with expected score 1.700000
+Rollout bot picking (2, 0, 0, 2) with expected score 1.700000
+Rollout bot picking (2, 2, 0, 2) with expected score 3.300000
+Rollout bot picking (2, 2, 0, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 56, fight!
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (2, 0, 2, 2) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 0, 1, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.200000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.200000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.700000
+Rollout bot picking (1, 1, 0, 0) with expected score 1.000000
+Rollout bot picking (1, 2, 1, 0) with expected score 1.000000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.900000
+Rollout bot picking (1, 0, 0, 0) with expected score 1.100000
+Rollout bot picking (0, 0, 2, 0) with expected score 1.100000
+Rollout bot picking (0, 1, 0, 0) with expected score 1.100000
+Rollout bot picking (1, 1, 1, 0) with expected score 2.800000
+Rollout bot picking (0, 1, 2, 0) with expected score 3.300000
+Rollout bot picking (2, 0, 1, 1) with expected score 6.500000
+Rollout bot picking (1, 2, 1, 2) with expected score 8.400000
+Rollout bot picking (2, 2, 0, 0) with expected score 6.600000
+Rollout bot picking (2, 2, 0, 2) with expected score 9.700000
+Rollout bot picking (1, 1, 0, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 57, fight!
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (0, 0, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.100000
+Rollout bot picking (0, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 1, 0) with expected score 0.100000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 1, 2) with expected score 0.300000
+Rollout bot picking (2, 0, 2, 1) with expected score 0.700000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.900000
+Rollout bot picking (0, 0, 0, 0) with expected score 1.900000
+Rollout bot picking (0, 2, 2, 2) with expected score 2.100000
+Rollout bot picking (0, 1, 1, 2) with expected score 2.300000
+Rollout bot picking (1, 0, 2, 2) with expected score 5.400000
+Rollout bot picking (1, 1, 2, 1) with expected score 5.600000
+Rollout bot picking (1, 2, 1, 2) with expected score 7.200000
+Rollout bot picking (0, 2, 1, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 58, fight!
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 2) with expected score 1.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 1.000000
+Rollout bot picking (2, 2, 0, 0) with expected score 1.000000
+Rollout bot picking (1, 2, 0, 2) with expected score 1.000000
+Rollout bot picking (1, 0, 1, 0) with expected score 1.000000
+Rollout bot picking (2, 2, 2, 2) with expected score 1.100000
+Rollout bot picking (0, 1, 0, 1) with expected score 1.000000
+Rollout bot picking (0, 2, 2, 0) with expected score 1.000000
+Rollout bot picking (0, 2, 2, 2) with expected score 1.000000
+Rollout bot picking (1, 1, 0, 0) with expected score 1.100000
+Rollout bot picking (1, 1, 0, 2) with expected score 1.400000
+Rollout bot picking (0, 1, 1, 2) with expected score 1.800000
+Rollout bot picking (0, 1, 1, 0) with expected score 3.400000
+Rollout bot picking (1, 2, 2, 0) with expected score 3.200000
+Rollout bot picking (0, 1, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 59, fight!
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.200000
+Rollout bot picking (2, 1, 2, 1) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 2, 2) with expected score 0.200000
+Rollout bot picking (1, 0, 0, 1) with expected score 0.100000
+Rollout bot picking (1, 0, 2, 1) with expected score 0.300000
+Rollout bot picking (0, 0, 2, 0) with expected score 1.000000
+Rollout bot picking (2, 1, 2, 0) with expected score 2.000000
+Rollout bot picking (1, 0, 1, 1) with expected score 3.000000
+Rollout bot picking (0, 1, 1, 2) with expected score 2.900000
+Rollout bot picking (1, 2, 2, 0) with expected score 2.800000
+Rollout bot picking (1, 2, 1, 1) with expected score 3.200000
+Rollout bot picking (2, 2, 2, 2) with expected score 3.300000
+Rollout bot picking (1, 2, 0, 2) with expected score 3.800000
+Rollout bot picking (2, 0, 2, 0) with expected score 3.700000
+Rollout bot picking (0, 1, 2, 1) with expected score 4.500000
+Rollout bot picking (1, 1, 1, 2) with expected score 4.700000
+Rollout bot picking (2, 2, 1, 2) with expected score 3.500000
+Rollout bot picking (1, 1, 1, 1) with expected score 6.600000
+Rollout bot picking (1, 1, 1, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 60, fight!
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.100000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.000000
+Rollout bot picking (2, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.100000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.900000
+Rollout bot picking (2, 0, 2, 1) with expected score 0.900000
+Rollout bot picking (2, 0, 0, 1) with expected score 1.600000
+Rollout bot picking (1, 0, 1, 2) with expected score 1.800000
+Rollout bot picking (2, 1, 0, 2) with expected score 5.200000
+Rollout bot picking (1, 1, 0, 2) with expected score 6.500000
+Rollout bot picking (1, 2, 2, 1) with expected score 3.400000
+Rollout bot picking (0, 1, 0, 0) with expected score 4.900000
+Rollout bot picking (1, 0, 1, 0) with expected score 4.700000
+Rollout bot picking (1, 1, 0, 0) with expected score 5.800000
+Rollout bot picking (2, 1, 2, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 61, fight!
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 2, 1, 1) with expected score 0.200000
+Rollout bot picking (1, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (0, 0, 2, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 0) with expected score 0.200000
+Rollout bot picking (2, 0, 2, 0) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 2) with expected score 0.200000
+Rollout bot picking (0, 0, 1, 1) with expected score 1.000000
+Rollout bot picking (2, 1, 2, 2) with expected score 1.200000
+Rollout bot picking (2, 0, 0, 1) with expected score 1.100000
+Rollout bot picking (2, 2, 2, 1) with expected score 2.000000
+Rollout bot picking (0, 1, 1, 0) with expected score 3.400000
+Rollout bot picking (1, 2, 1, 1) with expected score 4.200000
+Rollout bot picking (1, 0, 0, 0) with expected score 2.900000
+Rollout bot picking (2, 0, 1, 2) with expected score 4.100000
+Rollout bot picking (0, 2, 1, 1) with expected score 7.100000
+Rollout bot picking (0, 2, 1, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 62, fight!
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 2, 0) with expected score 0.200000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 2, 1) with expected score 0.300000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 1, 1) with expected score 0.200000
+Rollout bot picking (0, 0, 2, 1) with expected score 1.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 1.100000
+Rollout bot picking (0, 2, 1, 2) with expected score 1.200000
+Rollout bot picking (0, 2, 1, 0) with expected score 1.200000
+Rollout bot picking (1, 0, 0, 2) with expected score 1.200000
+Rollout bot picking (2, 1, 2, 0) with expected score 1.100000
+Rollout bot picking (1, 0, 0, 1) with expected score 1.900000
+Rollout bot picking (0, 1, 0, 2) with expected score 2.100000
+Rollout bot picking (2, 2, 2, 2) with expected score 2.100000
+Rollout bot picking (2, 0, 1, 1) with expected score 5.200000
+Rollout bot picking (1, 1, 2, 2) with expected score 5.100000
+Rollout bot picking (0, 1, 2, 0) with expected score 3.900000
+Rollout bot picking (0, 2, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 63, fight!
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (0, 1, 2, 2) with expected score 0.200000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 2, 1) with expected score 0.100000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.100000
+Rollout bot picking (1, 1, 1, 2) with expected score 0.200000
+Rollout bot picking (1, 0, 1, 2) with expected score 0.200000
+Rollout bot picking (0, 1, 1, 1) with expected score 0.800000
+Rollout bot picking (1, 1, 2, 2) with expected score 2.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 2.900000
+Rollout bot picking (2, 0, 1, 2) with expected score 2.800000
+Rollout bot picking (2, 0, 2, 2) with expected score 3.700000
+Rollout bot picking (2, 1, 1, 1) with expected score 4.900000
+Rollout bot picking (2, 1, 0, 1) with expected score 5.700000
+Rollout bot picking (0, 2, 2, 2) with expected score 4.000000
+Rollout bot picking (2, 1, 2, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 64, fight!
+Rollout bot picking (1, 0, 0, 1) with expected score 0.100000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.800000
+Rollout bot picking (0, 1, 1, 2) with expected score 1.000000
+Rollout bot picking (2, 0, 2, 0) with expected score 1.100000
+Rollout bot picking (1, 1, 0, 0) with expected score 1.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 1.800000
+Rollout bot picking (1, 1, 2, 2) with expected score 2.100000
+Rollout bot picking (0, 1, 0, 2) with expected score 2.000000
+Rollout bot picking (1, 2, 1, 2) with expected score 2.400000
+Rollout bot picking (1, 1, 0, 2) with expected score 3.700000
+Rollout bot picking (0, 1, 2, 2) with expected score 4.200000
+Rollout bot picking (0, 2, 2, 0) with expected score 4.200000
+Rollout bot picking (1, 2, 0, 1) with expected score 10.200000
+Rollout bot picking (0, 0, 2, 0) with expected score 8.500000
+Rollout bot picking (1, 1, 0, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 65, fight!
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 0, 1, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (0, 2, 2, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.300000
+Rollout bot picking (0, 1, 0, 1) with expected score 1.000000
+Rollout bot picking (2, 2, 0, 2) with expected score 1.900000
+Rollout bot picking (1, 2, 0, 2) with expected score 2.100000
+Rollout bot picking (1, 2, 0, 1) with expected score 2.800000
+Rollout bot picking (1, 0, 2, 0) with expected score 2.700000
+Rollout bot picking (2, 0, 0, 0) with expected score 2.700000
+Rollout bot picking (2, 1, 1, 1) with expected score 3.000000
+Rollout bot picking (2, 1, 1, 2) with expected score 3.300000
+Rollout bot picking (0, 2, 2, 0) with expected score 3.400000
+Rollout bot picking (0, 2, 1, 0) with expected score 6.100000
+Rollout bot picking (0, 2, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 66, fight!
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 1, 1) with expected score 0.200000
+Rollout bot picking (0, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.300000
+Rollout bot picking (2, 0, 1, 2) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 2) with expected score 0.100000
+Rollout bot picking (2, 0, 2, 1) with expected score 0.100000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 2) with expected score 0.200000
+Rollout bot picking (0, 1, 1, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.200000
+Rollout bot picking (1, 0, 2, 1) with expected score 0.200000
+Rollout bot picking (1, 1, 2, 0) with expected score 0.200000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.200000
+Rollout bot picking (0, 1, 2, 1) with expected score 0.600000
+Rollout bot picking (0, 2, 2, 2) with expected score 1.600000
+Rollout bot picking (2, 2, 0, 1) with expected score 2.500000
+Rollout bot picking (2, 1, 1, 2) with expected score 8.400000
+Rollout bot picking (2, 1, 2, 2) with expected score 4.900000
+Rollout bot picking (0, 0, 2, 0) with expected score 4.800000
+Rollout bot picking (2, 0, 0, 0) with expected score 6.300000
+Rollout bot picking (2, 1, 0, 1) with expected score 6.000000
+Rollout bot picking (1, 1, 2, 1) with expected score 9.200000
+Rollout bot picking (2, 0, 1, 1) with expected score 5.500000
+Rollout bot picking (1, 0, 0, 1) with expected score 9.000000
+Rollout bot picking (0, 0, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 67, fight!
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 1, 2) with expected score 0.100000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 0, 2, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 0) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 0, 2, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (1, 1, 1, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 2, 0) with expected score 0.200000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.600000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.300000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.700000
+Rollout bot picking (1, 0, 0, 0) with expected score 2.100000
+Rollout bot picking (0, 2, 0, 2) with expected score 5.700000
+Rollout bot picking (1, 1, 2, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 68, fight!
+Rollout bot picking (0, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 0, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 0, 2, 0) with expected score 0.100000
+Rollout bot picking (0, 1, 2, 1) with expected score 0.300000
+Rollout bot picking (0, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 0, 2, 1) with expected score 0.200000
+Rollout bot picking (1, 2, 2, 0) with expected score 0.200000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.200000
+Rollout bot picking (1, 0, 2, 2) with expected score 0.900000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.900000
+Rollout bot picking (1, 1, 2, 1) with expected score 1.100000
+Rollout bot picking (0, 0, 2, 0) with expected score 1.400000
+Rollout bot picking (0, 2, 2, 1) with expected score 1.900000
+Rollout bot picking (2, 1, 1, 1) with expected score 1.800000
+Rollout bot picking (1, 2, 2, 2) with expected score 2.000000
+Rollout bot picking (2, 0, 0, 0) with expected score 3.000000
+Rollout bot picking (2, 1, 0, 2) with expected score 1.700000
+Rollout bot picking (1, 2, 0, 0) with expected score 2.000000
+Rollout bot picking (2, 2, 2, 2) with expected score 2.200000
+Rollout bot picking (1, 1, 0, 1) with expected score 5.300000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.900000
+Rollout bot picking (0, 2, 1, 1) with expected score 6.000000
+Rollout bot picking (2, 2, 1, 1) with expected score 18.000000
+Rollout bot picking (1, 2, 1, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 69, fight!
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 2) with expected score -0.900000
+Rollout bot picking (1, 2, 2, 0) with expected score -0.900000
+Rollout bot picking (1, 2, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.900000
+Rollout bot picking (2, 0, 0, 1) with expected score 1.000000
+Rollout bot picking (0, 2, 1, 1) with expected score 4.400000
+Rollout bot picking (2, 0, 1, 0) with expected score 2.700000
+Rollout bot picking (1, 1, 0, 0) with expected score 2.700000
+Rollout bot picking (0, 2, 1, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 70, fight!
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 1, 1) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 2) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 0) with expected score 1.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 1.000000
+Rollout bot picking (0, 0, 1, 2) with expected score 1.200000
+Rollout bot picking (0, 1, 2, 1) with expected score 1.100000
+Rollout bot picking (2, 0, 1, 0) with expected score 1.100000
+Rollout bot picking (1, 1, 1, 0) with expected score 1.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 1.900000
+Rollout bot picking (0, 0, 1, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 71, fight!
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.100000
+Rollout bot picking (0, 1, 2, 0) with expected score 0.300000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.300000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 0, 1, 1) with expected score 1.100000
+Rollout bot picking (2, 0, 1, 0) with expected score 1.100000
+Rollout bot picking (0, 2, 0, 2) with expected score 1.900000
+Rollout bot picking (1, 1, 2, 1) with expected score 2.000000
+Rollout bot picking (0, 1, 1, 0) with expected score 2.400000
+Rollout bot picking (2, 2, 2, 2) with expected score 2.800000
+Rollout bot picking (1, 1, 0, 1) with expected score 3.500000
+Rollout bot picking (0, 0, 2, 0) with expected score 3.700000
+Rollout bot picking (0, 0, 2, 1) with expected score 4.800000
+Rollout bot picking (1, 2, 0, 1) with expected score 6.500000
+Rollout bot picking (0, 0, 2, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 72, fight!
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 1, 2) with expected score 0.200000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.100000
+Rollout bot picking (0, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 0, 2, 1) with expected score 0.400000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.900000
+Rollout bot picking (1, 2, 0, 1) with expected score 1.700000
+Rollout bot picking (2, 1, 1, 0) with expected score 1.900000
+Rollout bot picking (2, 2, 1, 1) with expected score 2.300000
+Rollout bot picking (1, 0, 0, 2) with expected score 2.800000
+Rollout bot picking (0, 1, 1, 2) with expected score 4.400000
+Rollout bot picking (1, 0, 1, 0) with expected score 4.100000
+Rollout bot picking (2, 1, 2, 1) with expected score 2.800000
+Rollout bot picking (0, 2, 0, 2) with expected score 2.900000
+Rollout bot picking (2, 1, 1, 1) with expected score 5.300000
+Rollout bot picking (2, 1, 0, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 73, fight!
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 1) with expected score -0.800000
+Rollout bot picking (1, 0, 2, 2) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.900000
+Rollout bot picking (1, 2, 0, 2) with expected score 1.000000
+Rollout bot picking (2, 0, 1, 1) with expected score 1.100000
+Rollout bot picking (0, 2, 1, 1) with expected score 1.100000
+Rollout bot picking (1, 1, 1, 2) with expected score 1.100000
+Rollout bot picking (1, 2, 0, 0) with expected score 1.500000
+Rollout bot picking (0, 1, 1, 0) with expected score 2.100000
+Rollout bot picking (0, 2, 0, 0) with expected score 1.900000
+Rollout bot picking (0, 1, 2, 0) with expected score 2.700000
+Rollout bot picking (2, 2, 1, 0) with expected score 2.900000
+Rollout bot picking (1, 1, 2, 0) with expected score 2.900000
+Rollout bot picking (2, 2, 1, 1) with expected score 4.100000
+Rollout bot picking (2, 2, 1, 2) with expected score 5.800000
+Rollout bot picking (0, 2, 2, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 74, fight!
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 2, 2) with expected score 0.100000
+Rollout bot picking (0, 1, 0, 2) with expected score 1.000000
+Rollout bot picking (0, 0, 1, 1) with expected score 1.100000
+Rollout bot picking (0, 2, 1, 2) with expected score 1.200000
+Rollout bot picking (2, 2, 1, 1) with expected score 1.200000
+Rollout bot picking (2, 1, 1, 0) with expected score 1.100000
+Rollout bot picking (0, 0, 2, 0) with expected score 1.800000
+Rollout bot picking (0, 2, 0, 2) with expected score 3.600000
+Rollout bot picking (2, 1, 2, 1) with expected score 5.100000
+Rollout bot picking (2, 0, 1, 2) with expected score 5.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 5.000000
+Rollout bot picking (1, 1, 1, 1) with expected score 3.400000
+Rollout bot picking (0, 2, 2, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 75, fight!
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 2, 2, 2) with expected score 0.100000
+Rollout bot picking (0, 1, 1, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 2) with expected score 1.000000
+Rollout bot picking (2, 0, 1, 2) with expected score 1.000000
+Rollout bot picking (0, 0, 1, 2) with expected score 1.000000
+Rollout bot picking (2, 1, 1, 0) with expected score 1.100000
+Rollout bot picking (0, 2, 0, 2) with expected score 1.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 1.000000
+Rollout bot picking (0, 0, 2, 2) with expected score 1.600000
+Rollout bot picking (2, 0, 1, 0) with expected score 1.800000
+Rollout bot picking (0, 1, 0, 2) with expected score 1.900000
+Rollout bot picking (0, 1, 2, 2) with expected score 2.600000
+Rollout bot picking (2, 2, 2, 1) with expected score 2.700000
+Rollout bot picking (2, 0, 2, 0) with expected score 4.400000
+Rollout bot picking (2, 1, 2, 0) with expected score 4.500000
+Rollout bot picking (2, 1, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 76, fight!
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 2, 2) with expected score 0.200000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.100000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 2, 1) with expected score 0.200000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.200000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 1, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 1) with expected score 1.000000
+Rollout bot picking (0, 0, 1, 2) with expected score 1.000000
+Rollout bot picking (0, 0, 2, 1) with expected score 1.100000
+Rollout bot picking (1, 2, 2, 0) with expected score 1.000000
+Rollout bot picking (2, 2, 1, 1) with expected score 1.600000
+Rollout bot picking (2, 1, 0, 1) with expected score 2.200000
+Rollout bot picking (2, 1, 0, 2) with expected score 2.800000
+Rollout bot picking (1, 0, 1, 1) with expected score 3.200000
+Rollout bot picking (0, 1, 2, 0) with expected score 3.600000
+Rollout bot picking (2, 0, 2, 2) with expected score 4.700000
+Rollout bot picking (2, 0, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 77, fight!
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 0) with expected score -0.100000
+Rollout bot picking (0, 2, 1, 0) with expected score -0.100000
+Rollout bot picking (1, 1, 1, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 2, 1) with expected score 0.300000
+Rollout bot picking (0, 0, 1, 0) with expected score -0.300000
+Rollout bot picking (1, 2, 0, 2) with expected score -1.000000
+Rollout bot picking (2, 0, 1, 0) with expected score -0.100000
+Rollout bot picking (0, 0, 1, 1) with expected score -0.100000
+Rollout bot picking (1, 1, 2, 0) with expected score 0.400000
+Rollout bot picking (0, 2, 0, 1) with expected score 3.900000
+Rollout bot picking (1, 2, 0, 1) with expected score 2.400000
+Rollout bot picking (0, 2, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 78, fight!
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 1, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 2, 1) with expected score 0.100000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.900000
+Rollout bot picking (1, 1, 0, 2) with expected score 1.000000
+Rollout bot picking (0, 1, 0, 2) with expected score 1.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 1.100000
+Rollout bot picking (2, 0, 0, 0) with expected score 1.000000
+Rollout bot picking (1, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 2.100000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.700000
+Rollout bot picking (0, 1, 2, 0) with expected score 1.400000
+Rollout bot picking (2, 1, 0, 1) with expected score 5.000000
+Rollout bot picking (2, 2, 1, 1) with expected score 5.500000
+Rollout bot picking (1, 0, 1, 2) with expected score 10.200000
+Rollout bot picking (1, 0, 1, 1) with expected score 11.600000
+Rollout bot picking (2, 1, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 79, fight!
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (2, 1, 2, 2) with expected score 0.200000
+Rollout bot picking (2, 2, 1, 1) with expected score 0.200000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.400000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.200000
+Rollout bot picking (2, 1, 1, 2) with expected score 1.200000
+Rollout bot picking (1, 2, 2, 1) with expected score 1.300000
+Rollout bot picking (0, 2, 0, 1) with expected score 2.100000
+Rollout bot picking (1, 0, 2, 0) with expected score 2.500000
+Rollout bot picking (0, 0, 1, 0) with expected score 2.100000
+Rollout bot picking (0, 0, 2, 2) with expected score 2.300000
+Rollout bot picking (0, 0, 1, 1) with expected score 3.200000
+Rollout bot picking (0, 1, 0, 2) with expected score 4.700000
+Rollout bot picking (2, 2, 2, 0) with expected score 6.100000
+Rollout bot picking (0, 0, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 80, fight!
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 0, 1, 2) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 2, 1) with expected score 0.100000
+Rollout bot picking (0, 0, 1, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 2, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 2, 1) with expected score 0.100000
+Rollout bot picking (0, 2, 2, 0) with expected score 0.500000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.600000
+Rollout bot picking (0, 2, 1, 1) with expected score 1.400000
+Rollout bot picking (1, 2, 2, 1) with expected score 1.700000
+Rollout bot picking (1, 2, 1, 1) with expected score 1.800000
+Rollout bot picking (1, 0, 1, 0) with expected score 2.500000
+Rollout bot picking (0, 0, 1, 1) with expected score 2.700000
+Rollout bot picking (2, 2, 1, 0) with expected score 8.500000
+Rollout bot picking (0, 1, 2, 2) with expected score 8.200000
+Rollout bot picking (2, 2, 2, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 81, fight!
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 2, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 1, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 1) with expected score 0.200000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.200000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.700000
+Rollout bot picking (0, 1, 2, 2) with expected score 1.100000
+Rollout bot picking (0, 1, 1, 2) with expected score 2.000000
+Rollout bot picking (2, 1, 1, 2) with expected score 4.900000
+Rollout bot picking (2, 1, 1, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 82, fight!
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.100000
+Rollout bot picking (0, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 2, 1) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 1) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.200000
+Rollout bot picking (0, 2, 2, 2) with expected score 0.900000
+Rollout bot picking (0, 0, 1, 0) with expected score 1.000000
+Rollout bot picking (1, 2, 0, 2) with expected score 1.900000
+Rollout bot picking (1, 1, 2, 1) with expected score 2.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 1.900000
+Rollout bot picking (2, 2, 0, 2) with expected score 3.400000
+Rollout bot picking (0, 0, 0, 0) with expected score 1.700000
+Rollout bot picking (2, 1, 2, 2) with expected score 2.000000
+Rollout bot picking (2, 0, 0, 1) with expected score 1.800000
+Rollout bot picking (1, 0, 2, 1) with expected score 2.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 3.600000
+Rollout bot picking (2, 2, 1, 1) with expected score 6.500000
+Rollout bot picking (2, 2, 1, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 83, fight!
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 2, 2, 1) with expected score 0.300000
+Rollout bot picking (2, 2, 2, 1) with expected score 1.000000
+Rollout bot picking (1, 0, 0, 1) with expected score 1.500000
+Rollout bot picking (2, 0, 1, 2) with expected score 2.000000
+Rollout bot picking (2, 0, 1, 1) with expected score 2.000000
+Rollout bot picking (1, 2, 1, 1) with expected score 2.800000
+Rollout bot picking (0, 0, 1, 2) with expected score 2.900000
+Rollout bot picking (0, 2, 0, 2) with expected score 4.400000
+Rollout bot picking (0, 1, 0, 2) with expected score 3.000000
+Rollout bot picking (0, 2, 1, 1) with expected score 4.900000
+Rollout bot picking (2, 0, 2, 0) with expected score 3.400000
+Rollout bot picking (2, 1, 2, 0) with expected score 5.100000
+Rollout bot picking (0, 2, 2, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 84, fight!
+Rollout bot picking (0, 0, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 1) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.600000
+Rollout bot picking (2, 1, 2, 1) with expected score 1.100000
+Rollout bot picking (1, 0, 0, 1) with expected score 1.000000
+Rollout bot picking (1, 1, 1, 1) with expected score 1.100000
+Rollout bot picking (0, 0, 0, 2) with expected score 1.000000
+Rollout bot picking (0, 2, 1, 0) with expected score 1.100000
+Rollout bot picking (0, 0, 1, 2) with expected score 2.100000
+Rollout bot picking (1, 0, 2, 0) with expected score 5.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 2.100000
+Rollout bot picking (1, 2, 2, 1) with expected score 3.600000
+Rollout bot picking (0, 2, 1, 1) with expected score 5.200000
+Rollout bot picking (1, 0, 2, 1) with expected score 5.600000
+Rollout bot picking (0, 2, 1, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 85, fight!
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.100000
+Rollout bot picking (1, 1, 1, 0) with expected score 0.200000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.100000
+Rollout bot picking (1, 2, 1, 1) with expected score 1.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 1.000000
+Rollout bot picking (2, 0, 0, 2) with expected score 1.100000
+Rollout bot picking (2, 1, 0, 1) with expected score 1.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 1.100000
+Rollout bot picking (2, 1, 0, 2) with expected score 1.800000
+Rollout bot picking (2, 2, 0, 0) with expected score 1.900000
+Rollout bot picking (1, 0, 1, 0) with expected score 1.000000
+Rollout bot picking (1, 1, 1, 1) with expected score 1.000000
+Rollout bot picking (2, 0, 1, 1) with expected score 2.200000
+Rollout bot picking (2, 0, 2, 0) with expected score 4.600000
+Rollout bot picking (2, 2, 0, 2) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 86, fight!
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 0) with expected score -0.900000
+Rollout bot picking (1, 0, 0, 0) with expected score -1.000000
+Rollout bot picking (1, 2, 0, 1) with expected score -1.000000
+Rollout bot picking (2, 0, 2, 2) with expected score -0.800000
+Rollout bot picking (0, 2, 0, 2) with expected score -1.000000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 2, 2) with expected score 0.100000
+Rollout bot picking (1, 0, 1, 1) with expected score 0.600000
+Rollout bot picking (0, 2, 1, 0) with expected score 0.900000
+Rollout bot picking (0, 1, 2, 2) with expected score 1.000000
+Rollout bot picking (1, 1, 1, 1) with expected score 0.800000
+Rollout bot picking (1, 2, 0, 2) with expected score 1.400000
+Rollout bot picking (1, 1, 1, 0) with expected score 0.800000
+Rollout bot picking (1, 1, 1, 2) with expected score 3.400000
+Rollout bot picking (1, 2, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 87, fight!
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 1, 2, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 1, 2) with expected score 0.200000
+Rollout bot picking (2, 2, 1, 2) with expected score 0.200000
+Rollout bot picking (1, 0, 1, 2) with expected score 0.200000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 2) with expected score 1.000000
+Rollout bot picking (2, 2, 0, 2) with expected score 1.100000
+Rollout bot picking (2, 0, 0, 0) with expected score 1.000000
+Rollout bot picking (0, 0, 2, 1) with expected score 1.100000
+Rollout bot picking (2, 0, 0, 1) with expected score 1.100000
+Rollout bot picking (1, 1, 1, 1) with expected score 1.100000
+Rollout bot picking (0, 2, 1, 1) with expected score 1.100000
+Rollout bot picking (2, 0, 0, 2) with expected score 1.500000
+Rollout bot picking (1, 0, 2, 0) with expected score 1.900000
+Rollout bot picking (0, 1, 1, 0) with expected score 1.600000
+Rollout bot picking (0, 0, 2, 2) with expected score 2.000000
+Rollout bot picking (0, 1, 0, 1) with expected score 2.100000
+Rollout bot picking (0, 0, 2, 0) with expected score 2.500000
+Rollout bot picking (2, 1, 0, 1) with expected score 1.800000
+Rollout bot picking (0, 2, 2, 1) with expected score 2.100000
+Rollout bot picking (0, 2, 0, 2) with expected score 3.200000
+Rollout bot picking (1, 0, 0, 2) with expected score 11.400000
+Rollout bot picking (1, 0, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 88, fight!
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (0, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 1, 2) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 1, 2, 1) with expected score 0.200000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.200000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.300000
+Rollout bot picking (2, 2, 1, 2) with expected score 0.300000
+Rollout bot picking (0, 0, 1, 2) with expected score 0.200000
+Rollout bot picking (0, 2, 2, 2) with expected score 0.500000
+Rollout bot picking (0, 0, 1, 1) with expected score 1.100000
+Rollout bot picking (2, 1, 1, 1) with expected score 1.200000
+Rollout bot picking (1, 1, 0, 0) with expected score 1.200000
+Rollout bot picking (0, 0, 1, 0) with expected score 1.300000
+Rollout bot picking (1, 0, 1, 2) with expected score 2.800000
+Rollout bot picking (2, 1, 1, 0) with expected score 3.000000
+Rollout bot picking (0, 1, 1, 0) with expected score 6.200000
+Rollout bot picking (1, 1, 2, 2) with expected score 4.400000
+Rollout bot picking (2, 0, 2, 1) with expected score 4.400000
+Rollout bot picking (2, 1, 2, 0) with expected score 5.200000
+Rollout bot picking (1, 2, 1, 0) with expected score 6.300000
+Rollout bot picking (2, 2, 1, 1) with expected score 12.800000
+Rollout bot picking (2, 0, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 89, fight!
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 1, 2, 1) with expected score 0.100000
+Rollout bot picking (0, 0, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 0, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.300000
+Rollout bot picking (1, 0, 1, 2) with expected score 0.300000
+Rollout bot picking (1, 1, 1, 1) with expected score 1.000000
+Rollout bot picking (2, 0, 1, 2) with expected score 1.100000
+Rollout bot picking (0, 1, 0, 1) with expected score 1.100000
+Rollout bot picking (1, 2, 2, 2) with expected score 1.200000
+Rollout bot picking (0, 2, 2, 2) with expected score 0.900000
+Rollout bot picking (0, 0, 1, 0) with expected score 1.200000
+Rollout bot picking (0, 2, 0, 0) with expected score 0.600000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.700000
+Rollout bot picking (0, 2, 2, 1) with expected score 0.800000
+Rollout bot picking (2, 2, 2, 0) with expected score 0.500000
+Rollout bot picking (1, 0, 2, 0) with expected score 0.600000
+Rollout bot picking (2, 0, 0, 2) with expected score 0.900000
+Rollout bot picking (0, 1, 2, 1) with expected score 1.200000
+Rollout bot picking (1, 2, 1, 2) with expected score 1.600000
+Rollout bot picking (2, 2, 2, 2) with expected score 1.500000
+Rollout bot picking (1, 0, 2, 2) with expected score 2.900000
+Rollout bot picking (1, 0, 2, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 90, fight!
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 0, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 0, 2, 2) with expected score 1.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 1.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 1.000000
+Rollout bot picking (1, 1, 1, 1) with expected score 1.200000
+Rollout bot picking (0, 2, 1, 1) with expected score 1.000000
+Rollout bot picking (2, 2, 2, 0) with expected score 1.100000
+Rollout bot picking (2, 0, 0, 2) with expected score 1.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 1.600000
+Rollout bot picking (2, 1, 1, 0) with expected score 1.900000
+Rollout bot picking (1, 1, 2, 1) with expected score 2.600000
+Rollout bot picking (2, 1, 0, 1) with expected score 5.800000
+Rollout bot picking (2, 0, 1, 2) with expected score 1.900000
+Rollout bot picking (1, 2, 0, 1) with expected score 1.800000
+Rollout bot picking (2, 1, 2, 0) with expected score 2.900000
+Rollout bot picking (1, 2, 2, 1) with expected score 6.400000
+Rollout bot picking (1, 2, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 91, fight!
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 1, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.200000
+Rollout bot picking (1, 2, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.500000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.900000
+Rollout bot picking (2, 1, 1, 2) with expected score 0.900000
+Rollout bot picking (1, 2, 2, 1) with expected score 1.000000
+Rollout bot picking (2, 0, 1, 2) with expected score 0.900000
+Rollout bot picking (0, 1, 2, 0) with expected score 1.100000
+Rollout bot picking (2, 1, 1, 1) with expected score 1.300000
+Rollout bot picking (1, 1, 2, 1) with expected score 1.000000
+Rollout bot picking (2, 1, 1, 0) with expected score 3.500000
+Rollout bot picking (0, 1, 2, 1) with expected score 1.900000
+Rollout bot picking (2, 0, 1, 1) with expected score 9.500000
+Rollout bot picking (2, 0, 1, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 92, fight!
+Rollout bot picking (1, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 2, 1) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 1, 1) with expected score 0.000000
+Rollout bot picking (2, 0, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.200000
+Rollout bot picking (2, 1, 1, 1) with expected score 0.100000
+Rollout bot picking (0, 1, 1, 1) with expected score 0.200000
+Rollout bot picking (1, 1, 1, 2) with expected score 0.300000
+Rollout bot picking (0, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (0, 2, 1, 2) with expected score 0.800000
+Rollout bot picking (2, 1, 2, 2) with expected score 0.600000
+Rollout bot picking (2, 2, 0, 2) with expected score 1.000000
+Rollout bot picking (0, 0, 1, 0) with expected score 1.100000
+Rollout bot picking (2, 2, 1, 2) with expected score 0.800000
+Rollout bot picking (1, 1, 2, 2) with expected score 0.600000
+Rollout bot picking (0, 1, 1, 2) with expected score 7.200000
+Rollout bot picking (0, 1, 1, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 93, fight!
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 1) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 2) with expected score 0.200000
+Rollout bot picking (0, 1, 1, 0) with expected score 1.000000
+Rollout bot picking (0, 2, 1, 1) with expected score 1.100000
+Rollout bot picking (2, 2, 0, 2) with expected score 1.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 1.100000
+Rollout bot picking (2, 0, 0, 2) with expected score 1.100000
+Rollout bot picking (2, 2, 0, 1) with expected score 2.100000
+Rollout bot picking (0, 0, 2, 0) with expected score 2.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 2.100000
+Rollout bot picking (2, 0, 1, 1) with expected score 2.000000
+Rollout bot picking (2, 1, 1, 0) with expected score 2.100000
+Rollout bot picking (1, 0, 1, 2) with expected score 2.100000
+Rollout bot picking (1, 1, 0, 2) with expected score 1.900000
+Rollout bot picking (1, 0, 1, 1) with expected score 1.900000
+Rollout bot picking (1, 0, 2, 1) with expected score 1.800000
+Rollout bot picking (2, 1, 1, 2) with expected score 1.700000
+Rollout bot picking (2, 1, 1, 1) with expected score 1.400000
+Rollout bot picking (2, 0, 2, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 94, fight!
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.800000
+Rollout bot picking (0, 2, 1, 2) with expected score 0.900000
+Rollout bot picking (1, 1, 1, 1) with expected score 0.900000
+Rollout bot picking (0, 0, 2, 1) with expected score 1.100000
+Rollout bot picking (1, 0, 1, 0) with expected score 1.100000
+Rollout bot picking (0, 0, 1, 1) with expected score 1.800000
+Rollout bot picking (1, 2, 1, 2) with expected score 2.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 3.500000
+Rollout bot picking (2, 1, 1, 1) with expected score 3.300000
+Rollout bot picking (2, 0, 2, 2) with expected score 3.600000
+Rollout bot picking (0, 1, 2, 0) with expected score 4.500000
+Rollout bot picking (1, 0, 0, 1) with expected score 4.200000
+Rollout bot picking (1, 1, 2, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 95, fight!
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.100000
+Rollout bot picking (1, 0, 1, 1) with expected score 0.000000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 0, 1) with expected score 1.000000
+Rollout bot picking (1, 0, 1, 2) with expected score 1.100000
+Rollout bot picking (0, 0, 1, 1) with expected score 1.100000
+Rollout bot picking (2, 0, 0, 2) with expected score 1.900000
+Rollout bot picking (1, 2, 2, 0) with expected score 1.900000
+Rollout bot picking (0, 0, 1, 2) with expected score 2.000000
+Rollout bot picking (1, 0, 1, 0) with expected score 2.100000
+Rollout bot picking (0, 2, 2, 1) with expected score 2.900000
+Rollout bot picking (1, 2, 1, 2) with expected score 2.600000
+Rollout bot picking (0, 2, 1, 1) with expected score 4.200000
+Rollout bot picking (2, 1, 1, 1) with expected score 3.700000
+Rollout bot picking (2, 1, 0, 2) with expected score 10.000000
+Rollout bot picking (2, 1, 2, 2) with expected score 11.300000
+Rollout bot picking (2, 1, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 96, fight!
+Rollout bot picking (0, 1, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 1, 1, 2) with expected score 0.100000
+Rollout bot picking (0, 0, 2, 0) with expected score 0.200000
+Rollout bot picking (2, 1, 1, 2) with expected score 0.200000
+Rollout bot picking (0, 2, 0, 1) with expected score 0.100000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.100000
+Rollout bot picking (0, 0, 1, 0) with expected score 0.200000
+Rollout bot picking (1, 1, 0, 0) with expected score 0.100000
+Rollout bot picking (2, 1, 2, 1) with expected score 0.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.300000
+Rollout bot picking (1, 2, 2, 0) with expected score 0.200000
+Rollout bot picking (1, 2, 1, 1) with expected score 0.200000
+Rollout bot picking (2, 2, 1, 1) with expected score 0.400000
+Rollout bot picking (1, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 0) with expected score 0.900000
+Rollout bot picking (0, 1, 2, 2) with expected score 2.000000
+Rollout bot picking (2, 1, 1, 1) with expected score 2.700000
+Rollout bot picking (1, 2, 2, 1) with expected score 2.400000
+Rollout bot picking (1, 2, 2, 2) with expected score 3.100000
+Rollout bot picking (2, 2, 1, 2) with expected score 3.100000
+Rollout bot picking (2, 0, 2, 2) with expected score 7.800000
+Rollout bot picking (2, 0, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 97, fight!
+Rollout bot picking (0, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 1, 1, 0) with expected score 0.100000
+Rollout bot picking (2, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.100000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 2) with expected score 0.200000
+Rollout bot picking (2, 0, 2, 2) with expected score 0.200000
+Rollout bot picking (1, 1, 2, 1) with expected score 0.100000
+Rollout bot picking (1, 1, 2, 0) with expected score 0.100000
+Rollout bot picking (1, 1, 2, 2) with expected score 1.100000
+Rollout bot picking (0, 1, 2, 1) with expected score 1.100000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.900000
+Rollout bot picking (2, 1, 1, 0) with expected score 0.900000
+Rollout bot picking (0, 1, 1, 1) with expected score 1.800000
+Rollout bot picking (2, 2, 0, 0) with expected score 2.600000
+Rollout bot picking (2, 1, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 98, fight!
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (0, 0, 0, 1) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 1) with expected score 0.000000
+Rollout bot picking (1, 0, 1, 1) with expected score 0.100000
+Rollout bot picking (1, 1, 0, 2) with expected score 0.200000
+Rollout bot picking (2, 0, 1, 1) with expected score 0.300000
+Rollout bot picking (0, 0, 2, 1) with expected score 0.400000
+Rollout bot picking (0, 0, 1, 1) with expected score 1.000000
+Rollout bot picking (2, 2, 0, 2) with expected score 1.000000
+Rollout bot picking (0, 2, 1, 1) with expected score 1.100000
+Rollout bot picking (2, 1, 2, 0) with expected score 1.100000
+Rollout bot picking (1, 2, 2, 2) with expected score 1.200000
+Rollout bot picking (0, 1, 2, 0) with expected score 1.200000
+Rollout bot picking (2, 0, 2, 2) with expected score 1.900000
+Rollout bot picking (0, 2, 0, 1) with expected score 2.200000
+Rollout bot picking (2, 1, 0, 2) with expected score 5.100000
+Rollout bot picking (2, 1, 1, 1) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Round 99, fight!
+Rollout bot picking (2, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 1, 0, 0) with expected score 0.000000
+Rollout bot picking (1, 0, 0, 0) with expected score 0.000000
+Rollout bot picking (2, 2, 0, 2) with expected score 0.000000
+Rollout bot picking (2, 0, 1, 0) with expected score 0.200000
+Rollout bot picking (1, 2, 1, 2) with expected score 0.100000
+Rollout bot picking (1, 0, 2, 2) with expected score 0.200000
+Rollout bot picking (1, 2, 0, 2) with expected score 0.200000
+Rollout bot picking (0, 0, 1, 2) with expected score 0.100000
+Rollout bot picking (2, 2, 1, 0) with expected score 0.100000
+Rollout bot picking (0, 1, 0, 1) with expected score 0.100000
+Rollout bot picking (1, 1, 2, 2) with expected score 0.100000
+Rollout bot picking (2, 0, 2, 0) with expected score 1.000000
+Rollout bot picking (2, 1, 2, 1) with expected score 1.000000
+Rollout bot picking (1, 0, 1, 1) with expected score 1.700000
+Rollout bot picking (0, 1, 2, 1) with expected score 1.900000
+Rollout bot picking (2, 1, 1, 1) with expected score 2.100000
+Rollout bot picking (2, 1, 0, 1) with expected score 2.500000
+Rollout bot picking (2, 2, 1, 1) with expected score 2.700000
+Rollout bot picking (1, 1, 0, 2) with expected score 2.800000
+Rollout bot picking (2, 2, 2, 2) with expected score 2.800000
+Rollout bot picking (0, 1, 0, 2) with expected score 2.900000
+Rollout bot picking (0, 2, 1, 2) with expected score 4.100000
+Rollout bot picking (2, 2, 0, 0) with expected score 18.000000
+Finished!
+
+The 2 bot wins this round! ({1: -1, 2: 1})
+
+Final win counts: {'draw': 0, 1: 1, 2: 99}
+13.414444500027457  seconds

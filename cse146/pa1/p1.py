@@ -55,7 +55,7 @@ def dijkstras_shortest_path(initial_position, destination, graph, adj):
         for next in adj(graph, current[1]):
             new_cost = cum_cost[current[1]] + next[1]
 
-            if next[0] not in cum_cost or new_cost <= cum_cost[next[0]]:
+            if next[0] not in cum_cost or new_cost < cum_cost[next[0]]:
                 cum_cost[next[0]] = new_cost
                 priority = new_cost + heuristic(destination, next[0])
                 heappush(pri_q, (priority, next[0]))
@@ -202,7 +202,23 @@ def navigation_edges(level, cell):
 
     #iterates through both lists and appends all valid moves to the adjacency list
 
-    
+    for i in diag_mov_list:
+
+        if i not in level['walls']:
+
+            if i in level['waypoints'].values():
+
+                adj_list.append((i,calculate_dist_diag(1, level['spaces'][cell])))
+
+            elif cell in level['waypoints'].values():
+
+                adj_list.append((i,calculate_dist_diag(level['spaces'][i], 1)))
+
+            else:
+
+                adj_list.append((i,calculate_dist_diag(level['spaces'][i], level['spaces'][cell])))
+
+
 
     for i in mov_list:
 
@@ -220,24 +236,7 @@ def navigation_edges(level, cell):
 
                 adj_list.append((i,calculate_dist(level['spaces'][i], level['spaces'][cell])))
 
-    
-    for i in diag_mov_list:
 
-        if i not in level['walls']:
-
-            if i in level['waypoints'].values():
-
-                adj_list.append((i,calculate_dist_diag(1, level['spaces'][cell])))
-
-            elif cell in level['waypoints'].values():
-
-                adj_list.append((i,calculate_dist_diag(level['spaces'][i], 1)))
-
-            else:
-
-                adj_list.append((i,calculate_dist_diag(level['spaces'][i], level['spaces'][cell])))
-
-           
 
     return adj_list
 
@@ -371,7 +370,7 @@ if __name__ == '__main__':
 
     # filename, src_waypoint, dst_waypoint = 'my_maze.txt', 'a','e'
     # filename, src_waypoint, dst_waypoint = 'test_maze.txt', 'a','d'
-    filename, src_waypoint, dst_waypoint = 'example.txt', 'a','e'
+    filename, src_waypoint, dst_waypoint = 'example.txt', 'a','d'
 
 
 

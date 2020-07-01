@@ -13,8 +13,8 @@ import p2_pathfinder
 # _, MAP_FILENAME, MESH_FILENAME, SUBSAMPLE = sys.argv
 # SUBSAMPLE = int(SUBSAMPLE)
 
-MAP_FILENAME = "../input/homer.png"
-MESH_FILENAME = "../input/homer.png.mesh.pickle"
+MAP_FILENAME = "../input/Bmazerunner.png.mesh.png"
+MESH_FILENAME = "../input/Bmazerunner.png.mesh.pickle"
 SUBSAMPLE = 2
 
 with open(MESH_FILENAME, 'rb') as f:
