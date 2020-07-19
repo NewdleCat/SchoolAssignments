@@ -1,0 +1,1805 @@
+30.000087299999905 seconds.
+Failed to find a path from {} within time limit.
+TIME:  28.219711200000006
+COST:  784
+LENGTH:  299
+	 {'wood': 1}
+punch for wood
+	 {'wood': 2}
+punch for wood
+	 {'wood': 3}
+punch for wood
+	 {'plank': 4, 'wood': 2}
+craft plank
+	 {'plank': 2, 'stick': 4, 'wood': 2}
+craft stick
+	 {'plank': 6, 'stick': 4, 'wood': 1}
+craft plank
+	 {'bench': 1, 'plank': 2, 'stick': 4, 'wood': 1}
+craft bench
+	 {'bench': 1, 'plank': 6, 'stick': 4}
+craft plank
+	 {'bench': 1, 'plank': 3, 'stick': 2, 'wooden_pickaxe': 1}
+craft wooden_pickaxe at bench
+	 {'bench': 1, 'cobble': 1, 'plank': 3, 'stick': 2, 'wooden_pickaxe': 1}
+wooden_pickaxe for cobble
+	 {'bench': 1, 'cobble': 2, 'plank': 3, 'stick': 2, 'wooden_pickaxe': 1}
+wooden_pickaxe for cobble
+	 {'bench': 1, 'cobble': 3, 'plank': 3, 'stick': 2, 'wooden_pickaxe': 1}
+wooden_pickaxe for cobble
+	 {'bench': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft stone_pickaxe at bench
+	 {'bench': 1, 'cobble': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 2, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 3, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 4, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 5, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 6, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 7, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 8, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'furnace': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft furnace at bench
+	 {'bench': 1, 'furnace': 1, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 1, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 2, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'plank': 1, 'stick': 4, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft stick
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft iron_pickaxe at bench
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft rail at bench
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft rail at bench
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 7, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 7, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 7, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 8, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 8, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 8, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 9, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 9, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 9, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 10, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 10, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 10, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 11, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 11, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 11, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 12, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 12, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 12, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 13, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 13, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 13, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 14, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 14, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 14, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 15, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 15, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 15, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 16, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 16, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 16, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 17, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 17, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 17, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 18, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 18, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 18, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 19, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 19, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 19, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 20, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 20, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 20, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 21, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 21, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 21, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 22, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 22, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 22, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 23, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 23, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 23, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 24, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 24, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 24, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 25, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 25, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 25, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 26, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 26, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 26, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 27, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 27, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 27, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 28, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 28, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 28, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 29, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 29, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 29, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 30, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 30, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 30, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 31, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 31, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 31, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 32, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 32, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 32, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 33, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 33, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 33, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 34, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 34, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 34, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 35, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 35, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 35, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 36, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 36, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 36, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 37, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 37, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 37, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 38, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 38, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 38, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 39, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 39, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 39, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 40, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 40, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 40, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 41, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 41, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 41, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 42, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 42, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 42, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 43, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 43, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 43, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 44, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 44, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 44, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 45, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 45, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 45, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 46, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 46, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 46, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 47, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 47, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 47, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 48, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 48, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 48, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 49, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 49, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 49, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 50, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 50, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 50, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 51, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 51, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 51, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 52, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 52, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 52, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 53, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 53, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 53, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 54, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 54, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 54, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 55, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 55, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 55, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 56, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 56, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 56, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 57, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 57, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 57, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 58, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 58, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 58, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 59, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 59, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 59, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 60, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 60, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 60, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 61, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 61, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 61, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 62, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 62, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 62, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 63, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 63, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 63, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 64, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 64, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 64, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 65, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 65, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 65, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 66, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 66, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 66, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 67, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 67, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 67, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 68, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 68, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 68, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 69, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 69, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 69, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 70, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 70, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 70, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 71, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 71, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 71, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 72, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 72, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 72, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 73, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 73, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 73, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 74, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 74, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 74, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 75, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'cobble': 1, 'furnace': 1, 'ingot': 75, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for cobble
+	 {'bench': 1, 'coal': 1, 'cobble': 1, 'furnace': 1, 'ingot': 75, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'cart': 1, 'coal': 1, 'cobble': 1, 'furnace': 1, 'ingot': 70, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft cart at bench
+TIME:  27.291919099999973
+COST:  784
+LENGTH:  299
+	 {'wood': 1}
+punch for wood
+	 {'wood': 2}
+punch for wood
+	 {'wood': 3}
+punch for wood
+	 {'plank': 4, 'wood': 2}
+craft plank
+	 {'plank': 2, 'stick': 4, 'wood': 2}
+craft stick
+	 {'plank': 6, 'stick': 4, 'wood': 1}
+craft plank
+	 {'bench': 1, 'plank': 2, 'stick': 4, 'wood': 1}
+craft bench
+	 {'bench': 1, 'plank': 6, 'stick': 4}
+craft plank
+	 {'bench': 1, 'plank': 3, 'stick': 2, 'wooden_pickaxe': 1}
+craft wooden_pickaxe at bench
+	 {'bench': 1, 'cobble': 1, 'plank': 3, 'stick': 2, 'wooden_pickaxe': 1}
+wooden_pickaxe for cobble
+	 {'bench': 1, 'cobble': 2, 'plank': 3, 'stick': 2, 'wooden_pickaxe': 1}
+wooden_pickaxe for cobble
+	 {'bench': 1, 'cobble': 3, 'plank': 3, 'stick': 2, 'wooden_pickaxe': 1}
+wooden_pickaxe for cobble
+	 {'bench': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft stone_pickaxe at bench
+	 {'bench': 1, 'cobble': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 2, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 3, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 4, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 5, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 6, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 7, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 8, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'furnace': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft furnace at bench
+	 {'bench': 1, 'furnace': 1, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 1, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 2, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'plank': 1, 'stick': 4, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft stick
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft iron_pickaxe at bench
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft rail at bench
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft rail at bench
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 7, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 7, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 7, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 8, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 8, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 8, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 9, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 9, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 9, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 10, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 10, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 10, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 11, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 11, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 11, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 12, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 12, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 12, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 13, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 13, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 13, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 14, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 14, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 14, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 15, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 15, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 15, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 16, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 16, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 16, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 17, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 17, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 17, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 18, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 18, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 18, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 19, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 19, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 19, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 20, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 20, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 20, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 21, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 21, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 21, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 22, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 22, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 22, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 23, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 23, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 23, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 24, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 24, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 24, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 25, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 25, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 25, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 26, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 26, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 26, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 27, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 27, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 27, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 28, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 28, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 28, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 29, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 29, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 29, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 30, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 30, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 30, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 31, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 31, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 31, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 32, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 32, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 32, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 33, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 33, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 33, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 34, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 34, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 34, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 35, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 35, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 35, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 36, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 36, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 36, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 37, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 37, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 37, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 38, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 38, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 38, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 39, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 39, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 39, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 40, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 40, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 40, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 41, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 41, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 41, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 42, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 42, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 42, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 43, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 43, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 43, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 44, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 44, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 44, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 45, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 45, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 45, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 46, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 46, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 46, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 47, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 47, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 47, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 48, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 48, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 48, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 49, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 49, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 49, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 50, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 50, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 50, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 51, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 51, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 51, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 52, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 52, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 52, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 53, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 53, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 53, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 54, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 54, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 54, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 55, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 55, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 55, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 56, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 56, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 56, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 57, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 57, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 57, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 58, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 58, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 58, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 59, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 59, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 59, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 60, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 60, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 60, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 61, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 61, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 61, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 62, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 62, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 62, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 63, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 63, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 63, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 64, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 64, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 64, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 65, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 65, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 65, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 66, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 66, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 66, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 67, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 67, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 67, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 68, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 68, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 68, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 69, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 69, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 69, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 70, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 70, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 70, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 71, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 71, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 71, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 72, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 72, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 72, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 73, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 73, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 73, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 74, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 74, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 74, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 75, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'cobble': 1, 'furnace': 1, 'ingot': 75, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for cobble
+	 {'bench': 1, 'coal': 1, 'cobble': 1, 'furnace': 1, 'ingot': 75, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'cart': 1, 'coal': 1, 'cobble': 1, 'furnace': 1, 'ingot': 70, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft cart at bench
+TIME:  28.76912100000004
+COST:  784
+LENGTH:  299
+	 {'wood': 1}
+punch for wood
+	 {'wood': 2}
+punch for wood
+	 {'wood': 3}
+punch for wood
+	 {'plank': 4, 'wood': 2}
+craft plank
+	 {'plank': 2, 'stick': 4, 'wood': 2}
+craft stick
+	 {'plank': 6, 'stick': 4, 'wood': 1}
+craft plank
+	 {'bench': 1, 'plank': 2, 'stick': 4, 'wood': 1}
+craft bench
+	 {'bench': 1, 'plank': 6, 'stick': 4}
+craft plank
+	 {'bench': 1, 'plank': 3, 'stick': 2, 'wooden_pickaxe': 1}
+craft wooden_pickaxe at bench
+	 {'bench': 1, 'cobble': 1, 'plank': 3, 'stick': 2, 'wooden_pickaxe': 1}
+wooden_pickaxe for cobble
+	 {'bench': 1, 'cobble': 2, 'plank': 3, 'stick': 2, 'wooden_pickaxe': 1}
+wooden_pickaxe for cobble
+	 {'bench': 1, 'cobble': 3, 'plank': 3, 'stick': 2, 'wooden_pickaxe': 1}
+wooden_pickaxe for cobble
+	 {'bench': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft stone_pickaxe at bench
+	 {'bench': 1, 'cobble': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 2, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 3, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 4, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 5, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 6, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 7, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'cobble': 8, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for cobble
+	 {'bench': 1, 'furnace': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft furnace at bench
+	 {'bench': 1, 'furnace': 1, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 1, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 2, 'ore': 1, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+stone_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'plank': 3, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'plank': 1, 'stick': 4, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft stick
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft iron_pickaxe at bench
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'plank': 1, 'stick': 2, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft rail at bench
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'plank': 1, 'rail': 16, 'stick': 1, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft rail at bench
+	 {'bench': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 1, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 2, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 3, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 4, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 5, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 6, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 7, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 7, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 7, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 8, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 8, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 8, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 9, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 9, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 9, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 10, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 10, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 10, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 11, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 11, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 11, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 12, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 12, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 12, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 13, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 13, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 13, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 14, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 14, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 14, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 15, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 15, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 15, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 16, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 16, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 16, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 17, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 17, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 17, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 18, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 18, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 18, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 19, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 19, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 19, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 20, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 20, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 20, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 21, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 21, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 21, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 22, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 22, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 22, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 23, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 23, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 23, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 24, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 24, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 24, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 25, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 25, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 25, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 26, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 26, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 26, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 27, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 27, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 27, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 28, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 28, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 28, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 29, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 29, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 29, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 30, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 30, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 30, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 31, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 31, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 31, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 32, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 32, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 32, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 33, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 33, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 33, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 34, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 34, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 34, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 35, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 35, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 35, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 36, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 36, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 36, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 37, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 37, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 37, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 38, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 38, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 38, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 39, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 39, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 39, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 40, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 40, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 40, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 41, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 41, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 41, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 42, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 42, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 42, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 43, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 43, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 43, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 44, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 44, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 44, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 45, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 45, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 45, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 46, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 46, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 46, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 47, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 47, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 47, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 48, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 48, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 48, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 49, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 49, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 49, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 50, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 50, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 50, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 51, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 51, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 51, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 52, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 52, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 52, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 53, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 53, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 53, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 54, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 54, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 54, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 55, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 55, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 55, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 56, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 56, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 56, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 57, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 57, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 57, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 58, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 58, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 58, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 59, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 59, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 59, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 60, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 60, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 60, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 61, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 61, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 61, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 62, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 62, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 62, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 63, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 63, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 63, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 64, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 64, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 64, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 65, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 65, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 65, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 66, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 66, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 66, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 67, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 67, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 67, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 68, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 68, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 68, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 69, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 69, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 69, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 70, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 70, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 70, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 71, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 71, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 71, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 72, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 72, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 72, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 73, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 73, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 73, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 74, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'furnace': 1, 'ingot': 74, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for ore
+	 {'bench': 1, 'coal': 1, 'furnace': 1, 'ingot': 74, 'iron_pickaxe': 1, 'ore': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'furnace': 1, 'ingot': 75, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+smelt ore in furnace
+	 {'bench': 1, 'cobble': 1, 'furnace': 1, 'ingot': 75, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for cobble
+	 {'bench': 1, 'coal': 1, 'cobble': 1, 'furnace': 1, 'ingot': 75, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+iron_pickaxe for coal
+	 {'bench': 1, 'cart': 1, 'coal': 1, 'cobble': 1, 'furnace': 1, 'ingot': 70, 'iron_pickaxe': 1, 'plank': 1, 'rail': 32, 'stone_pickaxe': 1, 'wooden_pickaxe': 1}
+craft cart at bench

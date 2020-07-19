@@ -1,0 +1,7 @@
+I discussed the search and heuristic algorithm with the group:
+		Zachary Booth, Joseph Silberman, Nathan Ma
+
+The search if very similar to a regular A* search, where is takes the cost of the
+item to craft and uses that as a priority in the priority queue. uses the graph() function
+to check for all the possible recipies given the current state. However, the heuristic is how
+the program prioritizes recipies. For instance, if I have an iron pickaxe, itll prioritize all the recipies with an iron pickaxe, meaning I will not get recipies that look for sticks any longer as they are not needed. 

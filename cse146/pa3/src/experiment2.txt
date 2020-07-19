@@ -1,0 +1,17 @@
+Num of Nodes  |  MCTS_modified winrate Vs MCTS_vanilla
+	1000	  |			20
+	600		  |			26
+	400		  |			32
+	200       |			39
+	100		  |			43
+	50		  |			41
+	10		  |			52
+
+
+We forgot about the overrall rules of the game,
+because our modified_bot prioritized the middle slot whenever it was empty, the enemy bot would be able to make a move in the middle section of the board
+
+This meant that the opponent got overall middle control of the board which lead to more wins.
+
+However, because when you reduce the nubmer of nodes each bot has, the choices become more random. this leads the modified_bot improving slightly as the more random the choices become the
+better the middle tile is as a choice.
