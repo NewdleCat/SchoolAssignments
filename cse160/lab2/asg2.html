@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)http://rodger.global-linguist.com/webgl/ch02/ColoredPoints.html -->
+<html lang="en">
+
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+        <title>Llama Party</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+
+    <body onload="main()" id="body">
+        <div id="main">
+            
+            <div id="title">
+                <div id="bigText">Llama Party</div>
+            </div>
+            
+            <canvas id="webgl" width="400" height="400">
+            Please use a browser that supports "canvas"
+            </canvas>
+
+            <audio id="partyTime">
+                <source src="song.mp3" type="audio/mpeg">
+            </audio>
+
+
+            <script src="lib/webgl-utils.js"></script>
+            <script src="lib/webgl-debug.js"></script>
+            <script src="lib/cuon-utils.js"></script>
+            <script src="lib/cuon-matrix-cse160.js"></script>
+            <script src="asg2.js"></script>
+            <script src="Point.js"></script>
+            <script src="Triangle.js"></script>
+            <script src="Circle.js"></script>
+            <script src="Cube.js"></script>
+
+            <br>
+
+            <div>
+                <label for="angleVal">angle: </label>
+                <input type="range" id="angleVal" min="0" max="360" value="20" 
+                onmousemove="updateGlobalAngle()"
+                onmouseup="updateGlobalAngle()" 
+                >
+
+                <label for="hipShift">Hip:</label>
+                <input type="range" id="hipShift" min="-10" max="10" value="0"
+                onmousemove="updateAngles('hip')"
+                onmouseup="updateAngles('hip')"
+                >
+
+                <label for="torsoAngle">Torso:</label>
+                <input type="range" id="torsoAngle" min="-10" max="10" value="0"
+                onmousemove="updateAngles('torso')"
+                onmouseup="updateAngles('torso')"
+                >
+
+                <label for="neckAngle">Neck:</label>
+                <input type="range" id="neckAngle" min="-5" max="5" value="0"
+                onmousemove="updateAngles('neck')"
+                onmouseup="updateAngles('neck')"
+                >
+
+                <label for="headAngle">Head:</label>
+                <input type="range" id="headAngle" min="-5" max="5" value="0"
+                onmousemove="updateAngles('head')"
+                onmouseup="updateAngles('head')"
+                >
+
+                <label for="legAngle">Legs:</label>
+                <input type="range" id="legAngle" min="-5" max="5" value="0"
+                onmousemove="updateAngles('leg')"
+                onmouseup="updateAngles('leg')"
+                >
+
+                <label for="arm1Angle">Arm1:</label>
+                <input type="range" id="arm1Angle" min="0" max="50" value="0"
+                onmousemove="updateAngles('arm1')"
+                onmouseup="updateAngles('arm1')"
+                >
+
+                <label for="arm2Angle">Arm2:</label>
+                <input type="range" id="arm2Angle" min="0" max="50" value="0"
+                onmousemove="updateAngles('arm2')"
+                onmouseup="updateAngles('arm2')"
+                >
+
+                <label for="hand1Angle">Hand1:</label>
+                <input type="range" id="hand1Angle" min="0" max="50" value="0"
+                onmousemove="updateAngles('hand1')"
+                onmouseup="updateAngles('hand1')"
+                >
+
+                <label for="hand2Angle">Hand2:</label>
+                <input type="range" id="hand2Angle" min="0" max="50" value="0"
+                onmousemove="updateAngles('hand2')"
+                onmouseup="updateAngles('hand2')"
+                >
+
+
+                <input type="button" id="onButton" value="on" onclick="animationOn()">
+                <input type="button" id="offButton" value="off" onclick="animationOff()">
+                <input type="button" id="partyButoon" value="PARTY TIME" onclick="partyMode()">
+            </div>
+
+
+        </div>
+  
+    </body>
+</html>

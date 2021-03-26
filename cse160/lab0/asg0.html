@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		 <meta charset="utf-8" />
+		 <title>Draw a blue rectangle (canvas version)</title>
+ 	</head>
+
+ 	<body onload="main()">
+		<canvas id="example" width="400" height="400">
+			Please use a browser that supports "canvas"
+		</canvas>
+		<script src="asg0.js"></script>
+		<script src="lib/cuon-matrix-cse160.js"></script>
+
+		<div>
+			<label for="xInput">v1: x</label>
+			<input type="number" id="xInputV1"></input>
+			<label for="yInput">y</label>
+			<input type="number" id="yInputV1"></input>
+		</div>
+
+		<div>
+			<label for="xInput">v2: x</label>
+			<input type="number" id="xInputV2"></input>
+			<label for="yInput">y</label>
+			<input type="number" id="yInputV2"></input>
+		</div>
+
+		<div>
+			<input type="button" onclick="handleDrawEvent()" value="Draw"></button>
+		</div>	
+
+		<div><br>
+			<label for="Selector" style="font-size:25px">Operation: </label>
+			<select id="Selector">
+				<option value="add">Add</option>
+				<option value="sub">Subtract</option>
+				<option value="div">Divide</option>
+				<option value="mul">Multiply</option>
+				<option value="mag">Magnitude</option>
+				<option value="angle">Angle Between</option>
+				<option value="norm">Normalize</option>
+				<option value="area">Area</option>
+			</select>
+
+			<label for="scalar" style="font-size:25px">Scalar: </label>
+			<input type="number" id="scalar"></input>
+		</div>
+
+		<div>
+			<input type="button" onclick="handleDrawOperationEvent()" value="Draw">
+		</div>
+
+		
+	</body>
+</html> 

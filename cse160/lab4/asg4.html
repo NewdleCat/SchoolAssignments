@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)http://rodger.global-linguist.com/webgl/ch02/ColoredPoints.html -->
+<html lang="en">
+
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+        <title>Llama Party</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+
+    <body onload="main()" id="body">
+        <div id="main">
+            
+            <div id="title">
+                <div id="bigText">New Llama City</div>
+            </div>
+            
+            <canvas id="webgl" width="600" height="600">
+            Please use a browser that supports "canvas"
+            </canvas>
+
+            <audio id="partyTime">
+                <source src="songg.mp3" type="audio/mpeg">
+            </audio>
+
+
+            <script src="lib/webgl-utils.js"></script>
+            <script src="lib/webgl-debug.js"></script>
+            <script src="lib/cuon-utils.js"></script>
+            <script src="lib/cuon-matrix-cse160.js"></script>
+            <script src="Cube.js"></script>
+            <script src="asg4.js"></script>
+            <script src="Point.js"></script>
+            <script src="Triangle.js"></script>
+            <script src="Circle.js"></script>
+            <script src="Sphere.js"></script>
+            <script src="Camera.js"></script>
+            <script src="map.js"></script>
+            <script src="Llama.js"></script>
+
+            <br>
+
+            <div id="labels">
+                <label for="angleVal">angle: </label>
+                <input type="range" id="angleVal" min="0" max="360" value="20" 
+                onmousemove="updateGlobalAngle()"
+                onmouseup="updateGlobalAngle()" 
+                >
+
+                <label for="hipShift">Hip:</label>
+                <input type="range" id="hipShift" min="-10" max="10" value="0"
+                onmousemove="updateAngles('hip')"
+                onmouseup="updateAngles('hip')"
+                >
+
+                <label for="torsoAngle">Torso:</label>
+                <input type="range" id="torsoAngle" min="-10" max="10" value="0"
+                onmousemove="updateAngles('torso')"
+                onmouseup="updateAngles('torso')"
+                >
+
+                <label for="neckAngle">Neck:</label>
+                <input type="range" id="neckAngle" min="-5" max="5" value="0"
+                onmousemove="updateAngles('neck')"
+                onmouseup="updateAngles('neck')"
+                >
+
+                <label for="headAngle">Head:</label>
+                <input type="range" id="headAngle" min="-5" max="5" value="0"
+                onmousemove="updateAngles('head')"
+                onmouseup="updateAngles('head')"
+                >
+
+                <label for="legAngle">Legs:</label>
+                <input type="range" id="legAngle" min="-5" max="5" value="0"
+                onmousemove="updateAngles('leg')"
+                onmouseup="updateAngles('leg')"
+                >
+
+                <label for="arm1Angle">Arm1:</label>
+                <input type="range" id="arm1Angle" min="0" max="50" value="0"
+                onmousemove="updateAngles('arm1')"
+                onmouseup="updateAngles('arm1')"
+                >
+
+                <label for="arm2Angle">Arm2:</label>
+                <input type="range" id="arm2Angle" min="0" max="50" value="0"
+                onmousemove="updateAngles('arm2')"
+                onmouseup="updateAngles('arm2')"
+                >
+
+                <label for="hand1Angle">Hand1:</label>
+                <input type="range" id="hand1Angle" min="0" max="50" value="0"
+                onmousemove="updateAngles('hand1')"
+                onmouseup="updateAngles('hand1')"
+                >
+
+                <label for="hand2Angle">Hand2:</label>
+                <input type="range" id="hand2Angle" min="0" max="50" value="0"
+                onmousemove="updateAngles('hand2')"
+                onmouseup="updateAngles('hand2')"
+                >
+
+
+            </div>
+
+            <div>
+                <input type="button" id="onButton" value="on" onclick="animationOn()">
+                <input type="button" id="offButton" value="off" onclick="animationOff()">
+                <input type="button" id="partyButoon" value="LETS CELEBRATE" onclick="partyMode()">
+
+                <input type="button" id="normalsOn" value="Normal On" onclick="normalsOn()">
+                <input type="button" id="normalsOff" value="Normal Off" onclick="normalsOff()">
+            </div>
+
+            <br>
+            <div>MainLight Pos:</div>
+            <div>
+                <label for="lightX">X: </label>
+                <input type="range" id="lightX" min="-25" max="25" value="0" onmousemove="updateLightX()" onmouseup="updateLightX()">
+                <label for="lightY">Y: </label>
+                <input type="range" id="lightY" min="-25" max="50" value="25" onmousemove="updateLightY()" onmouseup="updateLightY()">
+                <label for="lightZ">Z: </label>
+                <input type="range" id="lightZ" min="-25" max="25" value="-20" onmousemove="updateLightZ()" onmouseup="updateLightZ()">
+            </div>
+
+            <div>
+                <input type="button" id=mainLightButton value="Toggle Main Light" onclick="updateMainLight()">
+                <input type="button" id=spotLightButton value="Toggle Spot Light" onclick="updateSpotLight()">
+                
+            </div>
+
+            <p>THE STORY:</p>
+            <p>Once the party llama had earned a spot in the Block Animal Contest hall of fame, he decided to go on vacation. The party llama decided to return home, to New Llama City. After his return, the city breaks into a groovy dance to celebrate this victory for llama kind</p>
+
+            <br>
+
+            <p>CONTROLS:</p>
+            <div>WASD - Movement</div>
+            <div>QE - Rotation</div>
+            <div>R - Fly Up</div>
+            <div>F - Fly Down</div>
+
+            <br>
+            <p>EXTRAS:</p>
+            <div>- Added my llamas</div>
+            <div>- Simple Story</div>
+            <div>- Groovy</div>
+
+        </div>
+  
+    </body>
+</html>

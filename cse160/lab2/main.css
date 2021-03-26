@@ -1,0 +1,62 @@
+label 
+{
+  display: inline-block;
+  width: 60%;
+}
+
+#main 
+{
+  width: 400px;
+  margin: auto;
+  background: white;
+  color: black;
+  padding: 10px;
+}
+
+#body
+{
+  background-image: url('img/paint.png');
+  color: white;
+}
+
+input[type=button] 
+{
+  width: 32%;
+  margin: center;4
+}
+
+#clear
+{
+  width: 100%;
+}
+
+#colorBox1
+{
+  width: 100px;
+  height: 100px;
+  background-color: (255, 255, 255);
+  border: 5px solid black;
+
+}
+
+#colorBox2
+{
+  width: 100px;
+  height: 100px;
+  background-color: (255, 255, 255);
+  border: 5px solid black;
+}
+
+
+#title
+{
+  margin: auto; 
+  display: inline-flex;
+  /*padding-left: 100px;*/
+}
+
+#bigText
+{
+  font-size: 100px;
+}
+

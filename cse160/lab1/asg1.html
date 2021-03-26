@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)http://rodger.global-linguist.com/webgl/ch02/ColoredPoints.html -->
+<html lang="en">
+
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+        <title>Change a point color</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+
+    <body onload="main()">
+        <div id="main">
+            
+            <div id="title">
+                <div id="bigText">Pain</div>
+                <div id="smolText">t</div>
+            </div>
+            
+            <canvas id="webgl" width="400" height="400">
+            Please use a browser that supports "canvas"
+            </canvas>
+
+
+            <script src="lib/webgl-utils.js"></script>
+            <script src="lib/webgl-debug.js"></script>
+            <script src="lib/cuon-utils.js"></script>
+            <script src="asg1.js"></script>
+            <script src="Point.js"></script>
+            <script src="Triangle.js"></script>
+            <script src="Circle.js"></script>
+
+            <div>
+                <input type="button" id="clear" value="clear" onclick="clearCanvas()">
+            </div>
+
+            <br>
+
+            <div>
+                <div id="header">Drawing Mode: </div>
+                <input type="button" value="Square" onclick="squareMode()"></input>
+                <input type="button" value="Triangle" onclick="triangleMode()"></input>
+                <input type="button" value="Circle" onclick="circleMode()"></input>
+            </div>
+
+            <div>
+                <label for="sizeVal">Shape Size: </label>
+                <input type="range" min="5" max="40" value="10" id="sizeVal">
+                <label for="segmentCount">Segment Count(Circles): </label>
+                <input type="range" min="6" max="40"value ="10" id="segmentCount">
+            </div>
+
+            <br>
+
+            <div>
+                <div id="header">Shape Color:</div>
+                <label for="rVal">Red: </label>
+                <input type="range" value="255" min="0" max ="255" step="1" id="rVal" onmousemove="updateBoxColor()">
+                <label for="gVal">Green: </label>
+                <input type="range" value="255" min="0" max ="255" step="1" id="gVal" onmousemove="updateBoxColor()">
+                <label for="bVal">Blue: </label>
+                <input type="range" value="255" min="0" max ="255" step="1" id="bVal" onmousemove="updateBoxColor()">
+            </div>
+
+            <div>
+                <label for="hexCode">Enter HexCode (without '#'): </label>
+                <input type="text" id="hexCode">
+                <input type="button" value="Use HexCode" onclick="hexCodeHandler()">
+            </div>
+
+
+            <div>Click on the boxes to use the colors:</div>
+
+
+            <div id="boxes">
+                <div id="colorBox1" onclick="changeToColorBox1()"></div>
+                <div id="colorBox2" onclick="changeToColorBox2()"></div>
+
+            </div>
+
+            <p>
+                Welcome to my paint program. It has super cool features such as using hexcode to change the colors because these sliders are flimsy as hell.
+            </p>
+
+            <p>
+                You can also use the two boxes available to change inbetween 2 colors, just like any other paint program!!!
+            </p>
+
+            <p>
+                P.S. also make sure you email Thomas Cannon(<a href="thwcanno@ucsc.edu">thwcanno@ucsc.edu</a>) and tell him that my website is way better. If you want proof look at <a href="https://people.ucsc.edu/~thwcanno/cse160/asg1/asg1.html">(link)</a>
+            </p>
+
+            <p>
+                This program is sponsored by our beloved CSE-160 professor:
+            </p>
+
+            <img src="prof.png">
+
+        </div>
+  
+    </body>
+</html>

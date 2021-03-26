@@ -1,0 +1,39 @@
+-------------------------------
+Iteration:  1
+Error: 0.1875
+Alpha: 0.7332
+Factor to increase weights = 2.67
+Factor to decrease weights = 0.62
+-------------------------------
+-------------------------------
+Iteration:  2
+Error: 0.2718
+Alpha: 0.4928
+Factor to increase weights = 1.84
+Factor to decrease weights = 0.69
+-------------------------------
+-------------------------------
+Iteration:  3
+Error: 0.625
+Alpha: -0.2554
+Factor to increase weights = 0.8
+Factor to decrease weights = 1.33
+-------------------------------
+-------------------------------
+Iteration:  4
+Error: 0.9526
+Alpha: -1.5006
+Factor to increase weights = 0.52
+Factor to decrease weights = 10.56
+-------------------------------
+-------------------------------
+Iteration:  5
+Error: 0.9977
+Alpha: -3.0385
+Factor to increase weights = 0.5
+Factor to decrease weights = 218.37
+-------------------------------
+Testing: 
+False positives: 3
+False negatives: 15
+Error rate: 22.5
