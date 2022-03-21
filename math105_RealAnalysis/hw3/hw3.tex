@@ -1,0 +1,116 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 3, August 5, 2021}
+\rhead{Nicholas Tee}
+
+\begin{document}
+
+\subsection*{Problem 1}
+\textbf{a)} if $a > b$ then that means $a - b > 0$. Since $c > 0$ this means that its positive, we then get $c(a - b) > c(0)$. From this we get $ac - bc > 0$ then $ac > bc$ \\\\
+\textbf{b)} if $a > b$ then that means $a - b > 0$. Since $c < 0$ this means that its negative, we then get $c(a - b) < c(0)$. From this we get $ac - bc < 0$ then $ac < bc$ \\\\
+\textbf{c)} assume that if $a > 0$ then $a^{-1} < 0$. if so then that would mean that $a \cdot a^{-1} < 0$. This is a contradiction because we know that $a \cdot a^{-1} = 1$ and that $1 < 0$ is not true. This means that if $a > 0$ then $a^{-1} > 0$ \\\\
+\textbf{d)} 
+\[ 0 < a < b \]
+\[ (0)a^{-1} < a \cdot a^{-1} < b \cdot a^{-1} \]
+\[ 0 < 1 < b \cdot a^{-1} \]
+\[ (0)b^{-1} < (1)b^{-1} < b \cdot b^{-1} \cdot a^{-1} \]
+\[ 0 < b^{-1} < a^{-1} \]
+\subsection*{Problem 2}
+I dont know where to start with this problem.
+\subsection*{Problem 3}
+\[ \lim_{n \to \infty} \frac{4n^2 - 3n + 1}{7n^3 - n^2 + 2n + 9} = \frac{\infty}{\infty}\]
+\[ \lim_{n \to \infty} \frac{8n - 3}{21n^2 - 2n + 2} = \frac{\infty}{\infty}\]
+\[ \lim_{n \to \infty} \frac{8}{42n - 2} = \frac{8}{\infty} = 0 \]
+The sequence $a_n$ converges to $L= 0$
+\newpage
+\subsection*{Problem 4}
+\textbf{a)} if $0 \leq a_n \leq b_n$ for any limit $L$. if $b_n \rightarrow 0$ as $n \rightarrow \infty$. Then that means $|b_n - L| < \epsilon$. If $L = 0$ then $b_n < 0$ (We can remove the absolute as $b_n$ is positive). We can then say that $a_n < b_n < \epsilon$. This means that $a_n <  \epsilon$. So if $L = 0$ then $|a_n - 0| < \epsilon$ so $|a_n - L| < \epsilon$. This proves that as $n -> \infty$. if $b_n \rightarrow 0$ then $a_n \rightarrow 0$ is also true.\\\\
+\textbf{b)} Since both $a_n$ and $c_n$ converge toward $L$. We can say that $|a_n - L| < \epsilon$ and $|c_n - L| < \epsilon$
+We can then say that $|a_n - L| < |c_n - L| < \epsilon$.
+\[ |a_n - L| < |c_n - L| < \epsilon \]
+\[ a_n < c_n < \epsilon + L\]
+Since we know that $a_n \leq b_v \leq c_n$
+\[ a_n < b_n < c_n < \epsilon + L\]
+\[ b_n < \epsilon + L\]
+\[ |b_n - L| < \epsilon\]
+THis proves that if $a_n$ and $c_n$ both converge towards the limit $L$. Then so does $b_n$
+\subsection*{Problem 5}
+\begin{proof}
+prove that $(1 + h)^n \geq 1 + nh$ \\
+base case: $n = 0$
+\begin{align*}
+(1 + h)^0 &\geq 1 + h(0) \\
+1 &\geq 1 \\
+1 &= 1
+\end{align*}
+inductive step: assume that $(1 + h)^n \geq 1 + nh$ is true. prove for $n + 1$
+\begin{align*}
+(1 + h)^{n+1} &\geq 1 + (n+1)h \\
+(1 + h)^n \cdot (1 + h) &\geq 1 + nh + h \\
+h + 1 &\geq h
+\end{align*}
+Following our assumption all we needed to do was prove the rest of the equation which was $h + 1 \geq h$ which is true.\\
+\end{proof}
+if $0 < r < 1$. Then $r = \frac{1}{h + 1}$ such that $h > 0$. If we substitute $r$ we will get 
+\[ \lim_{n \to \infty} \left( \frac{1}{h+1} \right)^n = \frac{1}{(h + 1)^n} = 0 \]
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,121 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 2, April 16, 2021}
+\rhead{Nicholas Tee}
+
+\begin{document}
+
+Collaborated with: Emily Louie, Rajvir Mann, Rowan Nolan, Brooke Zhang, Morea Lee
+
+\subsection*{Problem 1}
+For any subgroup $n\Z$ there will be $n$ cosets with the main difference being the remained. Each coset can be transformed into the division algorithm, where for each coset $r + n\Z$, we can look at each coset as $qn + r$ where $q \in \Z$ and $0 \leq r < n$.\\
+For example is n = 3, we have the cosets
+\begin{align*}
+0 + 3\Z &= 3q\\
+1 + 3\Z &= 3q + 1\\
+2 + 3\Z &= 3q + 2
+\end{align*}\\
+Using the division algorithm we can see that for any integer will fall into one of the cosets. We also know that it will exist in only one of the cosets due to the uniqueness of the division algorithm.
+\subsection*{Problem 2}
+\textbf{a)}  Show that $\overline{-x}$ is the inverse of $\bar{x}$\\
+\begin{align*}
+n\Z &= \bar{x} + \overline{-x} \\
+&= (x + n\Z) + ((-x)+n\Z) \\
+&= ((x + (-x)) + n\Z) \\
+&= (0 + n\Z) \\
+&= n\Z
+\end{align*}
+Since $n\Z$ is the identity element this proves that $\overline{-x}$ is the inverse of $\bar{x}$ \\\\
+\textbf{b)} Show that $\bar{x} + \bar{y} = \bar{y} + \bar{x}$ \\
+\begin{align*}
+\bar{y} + \bar{x} &= \bar{x} + \bar{y} \\
+&= (x + n\Z) + (y + n\Z)\\
+&= ((x + y) + n\Z)\\
+&= ((y + x) + n\Z) \\
+&= (y + n\Z) + (x + n\Z)\\
+&= \bar{y} + \bar{x}
+\end{align*}
+\subsection*{Problem 3}
+\textbf{a)} $(1 + 4\Z) \cap (2 + 5\Z) = (17 + 20\Z)$ \\
+\textbf{b)} $3\N + 5\N = \{8,11,13,14\} \cup (15+\N)$
+\newpage
+\subsection*{Problem 4}
+\begin{proof}
+We know that H is a non-empty set, so what we need to show is that for some $x,y \in H$ that $x \cdot y \in H$\\
+Since $H = \varphi^{-1}(H')$, this means that there is some $x',y' \in H'$ such that $x,y \in H$ also exists. this also includes the inverses of all these elements.\\
+\begin{align*}
+x'y^{-1'} &= \varphi^{-1}(x') \cdot \varphi^{-1}(y^{-1'})\\
+&= x \cdot y^{-1} \\
+& x \cdot y ^{-1} \in H
+\end{align*}
+Furthermore, since $H'$ is a subgroup of $G'$ there will be some elements $x' \in H'$ that are also in $G'$. This means that it should also be true that there are some elements $x \in H$ that are in G. This makes $H$ a subgroup of $G$. \\
+\end{proof}
+\subsection*{Problem 5}
+\textbf{a) }$\Z / 7\Z$, $7\Z / 7\Z$\\
+\textbf{b) }$\Z / 9\Z$, $3\Z / 9\Z$, $9\Z / 9\Z$\\
+\textbf{c) }$\Z / 12\Z$, $2\Z / 12\Z$, $3\Z / 12\Z$, $4\Z / 12\Z$, $6\Z / 12\Z$, $12\Z / 12\Z$\\
+\textbf{d) }$\Z / 42\Z$, $2\Z / 42\Z$, $3\Z / 42\Z$, $6\Z / 42\Z$, $7\Z / 42\Z$, $14\Z / 42\Z$, $21\Z / 42\Z$, $42\Z / 42\Z$\\
+\textbf{e) }$\Z / 100\Z$, $2\Z / 100\Z$, $4\Z / 100\Z$, $5\Z / 100\Z$, $10\Z / 100\Z$, $20\Z / 100\Z$, $25\Z / 100\Z$, $50\Z / 100\Z$, $100\Z / 100\Z$\\
+\textbf{f) }$\Z / pq\Z$, $p\Z / pq\Z$, $q\Z / pq\Z$, $pq\Z / pq\Z$, \\
+\textbf{g) }$\Z / p^2q\Z$, $p\Z / p^2q\Z$, $q\Z / p^2q\Z$, $pq\Z / p^2q\Z$, $p^2\Z / p^2q\Z$, $p^2q\Z / p^2q\Z$, \\
+\subsection*{Problem 6}
+\textbf{Equality: } $a,b = 0$ and $n = 1$\\
+ We will have $(0 + \Z) \cdot (0 + \Z) = 0 + \Z$. from there we get $\Z \cdot \Z = \Z$ which we know is equivalent.\\
+\textbf{Inclusion: } $a=2, b=3$ and $n = 5$\\
+We will get $(2 + 5\Z) \cdot (3 + 5\Z) = 6 + 5\Z$ All the elements of $(2 + 5\Z) \cdot (3 + 5\Z)$ are in $6 + 5\Z$. However, there are elements such as $11, 31 \in 6 + 5\Z$ that are not in the other sets. Thus, an inclusion.
+\subsection*{Problem 7}
+No there is not. For example, if we try to claim that $\varphi : G \rightarrow H$ is surjective if and only if there exists a set $K = \{ e_G \}$ such that $K \leq G$ will not work as it is not true. If we say that $G = \Z$ then $K = \{ 0 \}$. It cannot be surjective as $\{ 0 \} \rightarrow \Z$ the set will only hit 0. Which means that the set $K$ will not be surjective.
+\subsection*{Problem 8}
+In order to describe any homomorphism recognizing $f(1)$ is essential as it allows us to map it to any other element. so we can say:\\
+\[ f(\bar{1}) = g(\bar{1}) \]
+multiply both sides with $x$ such that $x \in \Z/n\Z$. We get\\
+\[ x \cdot f(\bar{1}) = x \cdot g(\bar{1}) \]
+This will then simplify into\\
+\[ f(x) = g(x) \]
+\subsection*{Problem 9}
+For all the homomorphisms, we simply need to find the different values of f(1) as any element can be recreate by simply adding f(1) n times.\\
+For any $\Z /a\Z \rightarrow \Z /b\Z$ I look for any $f(1) \in \Z /b\Z$ such that $b|a\cdot f(1)$ is true.\\
+\textbf{a) } $f(1) = 0,1,2,3,4$\\
+\textbf{b) } $f(1) = 0,3$\\
+\textbf{c) } $f(1) = 0$\\
+\textbf{d) } $f(1) = 0,1,2,3,4,5,6,7,8,9$\\
+\textbf{e) } $f(1) = 0$ since $gcd(m,n) = 1$ meaning that the numbers are co-prime\\
+
+\subsection*{Problem 10}
+$\Z/p\Z \rightarrow \Z/p\Z$ will have $p$ homomorphisms. since $p|p \cdot f(1)$ for all $f(1) \in \Z/p\Z$. All of the homomorphisms will be isomorphisms/bijections except the trivial map.
+\end{document}

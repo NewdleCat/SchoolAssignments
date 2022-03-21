@@ -1,0 +1,61 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 2, April 16, 2021}
+\rhead{Nicholas Tee}
+
+\begin{document}
+
+\subsection*{Problem 1}
+We need to show that $[\{ a_n \}] = [\{ 1 \}]$
+\[ \lim_{n \to \infty} (1 - a_n) = 0 \ \]
+\[ 1 - a_n = \frac{1}{10^n} = \left( \frac{1}{10} \right)^n \]
+\[ \lim_{n \to \infty} \left( \frac{1}{10} \right)^n\]
+\[ \lim_{n \to \infty} \frac{1}{10^n} = 0 \]
+This shows that the sequence will converge to (1, 1, 1, 1, ...)
+\subsection*{Problem 2}
+We know that every Cauchy sequence of real numbers is bounded and convergent. We know that a sequence is bounded if there exists a number $M \in \Q$, $M > 0$ such that $a_n \leq M$ for all $n \in \N$. If a sequence of rational numbers does not converge towards another rational numbers. Then it is bound to converge towards a real number. Since $\Q \subset \R$, and any sequence of real numbers is bounded. Then any sequence of rational numbers should also be bounded.
+\subsection*{Problem 3}
+let $a_n$ be a convergent sequence of rational numbers. and let $\lim_{n \to \infty}a_n = a$. Assume that $a < 0$ so $a + \epsilon	< 0$. Since we assumed that $\lim_{n \to \infty}a_n = a$, then for some $j \in \Q$ we can then say
+\[ a - \epsilon < a_n < a + \epsilon \textbf{    }\forall n \geq j\]
+If we let $k = max\{ j, m \}$ we can then say that $a_n > 0$. However this is a contradiction since earlier we stated that $a_n < a + \epsilon < 0$. This means that $\lim_{n \to \infty}a_n > 0$ and $a > 0$.\\\\
+From here let us say that $a_n = x_n - y_n > 0$ and that $\lim_{n \to \infty} a_n = x - y$. So from what we showed earlier we can say that $x - y > 0$ so $x > y$
+\subsection*{Problem 4}
+Assuming that $\Q$ is dense in $\R$. If we take two real numbers $x,y \in \R$ such that $x \neq y$. Let us say that the first rational number attained is $q_1$ where $q_1 \in (x, y)$. Since $\Q$ is dense in $\R$ we can then continue this by saying the second number is $q_2 \in (x, q_1)$. From this we can create the sequence $q_{n} \in (x, q_{n-1}) $ or $q_{n + 1} = (x, q_n)$. This can also go the other way if we change $q_2$ to $q_2 \in (q_1, y)$. So we would then get $q_{n+1} \in (q_n, y)$.
+
+\end{document}

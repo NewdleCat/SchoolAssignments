@@ -1,0 +1,81 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 2, April 16, 2021}
+\rhead{Nicholas Tee}
+
+\begin{document}
+Worked with: Brooke Zhang
+\subsection*{Problem 1}
+$[D_8:<r>] = 2$. To show that it is normal we can write down all the right and left cosets.\\
+Since $D_8 = \{1,r,r^2,r^3,s,sr,sr^2,sr^3\}$ and $N = <r> = \{ 1,r,r^2,r^3 \}$
+\begin{align*}
+1N&=\{1,r,r^2,r^3\}		&		N1&=\{1,r,r^2,r^3\}\\
+rN&=\{r,r^2,r^3,1\}		&		Nr&=\{r,r^2,r^3,1\}\\
+r^2N&=\{r^2,r^3,1,r\}		&		Nr^2&=\{r^2,r^3,1,r\}\\
+r^3N&=\{r^3,1,r,r^2\}		&		Nr^3&=\{r^3,1,r,r^2\}\\
+sN&=\{s, r^3s, r^2s, rs\}		&		Ns&=\{s, r^3s, r^2s, rs\}\\
+srN&=\{r^3s, r^2s, rs, s\}		&		Nsr&=\{r^3s, r^2s, rs, s\}\\
+sr^2N&=\{r^2s, rs, s, r^3s\}		&		Nsr^2&=\{r^2s, rs, s, r^3s\}\\
+sr^3N&=\{rs, s, r^3s, r^2s\}		&		Nsr^3&=\{rs, s, r^3s, r^2s\}
+\end{align*}
+Thus we can see that the group $N$ is a normal subgroup of $D_8S$
+\subsection*{Problem 2}
+\textbf{a) } Since the union of a sets cosets is itself. For $[G:N]=2$, we know that one of the cosets have to be $N$ itself. So this means that $G$ is a disjoint union between $N$ and another coset. We can say that the left cosets are $N,aN$ and the right cosets are $N,Nb$. However, since both left and right cosets contain $N$. in order for $G = N \cup aN$ and $G = N \cup Nb$ to be true. Then it has to be true that $aN = Nb$. Which means by definition that N is a normal subgroup. \\
+\textbf{b)} For any $S_n$ and $A_n$ where $n \geq 3$. We know that $[S_n:A_n] = \frac{n!}{n!/2} = 2$. We just proved that any groups $G,N$ such that $[G:N]=2$ that $N$ is a normal subgroup of $G$. So in this case. Since $[S_n:A_n] = 2$, $A_n$ is a normal subgroup of $S_n$. 
+\subsection*{Problem 3}
+\textbf{a) }  We can say that $S_n/ker(sgn) = im(sgn)$. From this we can say that $ker(sgn) = A_n$ and since the image of the sign function is $\{ 1,-1 \}$, $S_n/A_n = \{1,-1\}$ which makes it isomorphic to $\mu_2$.\\
+\textbf{b) }  We know that $det: GL_2(\C) \rightarrow \C^x$. so we can say that $ker(det) = SL_2(\C)$, so $im(det) = \C^x$
+\newpage
+\subsection*{Problem 4}
+We need to show that for any cycle  $s \in S_n$ that for some $\sigma \in S_n$that $\sigma s \sigma^{-1} = s$ such that $\sigma	 = id$\\\\
+Fine some cycle $s = (a_1...a_r)$ such that
+\begin{align*}
+\sigma(a_1...a_r)\sigma^{-1} &= (\sigma(a_1)...\sigma(a_r))\\
+&= (a_1...a_r)
+\end{align*} 
+im stuck after this part :(
+\subsection*{Problem 5(A)}
+I would probably start the lesson with checking to make sure that the students understand some of the basic mathematical concepts required to understand an equivalence relation. For example might have to refresh some of the students on what sets are. If so this would probably take 5 to 10 minutes. Once that has been sorted out I would go on to formally explain what equivalence relations are. I would explain that a relation between two things is simple if it is transitive, symmetric and reflexive. I would then go on to explain how each of these properties work(15 min). The two examples I would use would be the set of integers. For this example I would probably work on it with the class to figure out why there is an equivalence relation in the set of all integers(15 min). Hopefully, once they fully understand that example I would have them tell me if $R=\{(a,a),(b,b),(a,c),(c,a),(b,d),(d,b)\}$ is an equivalence relation set $A=\{a,b,c,d\}$ (10 min).
+
+\subsection*{Problem 6(B)}
+In order to explain conjugacy classes, I think that the formal definition is sufficient, except I would swap the word groups with sets since we are assuming that the person has not taken abstract algebra before. In this case I could explain conjugacy as for any elements $a,b,c \in \Z$ the elements a and b are conjugate if $a=cbc^{-1}$. Assuming they understand basic algebra, this definition would give the general idea of what a conjugacy class is. If the person can take I might go on to show how this applies to groups and how the elements are not always integers. In the case of cosets. Assuming that the person understands what sets are, then the best explanation to give is that, for any given set, it is the union of all of its cosets. All the cosets of any given set are disjoint, but the union of all of them ends up becoming the original set. So if we were to take the simple set of $\{a,b,c\}$, then you can set that its cosets are $\{a\},\{b\},\{c\}$. Hopefully this example would be enough for the person to understand the concept of cosets.
+
+
+
+\end{document}

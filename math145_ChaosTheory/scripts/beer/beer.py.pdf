@@ -1,0 +1,148 @@
+import matplotlib as mpl
+import numpy as np
+import matplotlib.pyplot as plt
+import math
+
+# plt.style.use('_mpl-gallery')
+
+
+a = 0.9
+b = 0.25
+Q = 17
+theta = 0
+COR = 8
+
+class factory:
+	def __init__(self):
+		self.FI = 12 	# inventory
+		self.FB = 0 	# backlog orders
+		self.FPD1 = 0 	# factory delay
+		self.FPD2 = 0 	# factory delay
+		self.FPR = 0 	# production request
+		self.FOS = 0 	# outgoing shipment
+		self.FIO = 0 	# incoming orders
+		self.FED = 0 	# expected demand
+		self.FSL = 0 	# supply line
+		self.FS = 0
+
+	def update(self, ROP):
+		tFI = self.FI
+		tFB = self.FB
+
+		self.FI = max(0, tFI + self.FPD2 - tFB - self.FIO)
+		self.FB = max(0, tFB + self.FIO - tFI - self.FPD2)
+		self.FOS = min(tFI + self.FPD2, tFB + self.FIO)
+		self.FED = (theta * self.FIO) + ((1 - theta) * self.FED)
+
+		self.FIO = ROP
+		self.FPD2 = self.FPD1
+		self.FPD1 = self.FPR
+		self.FSL = self.FPD1 + self.FPD2
+		self.FPR = max(0, self.FED + (a * (Q - self.FI + self.FB - (b * self.FSL))))
+
+		self.FS = self.FI - self.FB
+
+		thing = vars(self)
+		for i in thing:
+			thing[i] = round(thing[i], 1)
+
+class retailer:
+	def __init__(self):
+		self.RI = 0 	# inventory
+		self.RB = 0 	# backlog orders
+		self.RIS = 0 	# incoming shipments
+		self.RIO = 0 	# incoming orders
+		self.RED = 0 	# expected demand
+		self.ROP = 0 	# orders placed
+		self.RSL = 0 	# supply line
+		self.RS = 0
+
+	def update(self, tFOS, FIO, FB, FOS):
+		tRI = self.RI
+		tRB = self.RB
+		self.RI = max(0, tRI + self.RIS - tRB - COR)
+		self.RB = max(0, tRB + COR - tRI - self.RIS)
+		self.RIO = COR
+		self.RED = (theta * COR) + ((1 - theta) * self.RED)
+		self.RIS = FOS
+		self.RSL = self.RIS + FIO + FB + FOS
+		self.ROP = max(0, self.RED + (a * (Q - self.RI + self.RB - (b * self.RSL))))
+
+		self.RS = self.RI - self.RB
+
+		thing = vars(self)
+		for i in thing:
+			thing[i] = round(thing[i], 1)
+
+def main():
+	N = 0
+	choice = ""
+	f = factory()
+	r = retailer()
+	while choice != 'e':
+		printOptions(N)
+		choice = input("input your choice: ")
+		if choice == 'n':
+			N += 1
+			update(f, r)
+		elif choice == 'c':
+			iters = int(input("num of iterations: "))
+			for i in range(iters):
+				update(f, r)
+			N += iters
+		elif choice == 'g':
+			start = int(input("starting n val: "))
+			end = int(input("ending n val: "))
+			fg = factory()
+			rg = retailer()
+			for i in range(start): # skip first n iterations
+				update(fg, rg)
+
+			x = []
+			y = []
+			for i in range(end):
+				update(fg, rg)
+				# Change your x and y to whatever
+				x.append(i)
+				y.append(fg.FI)
+				# x.append(fg.FOS)
+				# y.append(fg.FIO)
+				# x.append(rg.RI)
+				# y.append(rg.RIS)
+
+			fig, ax = plt.subplots()
+			# plt.plot(x, y, color='black')
+			plt.plot(x, y,'.', color='black')
+			plt.show()
+
+
+def update(f, r):
+	tFOS = f.FOS
+	f.update(r.ROP)
+	r.update(tFOS, f.FIO, f.FB, f.FOS)
+
+	print("-----Factory-----")
+	thing = vars(f)
+	for i in thing:
+		# s = f"{i}: {thing[i]}"
+		s = f"{thing[i]}"
+		print(s)
+
+	print("\n-----Retailer-----")
+	thing = vars(r)
+	for i in thing:
+		# s = f"{i}: {thing[i]}"
+		s = f"{thing[i]}"
+		print(s)
+	print()
+
+def printOptions(N):
+	print("\nOptions: ")
+	print("N: ", N)
+	print("1) n - next timestep ")
+	print("2) c - choose number of iterations")
+	print("3) g - graph")
+	print("4) e - exit")
+
+if __name__ == "__main__":
+	main()

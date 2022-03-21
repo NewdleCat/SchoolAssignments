@@ -1,0 +1,88 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 2, August 2, 2021}
+\rhead{Nicholas Tee}
+
+\begin{document}
+
+\subsection*{Problem 1}
+Let use define the set of \textit{finite} subsets of $\N$ as $S$. In order for the subsets of $\N$ to be finite, the subsets must be contained within some $\{ 0,1,2,..., n \}$ such that $n \in \N$. This would mean that $S$ is a finite set as each subset can only appear once. Which we can then create a bijective map $S \rightarrow \N$. This means that we can say $S$ is countable.
+\subsection*{Problem 2}
+If $A$ is uncountable and $B$ is countable. Then $A/B$ is uncountable.
+\begin{proof}
+Assume that $A/B$ is countable. If so, the union of countable sets creates another countable set. Which would mean that $(A/B) \cup B$ is also countable. However, $A \subset (A/B) \cup B$. We know that $A$ is an uncountable set. This creates a contradiction. Which means that $A/B$ has to be an uncountable set. \\
+\end{proof}
+\subsection*{Problem 3}
+We know that the set $f^{-1}(k)$ is essentially a subset of $A$ given some domain $k \in \N$.We can then say that 
+\[A = \bigcup_{k \in \N}f^{-1}(k)\]
+Since the union of countable sets results in another countable set. We can then say that $A$ is finite or countable.
+\subsection*{Problem 4}
+\begin{proof}
+If $X$ is a countable set, then we can say that $X/ \sim$ is also countable. In class we discussed that the equivalence relation $\sim$ creates partitions of $X$. Each of these partitions or non-empty subsets of $X$, which would also make them countable. Since $X/ \sim$ is the set of all equivalence classes (as discussed in class). $X/ \sim $ is the union of all these countable sets should still be countable in the end. \\
+\end{proof}
+\subsection*{Problem 5}
+\textit{case 1:} $x = y$
+\[ |x| \leq |y| + |x - y| \]
+\[ |x| \leq |y| + 0 \]
+\[ |x| = |y| \]
+\textit{case 2:} $x < y$
+\[ |x| \leq |y| + |x - y| \]
+since $|x-y|$ will be positive so this statement will always be true since $x < y$ \\
+\textit{case 3:} $x > y$
+\[ |x| \leq |y| + |x - y| \]
+The $|x - y|$ will be added to the $|y|$. Since the $|x-y|$ will be the difference between $x$ and $y$. This equation will always end up with $|x| = |y|$ \\
+
+Assuming the proof is correct and $|x| \leq |y| + |x - y|$ is true. We can then say that $|x| - |y| \leq |x - y|$ We can also then say that $|x| - |y| \leq |x - y|$ is true through the triangle inequality. Since it is symmetric, this implies that $||x| - |y|| \leq |x - y|$ is true
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

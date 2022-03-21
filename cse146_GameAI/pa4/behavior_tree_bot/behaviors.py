@@ -4,9 +4,6 @@ from planet_wars import issue_order
 
 
 def attack_weakest_enemy_planet(state):
-    # if len(state.my_fleets()) >= 20:
-    #     return False
-
     start_planet = None
     target_planet = None
     my_planets = state.my_planets()
@@ -16,7 +13,6 @@ def attack_weakest_enemy_planet(state):
         dest_planet = state.planets[ship.destination_planet]
         if dest_planet in enemy_planets:
             enemy_planets.remove(dest_planet)
-
 
     start_planet = max(my_planets, key=lambda t: t.num_ships, default=None)
 
@@ -30,9 +26,6 @@ def attack_weakest_enemy_planet(state):
 
     distList.sort()
     target_planet = distList[0][1]
-
-
-    # target_planet = min(enemy_planets, key=lambda t: t.num_ships, default=None)
 
     if start_planet and target_planet:
         attackNum = target_planet.num_ships + \
@@ -48,9 +41,6 @@ def attack_weakest_enemy_planet(state):
 
 
 def spread_to_weakest_neutral_planet(state):
-    # if len(state.my_fleets()) >= 20:
-    #     return False
-
     my_planets = state.my_planets()
     neutral_planets = state.neutral_planets()
     fleets = state.my_fleets()

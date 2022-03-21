@@ -1,0 +1,81 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 8, August 27, 2021}
+\rhead{Nicholas Tee}
+
+\begin{document}
+
+\subsection*{Problem 1}
+\textbf{a)} Assume $|x - a| < \delta$ We want to show that $\left|\dfrac{1}{x} - \dfrac{1}{a} \right| < \epsilon$. Let us say that
+\[ \left|\dfrac{1}{x} - \dfrac{1}{a} \right| = \left|\dfrac{a}{a \cdot x} - \dfrac{x}{a \cdot x} \right| = \dfrac{a - x}{ax} \]
+let us take $\delta = \dfrac{a}{2}$ From here we know that $|x - a| < \dfrac{a}{2}$. This implies that $|x| > \dfrac{a}{2}$ and that $|ax| > \dfrac{a^2}{2}$ so
+\[  \dfrac{x-a}{ax} < \dfrac{x - a}{\dfrac{a^2}{2}} = \dfrac{2(x - a)}{a^2}\]
+From here we can say that $|x- a| < \dfrac{\epsilon a^2}{2}$ and $|ax| > \dfrac{a^2}{2}$ so
+\[ \left|  \dfrac{1}{x} - \dfrac{1}{a} \right| \]
+\textbf{b) } Suppose $\epsilon = 1$ and that $f(x)$ is uniformly continuous. Then for all $x,y \in (0,1]$ we have $|x-y| < 1$ and $|\dfrac{1}{x} - \dfrac{1}{y}| < 1$. We can pick some $x \in (0,1]$ and let $y= \dfrac{x}{2}$.
+\begin{align*}
+|x-y| &= \left |x - \dfrac{x}{2}\right |\\
+&= \left |\dfrac{x}{2}\right | = \dfrac{x}{2} \\
+&< \dfrac{f(x)}{2}
+\end{align*}
+also 
+\begin{align*}
+\left|\dfrac{1}{x} - \dfrac{1}{y} \right| &= \left|\dfrac{1}{x} - \dfrac{2}{x} \right|\\
+&= \left |\dfrac{-1}{x}\right |\\
+&= \dfrac{1}{x} > 1
+\end{align*}
+\subsection*{Problem 2}
+For any $\epsilon > 0$ if $\lim_{x \to a}f(x) = \ell$ then it impies that $|f(x) - L| < \epsilon$. If $f(x) = \lim_{x \to a^-} = \ell$ Then for any $\delta > 0$ there there exists a $|a-x| < \delta$. Similarly if $f(x) = \lim_{x \to a^+} = \ell$ then there exists $|x - a| < \delta$. If we take $|x - a| < \delta$, it is the same if we wrote it as $-\delta < x - a < \delta$. If we flip the inequality we will get $\delta > a - x > -\delta$. Essentially this shows that both $|x-a| < \delta$ and $|a - x| < \delta$ hold, meaning that $|f(x) - \ell| < \epsilon$ will also hold.
+\newpage
+\subsection*{Problem 3}
+\subsection*{Problem 4}
+\textbf{a) } $f(x) = x^5 + x^3 + x - 1$\\
+$f(0) = (0)^5 + (0)^3 + (0) - 1 = -1$\\
+$f(1) = (1)^5 + (1)^3 + (1) - 1 = 2$\\
+Since $f(x)$ goes from negative to positive between 0 and 1 it shows that there is a root.
+\textbf{b) } If we take the limit $lim_{x \to \infty}\dfrac{1}{1+x^2} = 0$, similarly if we take $\lim_{x \to \infty}5x^5+4x^4 = \infty$. From this we know that $f(x)$ approaches $0$ meaning that it essentially covers the entire x-axis. Furthermore we can see that $g(x)$ approaches $\infty$, which means that the graph is completely vertical. We also know that both equations are continuous. Since one is going horizontally and the other vertically they are bound to intersect.
+\subsection*{Problem 5}
+For all $x \in (a,b)$ we know that $f'(x) = 0$. Since f is continous and differentiable in $(a,b)$ we can use the mean value theorem which states there exists a $c \in (a,b)$ such that
+\[ f(b) - f(a) = f'(c)(b-a) \]
+However, we know that for all $x \in (a,b)$ that $f'(x) = 0$ so we get
+\[ f(b) - f(a) = (0)(b-a) \]
+\[ f(b) - f(a) = 0 \]
+\[ f(b) = f(a) \]
+This is true for any arbitrary interval $(a,b)$ which means that $f$ is a constant.
+\end{document}

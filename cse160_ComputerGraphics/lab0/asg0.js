@@ -55,7 +55,7 @@ function handleDrawOperationEvent()
 	let x2 = document.getElementById("xInputV2").value;
 	let y2 = document.getElementById("yInputV2").value;
 	let v1 = new Vector3([x1, y1, 0]);
-	let v3 = v1
+	/*let v3 = v1*/
 	drawVector(v1, 'red');
 	let v2 = new Vector3([x2, y2, 0]);
 	let v4 = v2
@@ -66,6 +66,7 @@ function handleDrawOperationEvent()
 
 	if(selection == "add")
 	{
+		let v3 = v1
 		v3.add(v2)
 		drawVector(v3, 'green')
 	}	

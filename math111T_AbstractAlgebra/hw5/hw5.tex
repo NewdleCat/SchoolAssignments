@@ -1,0 +1,153 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 5, May 7, 2021}
+\rhead{Nicholas Tee}
+
+\begin{document}
+Worked with: Brooke Zhang
+\subsection*{Problem 1}
+For $z^2 = 1$ in $\C$. This means that $z = 1,-1$ and has an order of 2. Where as if we let $x,y \in \R^x \times \R^x$. We will then get the element $(1,1) = (x^2,y^2)$ which would have an order of 4 as $x,y= -1,1$ which has 4 possibilities. This shows that the map $\C^x \rightarrow R^x \times R^x$ can not be isomorphic. 
+\subsection*{Problem 2}
+In class we saw that $SL_n(\F ) \triangleq GL_n(\F)$ for all $n \geq 1$ and $\F = \R$ or $\C$\\
+since $det(AB) = det(A)det(B)$ we can create the map $det: GL_n \rightarrow \F^x$. From this we can say that $SL_n = \{ A \in GL_n | det(A) = 1 \} = ker(det)$\\
+Since $SL_n = ker(det)$ this would automatically make $SL_n(\F)$ a subgroup of $GL_n(\F)$ 
+\subsection*{Problem 3}
+The only group that is isomorphic to $\Z/6\Z$ is $A_3 \times \Z/2\Z$. $\Z/6\Z$ has order of 6 through the element $1$ and $A_3 \times \Z/2\Z$ has element of order 6 through $((123), 1)$. We can then explicitly create the isomorphic map as such:
+\begin{align*}
+\bar{0} &\rightarrow ((123),1) \\
+\bar{1} &\rightarrow ((132),0) \\
+\bar{2} &\rightarrow (id,1) \\
+\bar{3} &\rightarrow ((123),0) \\
+\bar{4} &\rightarrow ((132),1) \\
+\bar{5} &\rightarrow (id,0) \\
+\end{align*}
+The group $A_3$ does not have enough elements and $A_3 \times \Z/3\Z$ has too many elements. So both groups can not create a bijection with $\Z/6\Z$ thus no isomorphism. \\
+Furthermore, although both $D_6$ and $S_3$ are groups of order 6. There are no elements within either groups have have order 6. Which means that neither group can create an isomorphism with $\Z/6\Z$
+\newpage
+\subsection*{Problem 4}
+We can say that in the group $D_{10}$ that $r^5 = 1$, $s^2 = 1$ and $sr = r^{n-1}s$. With this we can say the following elements are equal\\
+$sr = r^4s$\\
+$sr^2 = sr  r = r^4  s  r = r^4  r^4  s = r^8  s = r^3s$\\
+$sr^3 = sr^2  r = r^4  s  r^2 = r^4  r^4  s  r = r^4  r^4  r^4  s =r^{12}  s = r^2s$\\
+$sr^4 = r^4  s  r^3 = r^4  r^4  s  r^2 = r^4  r^4  r^4  s  r = r^{12}  r^4  s = r^{16}  s = r s$\\
+\textbf{a) } $sr^4 = rs$\\
+\textbf{b) } $rsr = rr^4s = r^5s = s$ \\
+\textbf{c) } $r^2sr^3s^2r$
+\begin{align*}
+r^2sr^3s^2r &= r^4ss^2r\\
+&= r^4sr \\
+&= r^4r^4s \\
+&= r^8s \\
+&= r^3s \\
+\end{align*}
+\textbf{d) } $r^4s^3r^2sr^{-1}sr^{-4}$
+\begin{align*}
+r^4s^3r^2sr^{-1}sr^{-4} &= r^4sr^2sr^{-1}sr^{-4} \\
+&= r^4r^3ssr^{-1}sr^{-4} \\
+&= r^4r^3r^{-1}sr^{-4} \\
+&= r^6sr^{-4} \\
+&= r^6sr \\
+&= r^6r^4s \\
+&= r^{10}s = s\\
+\end{align*}
+\newpage
+\subsection*{Problem 5(A)}
+Hopefully at this point the students will all know basic geometry and transformations(translation, rotation and reflection). I will also assume that the students know how to use  a basic xy-plane(I'm not sure what grade they teach this in). I would then go on to ask the class about their understanding of congruency between shapes(5 min). I would then tell them that two congruent shapes have what is called a bijective relationship, and that the relationship between the two congruent shapes is what is called an isometry. I would then draw a plan and draw two congruent triangles and mark the tips with their coordinates. I would then ask the class to point out which points correspond to each other between the two shapes, as they are doing this I am writing down the map between the points, I will probably do this 2 or 3 more times with different shapes(10 min). I would then show that because the points map to exactly one other point that this is called a bijection. I would then show how this type of relationship also exists in other parts of math and not just geometry. One example I would use would be linear equations and how for simple linear or quadratic equations, the domain and range have a bijective relationship.
+\newpage
+\subsection*{Problem 6}
+\textbf{a) } We know that $Z(G)$ is a non-empty group, let $e \in Z(G)$ and $x \in Z(G)$, we have $e \cdot x = x \cdot e$\\
+We can then also say that for all $x,a \in Z(G)$ that
+\begin{align*}
+a^{-1} \cdot (a \cdot x) \cdot a^{-1} &= a^{-1} \cdot (x \cdot a) \cdot a^{-1} \\
+e \cdot x \cdot a^{-1} &= a^{-1} \cdot x \cdot e\\
+x \cdot a^{-1} &= a^{-1} \cdot x
+\end{align*}
+so for any $a \in Z(G)$ there exists $a^{-1} \in Z(G)$\\
+We can then also say that for any $x,a,b \in Z(G)$ that $x \cdot a \cdot b^{-1} = a \cdot x \cdot b^{-1} = a \cdot b^{-1} \cdot x$ and that $ab^{-1} \in Z(G)$. This shows that $Z(G)$ is a subgroup of $G$ \\\\
+\textbf{b) } $D_8 = \{ 1, r, r^2, r^3, sr, sr^2, sr^3 \}$ \\
+\textbf{1 }
+\begin{align*}
+1 \cdot 1 &= 1\cdot 1\\ 
+1r &= r1 \\
+1r^2 &= r^21 \\
+1r^3 &= r^31 \\ 
+sr1 &= 1sr \\
+sr^21 &= 1sr^2 \\
+sr^31 &= 1sr^3
+\end{align*}
+\textbf{$r$ } $\rightarrow rsr = sr^2 \rightarrow s \neq r^2s$\\
+\textbf{$r^2$ } 
+\begin{align*}
+r^21 &= 1r^2 \\
+r^2r = rr^2 &\rightarrow r^3 = r^3\\
+r^2r^2 = r^2r^2 &\rightarrow 1 = 1\\
+r^2r^3 = r^3r^2 &\rightarrow r = r\\
+r^2sr = srr^2 &\rightarrow rs = rs\\
+r^2sr^2 = sr^2r^2 &\rightarrow s = s\\
+r^2sr^3 = sr^3r^2 &\rightarrow r^3s = r^3s\\
+\end{align*}
+\textbf{$r^3$ } $\rightarrow srr^3 = r^3sr \rightarrow s \neq r^2s$ \\
+\textbf{$sr$ } $\rightarrow srr = rsr \rightarrow r^2 \neq s$\\
+\textbf{$sr^2$ } $\rightarrow sr^2r = rsr^2 \rightarrow rs \neq r^3s$\\
+\textbf{$sr^3$ } $\rightarrow sr^3r = rsr^3 \rightarrow s \neq r^2s$\\
+So $Z(D_8) = \{ 1, r^2 \}$
+\newpage
+\subsection*{Problem 7(B)}
+According to a ck12 website, it defines symmetry as such, “A line of symmetry is a line that passes through a figure such that it splits the figure into two congruent halves. Many figures have a line of symmetry, but some do not have any lines of symmetry. Figures can also have more than one line of symmetry. A shape has reflection symmetry when it has one or more lines of symmetry.” For our class, we define symmetry as isometries that are distance preserving. We also think of symmetries as the dihedral groups.
+
+I think for middle schoolers this definition would be sufficient, since the only symmetry that they need to learn are lines of symmetry within shapes although I am not sure if middle schoolers would understand the meaning of “congruent”(I can’t remember what grade I learned this). So perhaps for middle schoolers I would change the worn congruent to equal. I also think that they do not need to include the part of reflectional symmetry.
+
+For highschool students, I think that this definition is too simple, as symmetry means more than splitting up shapes and figures. I think that this definition would suffice to explain geometric symmetry but how broader topics in math I think that it is insufficient or an explanation.
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

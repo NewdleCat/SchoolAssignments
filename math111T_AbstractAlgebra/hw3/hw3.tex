@@ -1,0 +1,104 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 2, April 16, 2021}
+\rhead{Nicholas Tee}
+
+\begin{document}
+Worked with: Brooke Zhang, Emily Louie
+\subsection*{Problem 1}
+\textbf{a) } We know that $H$ will be a subset of of $\Z^2$ as $\Z^2$ contains all possible pairings $(x,y)$ such that $x,y \in \Z$.\\
+\textit{Closure:} Since the set $H$ is all pairings $(x,y)$ such that $x + y = 2\Z$. $2\Z$ is the set of all even integers, which means that the values of $x$ and $y$ have to both be even or both be odd numbers. As if one number was odd and the other was ever, the sum would create an odd number, which is not in $2\Z$. This then means that any additions of elements $(x,y) + (w,z) = (x+w, y+z)$ would result in the values of $x+w$ and $y+z$ being both odd or both even. Either case, this shows that the set H is closed under addition.\\\\
+\textit{Identity:} The set $H$ contains the identity element of $(0,0)$ since $0 + 0 = 0$ and $0 \in 2\Z$ \\\\
+\textit{Inverses:} For any elements $(x,y) \in H$ there will exist an inverse elements of $(-x,-y)$\\\\
+\textbf{b) } Take some subgroup of $\Z^2$ called $K$. Lets say that $H \subseteq	K$. This means that there are elements $a,b \in H$ that are also in $K$. However, since $K$ is a subgroup of $\Z^2$, this would then lead to the fact that $K \subseteq H$ is also true. Which means that the sets $K$ and $H$ are equal.
+\subsection*{Problem 2}
+\textbf{a) } We can show the map of $\varphi: \Z/n\Z \rightarrow G$ as such:
+\begin{align*}
+	\bar{0} &\rightarrow e_G \\
+	\bar{1} &\rightarrow x \\
+	\bar{2} &\rightarrow x^2 \\
+	&\vdots \\
+	\overline{n-1} &\rightarrow x^{n-1}
+\end{align*}
+\textbf{b) } We can show the map of $\varphi: \Z \rightarrow G$ as:
+\[ \varphi(n) = x^n \]
+\textbf{c) } If we know that two groups have the same order n. We can then say that $f:\Z/n\Z \rightarrow \Z/n\Z$ and $g: G \rightarrow \Z/n\Z$. If we then compose these two functions $g^{-1} \circ f$ we will end up with the mapping of $\Z/nZ \rightarrow G$ This will also work in reverse as we can do the composition of $f^{-1} \circ g$ and create the map of $G \rightarrow \Z/n\Z$.
+\newpage
+\subsection*{Problem 3}
+None of the groups are isomorphic to each other.\\
+The elements in the group $\Z/2\Z \times \Z/2\Z \times \Z/2\Z$ have an order of either 1 or 2. For example $<0,0,0>$ only has an order of 1 and $<0,0,1>$ only has an order of 2. \\
+The elements in the group $\Z/2\Z \times \Z/4\Z$ only has a order of 1,2 or 4. Namely, $<0,0>$ has order of 1, $<1,0>$ has order of 2 and $<1,1>$ has an order of 4.\\
+Lastly the group $\Z/8\Z$ has an order of 8 through $<1>$.\\
+This means that it is impossible to create a bijection between any of these 3 sets.
+\subsection*{Problem 4}
+There will be 3 different classes\\
+\textbf{1) } There is an isomorphism between the groups $\Z/100\Z$ and $\Z/4\Z \times \Z/25\Z$ According to Sun Tzu's theorem, since $4 \cdot 25 = 100$ and $gcd(4,25) = 1$. $\Z/100\Z$ can be created using $<1>$ and $\Z/4\Z \times \Z/4\Z$ can be created using $<1,1>$\\\\
+\textbf{2) } the group $\Z/10\Z \times \Z/10\Z$ is in a class of its own as it can not create and isomorphism with any of the other groups.\\\\
+\textbf{3) } The group $\Z/2\Z \times \Z/2\Z \times \Z/5\Z \times \Z/5\Z$ also can not create an isomorphism with the other groups so it is in a class of its own.
+\subsection*{Problem 5}
+\textbf{a) } $\varphi(3) = (1,3)$\\
+\textbf{b) } $\varphi(6) = (0,1)$\\
+\textbf{c) } $\varphi^{-1}(1,2) = 7$\\
+\textbf{d) } $\varphi^{-1}(0,1) = 6$
+\subsection*{Problem 6}
+\textbf{a) } The only two isomorphisms in $\Z/6\Z$ are when f(1) = 5 or 1\\
+\textit{f(1) = 1} $0 \rightarrow 0, 1 \rightarrow 1, 2 \rightarrow 2, 3 \rightarrow 3, 4 \rightarrow 4, 5 \rightarrow 5$\\
+\textit{f(1) = 5} $0 \rightarrow 0, 1 \rightarrow 5, 2 \rightarrow 4, 3 \rightarrow 3, 4 \rightarrow 2, 5 \rightarrow 1$\\
+All the other possible values of $f(1)$ do not create isomorphisms, so  this shows that |Aut$(\Z/6\Z)$| = 2.\\\\
+\textbf{b) } We write the group of $Aut(\Z/6\Z) = \{\bar{1}, \bar{5}\}$. $\bar{1}$ will be our identity element. So we can create the mapping of $\varphi: Aut(\Z/6\Z) \rightarrow \Z/2\Z$ as such\\
+\begin{align*}
+\bar{1} &\rightarrow \bar{0}\\
+\bar{5} &\rightarrow \bar{1}
+\end{align*}
+\subsection*{Problem 7}
+\textbf{a) } (1 2)(1 3)(1 4) = (1 4 3 2)\\
+\textbf{b) } (1 2)(1 4)(1 3) = (1 3 4 2)\\
+\textbf{c) } (1 2)$^{-1}$ = (2 1) = (1 2)\\
+\textbf{d) } (1 2 3)$^{-1}$ = (3 2 1) = (1 3 2)\\
+\textbf{e) } [(1 3)(2 4 5)]$^{-1}$ = (3 1)(5 4 2) = (1 3)(2 5 4)
+\subsection*{Problem 8}
+\textbf{a) } Any transposition in $S_n$ can be seen as $(x_1,x_2)$. When this transposition is composed with itself we get.
+\[(x_1,x_2) \cdot (x_1,x_2) = identity\]
+Through this we can say that every transposition will have an order of 2.\\
+\textbf{b) } Show that $(a_1, a_2, ..., a_{\tau - 1}, a_{\tau})$ can be represented as $(a_1 a_{\tau})(a_1 a_{\tau - 1})...(a_1 a_2)$.
+\begin{proof}
+let $f = (a_1 a_2 ... a_{\tau})$ and $g = (a_1 a_{\tau})...(a_1 a_2)$. We can then say that $f(x) = x$ and $g(x) = x$, assuming that $x \not \in f$ and $x \not \in g$. We can then see that when $f(a_i) = a_i + 1$ that also $g(a_i) = a_{i + 1}$. Similarly when both functions are input with $a_{\tau}$ we get $f(a_{\tau}) = a_1$ and $g(a_{\tau}) = a_1$. We can see that in reality f = g.
+
+\end{proof}
+
+\end{document}

@@ -1,0 +1,174 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 2, April 16, 2021}
+\rhead{Nicholas Tee}
+
+\begin{document}
+
+\subsection*{Problem 1}
+\textbf{a) }
+\begin{table}[!h]
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+P & Q & R & (Q $\land$ R) & (P $\land$ Q) & P $\land$ (Q $\land$ R) & (P $\land$ Q) $\land$ R \\ \hline
+F & F & F & F         & F         & F               & F               \\ \hline
+F & F & T & F         & F         & F               & F               \\ \hline
+F & T & F & F         & F         & F               & F               \\ \hline
+F & T & T & T         & F         & F               & F               \\ \hline
+T & F & F & F         & F         & F               & F               \\ \hline
+T & F & T & F         & F         & F               & F               \\ \hline
+T & T & F & F         & T         & F               & F               \\ \hline
+T & T & T & T         & T         & T               & T               \\ \hline
+\end{tabular}
+\end{table} \\
+\\
+\textbf{b) }
+\begin{table}[!h]
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+P & Q & R & (Q $\lor$ R) & (P $\lor$ Q) & P $\lor$ (Q $\lor$ R) & (P $\lor$ Q) $\lor$ R \\ \hline
+F & F & F & F         & F         & F               & F               \\ \hline
+F & F & T & T         & F         & T               & T               \\ \hline
+F & T & F & T         & T         & T               & T               \\ \hline
+F & T & T & T         & T         & T               & T               \\ \hline
+T & F & F & F         & T         & T               & T               \\ \hline
+T & F & T & T         & T         & T               & T               \\ \hline
+T & T & F & T         & T         & T               & T               \\ \hline
+T & T & T & T         & T         & T               & T               \\ \hline
+\end{tabular}
+\end{table} \\
+\\
+\textbf{c) }
+\begin{table}[!h]
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+P & Q & R & (P $\iff$ Q) & (Q $\iff$ R) & (P $\iff$ Q) and (Q $\iff$ R) \\ \hline
+F & F & F & T         & T         & T                       \\ \hline
+F & F & T & T         & F         & F                       \\ \hline
+F & T & F & F         & F         & F                       \\ \hline
+F & T & T & F         & T         & F                       \\ \hline
+T & F & F & F         & T         & F                       \\ \hline
+T & F & T & F         & F         & F                       \\ \hline
+T & T & F & T         & F         & F                       \\ \hline
+T & T & T & T         & T         & T                       \\ \hline
+\end{tabular}
+\end{table}\\
+\begin{table}[!h]
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+P & Q & R & (P $\implies$ Q) & (Q $\implies$ R) & (R $\implies$ P) & (P $\implies$ Q) $\land$ (Q $\implies$ R) $\land$ (R $\implies$ P) \\ \hline
+F & F & F & T & T & T & T \\ \hline
+F & F & T & T & T & F & F \\ \hline
+F & T & F & T & F & T & F \\ \hline
+F & T & T & T & T & F & F \\ \hline
+T & F & F & F & T & T & F \\ \hline
+T & F & T & F & T & T & F \\ \hline
+T & T & F & T & F & T & F \\ \hline
+T & T & T & T & T & T & T \\ \hline
+\end{tabular}
+\end{table}
+\newpage
+\subsection*{Problem 2}
+\textbf{a)}
+\begin{table}[!h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+P & Q & (P $\implies$ Q) & ($\lnot$ P $\land$ $\lnot$ Q) $\lor$ ($\lnot$ P $\land$ Q) $\lor$ (P $\land$ Q) \\ \hline
+F & F & T & T \\ \hline
+F & T & T & T \\ \hline
+T & F & F & F \\ \hline
+T & T & T & T \\ \hline
+\end{tabular}
+\end{table} \\
+\textbf{b)}
+\begin{table}[!h]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+P & Q & (P $\implies$ Q) & $\lnot$ (P $\implies$ Q) & (P $\land$ $\lnot$ Q) \\ \hline
+F & F & T & F & F \\ \hline
+F & T & T & F & F \\ \hline
+T & F & F & T & T \\ \hline
+T & T & T & F & F \\ \hline
+\end{tabular}
+\end{table}
+\newpage
+\subsection*{Problem 3}
+\begin{proof}
+Base case $n = 2$
+\[ \lnot(P_1 \land P_2) = (\lnot P_1) \lor (\lnot P_2) \]
+Works through demorgans law\\
+Assume case $n = k$
+\[ \lnot(P_1 \land P_2 \land ... \land P_k) = (\lnot P_1) \lor (\lnot P_2) \lor ... \lor (\lnot P_k) \]
+Inductive step $n = k + 1$
+\begin{align*}
+\lnot(P_1 \land P_2 \land ... \land P_{k+1}) &= \lnot(P_1 \land P_2 \land ... \land P_k \land P_{k+1})\\
+&= \lnot((P_1 \land P_2 \land ... \land P_k) \land (P_{k+1})) \\
+&= \lnot(P_1 \land P_2 \land ... \land P_k) \lor \lnot (P_{k+1}) \\
+&= ((\lnot P_1) \lor (\lnot P_2) \lor ... \lor (\lnot P_k)) \lor (\lnot P_{k+1}) \\
+&= (\lnot P_1) \lor (\lnot P_2) \lor ... \lor (\lnot P_k) \lor (\lnot P_{k+1}) \\
+\end{align*}
+\end{proof}
+\subsection*{Problem 4}
+\textbf{a) } $(3|1) \lor (3|2) \lor (3|3) \lor (3|4) \lor  ...$ \\
+\textbf{b) } $\forall n \in \N (2|n) \iff \lnot(2|n+1)$ \\
+\textbf{c) } $\forall n \in \N, \exists m \in \N$ $(m \geq n)$
+\subsection*{Problem 5}
+\textbf{a)}
+\begin{align*}
+x \in A \cup (B \cup C) \\
+x \in A \text{ or } x \in (B \text{ or } C) \\
+x \in A \text{ or } x \in B \text{ or } x \in C \\
+x \in (A \text{ or } B) \text{ or } x \in C \\
+x \in (A \cup B) \cup C
+\end{align*}
+This process can go the other way. This then shows that $A \cup (B \cup C) \subset (A \cup B) \cup C$ and $(A \cup B) \cup C \subset A \cup (B \cup C)$ This means that $A \cup (B \cup C) = (A \cup B) \cup C$ \\\\
+\textbf{b)}
+\begin{align*}
+x \in A \cap (B \cap C) & \\
+x \in A \text{ and } x \in (B \text{ and } C) \\
+x \in A \text{ and } x \in B \text{ and } x \in C \\
+x \in (A \text{ and } B) \text{ and } x \in C \\
+x \in (A \cap B) \cap C
+x \in (A \cap B) \cap C
+\end{align*}
+Similar to the last question, this can be shown in the other direction easily. This then shows that $A \cap (B \cap C) \subset (A \cap B) \cap C$ and $(A \cap B) \cap C \subset A \cap (B \cap C)$ This means that $A \cap (B \cap C) = (A \cap B) \cap C$ \\\\
+\textbf{c)} $A \cap (B \cup C)$ This means that $x \in A$ and $x \in B$ or $C$. This means that $x \in A$ and $B$ or $x \in A$ and $C$. This means that $x \in (A \cap B) \cup (A \cap C)$ This means that $A \cap (B \cup C) \subset (A \cap B) \cup (A \cap C)$. We can also prove this the other way which would then show that $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$\\\\
+\textbf{d)} $A \cup (B \cap C)$ This means that $x \in A$ or $x \in B$ and $C$. This means that $x \in A$ or $B$ and $x \in A$ or $C$. This means that $x \in (A \cup B) \cap (A \cup C)$ This means that $A \cup (B \cap C) \subset (A \cup B) \cap (A \cup C)$. Prove this the other way would then show that $A \cup (B \cap C) = (A \cup B) \cup (A \cup C)$.\\\\
+\textbf{e) } $x \in A \cap (B / C)$ this means that $x \in A \cap B$ and $x \not\in A \cap C$ or vice versa. We can then rewrite this as $x \in (A \cap B) / (A \cap C)$
+\end{document}

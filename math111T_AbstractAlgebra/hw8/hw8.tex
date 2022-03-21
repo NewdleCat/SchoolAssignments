@@ -1,0 +1,107 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 8, May 28, 2021}
+\rhead{Nicholas Tee}
+
+\begin{document}
+worked with Brooke Zhang
+\subsection*{Problem 1}
+\textbf{a) } We can show that $x$ is irreducible. If we take $x = p(x)q(x)$ we know that $deg(p) = 1$ and $deg(q(x)) = 0$, or the other way around works as well. so we then have
+\[ p(x) = p_0 + p_1x \]
+\[ q(x) = q_0 \]
+then
+\[ x = p(x)q(x) = (p_0 + p_1x)q_0 = p_0q_0 + p_1q_0x\]
+so $p_0q_0 = 0$ and $p_1q_0 = 1$ which shows that it is irreducible, this would also mean that it is a prime ideal. \\\\
+\textbf{b) } Since it is a field, that also means that $\F_3$ is an integral domain. This means that we can assume that (0) is a prime ideal of $\F_3$. We know that it is not a maximal ideal since there are other ideals that are larger such as (x).\\\\
+\textbf{c) } \\\\
+\textbf{d) } If we reduce $(x^2 + 2)$ we will get the factors $(x+1)$ and $(x+2)$. We can show that there are not prime. If we assume that $(x+1) \in (x^2 + 2)$, then it would mean that $(x+1) = (x^2 + 2)f(x)$ for some $f(x) \in \F_3$. However, since $deg((x^2 + 2)) = 2$ and $deg((x+1)) = 1$ it is impossible for that statement to be true. Which means that $(x^2 + 2)$ is not a prime ideal, which will also mean that it is not a maximal ideal.\\\\
+\textbf{e) }  ideal.\\\\
+\subsection*{Problem 2}
+\textbf{a) } Given the map $f: \Z[x] \rightarrow \Z$ \\
+we first need to show that $(x) \subseteq ker(f)$. Take $p(x) \in (x)$ so $p(x) = x(b_nx^n+...+b_1x+b_0) = b_nx^{n+1}+...+b_1x^2+b_0x + 0$. so $f(p(x)) = 0 \rightarrow p(x) \in ker(f)$. To show the other direction, take $p(x) \in ker(f)$, if $p(x) = xq(x) + r(x)$ then $r(x) = 0$ or $deg(r) < deg(x) = 1$ so $p(x) = xq(x)$ and $0 = f(p(x)) = f(xq(x))$ 
+Then we can say that $ker(f) = (x)$ and the $im(f) = \Z$. Through the first isomorphism theory, we then say that 
+\[ \Z[x]/(x)  = \Z[x]/ker(f) = im(f) = \Z \]
+Since $im(f) = \Z$ and $\Z$ is an integral domain, we can say that $(x)$ is a prime. \\\\
+
+\textbf{b) } Given the map $f: \Z[x] \rightarrow \F_2$ \\
+we first need to show that $(2) \subseteq ker(f)$. Take $p(x) \in (2)$ so $p(x) = 2(b_nx^n+...+b_1x+b_0) = 2b_nx^n+...+2b_1x^2+2b_0x + 0$. so $f(p(x)) = 0 \rightarrow p(x) \in ker(f)$.\\
+Then we can say that $ker(f) = (2)$ and the $im(f) = \F_2$. Through the first isomorphism theory, we then say that 
+\[ \Z[x]/(2)  = \Z[x]/ker(f) = im(f) = \F_2 \]
+Since $im(f) = \F_2$ and $\F_2$ is a field, so we can say that is a maximal ideal and therefore a prime as well \\\\
+\textbf{c) } Given the map $f: \Z[x] \rightarrow \F_2$ we can say that $ker(f) = (2,x)$ and the $im(f) = \F_2$. Through the first isomorphism theory, we then say that 
+\[ \Z[x]/(2,x)  = \Z[x]/ker(f) = im(f) = \F_2 \]
+Since $im(f) = \F_2$ and $\F_2$ is a field, so we can say that is a maximal ideal and therefore a prime as well.\\\\
+\textbf{d) } \\\\
+\textbf{e) } Given the map $f: \Z[x] \rightarrow \Z[i]$ we can say that $ker(f) = (x^2+1)$ and the $im(f) = \Z[i]$. Through the first isomorphism theory, we then say that 
+\[ \Z[x]/(x^2+1)  = \Z[x]/ker(f) = im(f) = \Z[i] \]
+Since $im(f) = \Z[i]$ and $\Z[i]$ is an integral domain, we can say that it is a prime. \\\\\\
+
+I couldn't do a lot of the kernel proofs :(
+\newpage
+\subsection*{Problem 3}
+under $\F_7[x]$ we can factor $x^3-1$ as $(x-1)(x-2)(x-4)$ In order to show that each of the 3 factors are irreducible.\\\\
+We can show that $x-1$ is irreducible. If we take $x-1 = p(x)q(x)$ we know that $deg(p) = 1$ and $deg(q(x)) = 0$ so we then have
+\[ p(x) = a_0 + a_1x \]
+\[ q(x) = b_0 \]
+then
+\[ -1 + x = p(x)q(x) = (a_0 + a_1x)b_0 = a_0b_0 + a_1b_0x\]
+so $a_0b_0 = -1$ and $a_1b_0 = 1$. which shows that it is irreducible \\\\
+We can show that $x-2$ is irreducible. If we take $x-2 = p(x)q(x)$ we know that $deg(p) = 1$ and $deg(q(x)) = 0$ so we then have
+\[ p(x) = a_0 + a_1x \]
+\[ q(x) = b_0 \]
+then
+\[ -2 + x = p(x)q(x) = (a_0 + a_1x)b_0 = a_0b_0 + a_1b_0x\]
+so $a_0b_0 = -2$ and $a_1b_0 = 1$. which shows that it is irreducible \\\\
+We can show that $x-4$ is irreducible. If we take $x-4 = p(x)q(x)$ we know that $deg(p) = 1$ and $deg(q(x)) = 0$ so we then have
+\[ p(x) = a_0 + a_1x \]
+\[ q(x) = b_0 \]
+then
+\[ -4 + x = p(x)q(x) = (a_0 + a_1x)b_0 = a_0b_0 + a_1b_0x\]
+so $a_0b_0 = -4$ and $a_1b_0 = 1$. which shows that it is irreducible
+\newpage
+\subsection*{Problem A}
+all of the “counting numbers” (1, 2, 3, 4, 5, etc.) can be placed into one of two categories: prime or composite. Prime numbers have exactly two positive factors – one and themselves. Composite numbers have more than two positive factors. It differs quite a bit in the sense that you definitions are much more abstract and generalized in order to work with multiple different types of rings and ideals. Our usage of prime does use prime numbers in some cases, but also does not. The idea of the definition is somewhat similar, but the use cases are very different. In terms of irreducibility. It is similar in the sense that prime numbers and irreducible factors are very “limited”. However, it is also different and a little hard to compare since the definitions that we use in our class are very generalizes, and although can be applied to many things, it is a little difficult to compare it to just prime numbers.If I were to teach a 4th grade class, the best way to explain what a prime number is, is that “it is a number bigger than 1 that is only divisible by the number 1 and itself”. I would also explain that 1 is not a prime number since it is only divisible by 1 and itself is still 1. 
+
+\subsection*{Problem B}
+I did not answer this question the first time in HW1, so I will simply give my regular thoughts and answer the rest of the questions. I do not think that post-calculus topics such as abstract algebra would necessarily be helpful in the current curriculum of mathematics(assuming that calculus is a regular path for highschool students) as it is a very different branch of math. Although some things that might be useful or fun would be just a general understanding of groups. When I was in highschool I did a paper on group theory and card shuffling. Or perhaps for students in lower grades, you can teach a friendlier version of the dihedral groups when talking about shap symmetries and rotational symmetries. I don't necessarily think that it would be helpful for students to learn this in depth during highschool, but it might be useful to have them get a general understanding of some post-calculus topics. This may give them some extra tools and understanding when doing their current math, or to help them get a window into what higher math education is. The most helpful post-calculus math topic would most likely be probability/statistics. However, I am not sure if that is already taught in highschools(it was at least for me).
+
+
+
+\end{document}

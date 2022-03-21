@@ -1,0 +1,66 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 7, August 23, 2021}
+\rhead{Nicholas Tee}
+
+\begin{document}
+
+\subsection*{Problem 1}
+\begin{proof}
+Prove that $M = sup(E)$ iff $M$ is an upper bound and there exists an element $x \in E$ such that $M - \epsilon < x$. Assume that there exists no $x \in E$ such that $x > M - \epsilon$ which would mean that for all $x \in E$, $x \leq M - \epsilon$. This would then make $M - \epsilon$ and upper bound. This creates a contradiction as if $M - \epsilon$ was an upper bound then $M < M - \epsilon$ would have to be true. However, we know that it is impossible since $\epsilon > 0$\\
+\end{proof}
+\subsection*{Problem 2}
+\begin{proof}
+Assume that $U$ is open and that $h = 0$. Then for all $x \in U$ it will be that $(x, x) \subseteq U$. But if the range is $(x,x)$ then $x \not \in (x,x)$. In order for $x \in (a,b)$ it has to be so that $|b - a| \geq 2$. Which is why $h > 0$ so that when the intervals are $(x - h, x + h)$, There will at least be a large enough difference between the bounds so that $x \in (a,b)$ is true.
+\end{proof}
+\subsection*{Problem 3}
+\begin{proof}
+Assume that $u_1$ and $u_2$ are open subsets. And that $U = u_1 \cap u_2$. Prove that $U$ is also an open subset in $\R$. Saying that $U = u_1 \cap u_2$ means that for any $x \in U$, $x \in u_1$ and $x \in u_2$. Since both $u_1, u_2$ are open, it means that $x$ is never at the boundaries.\\
+Assume that $U$ is not open. Then that statement $U = u_1 \cap u_2$ implies that $x$ is on the bounds of either $u_1$ or $u_2$. But since we discussed earlier that $x$ has to be on the interior of the bounds, then this is a contradiction. Hence proving that the intersection of open subsets is open in $\R$\\
+\end{proof}
+\subsection*{Problem 4}
+Let us take some arbitrary open set with the intervals $(x - h, x + h)$ for all $h > 0$. To show a limit point, we need to find some point $y \in \Q$ such that $y \neq x$. We know that since $\Q$ is dense in $\R$ which means $(x - h, x + h)$ has an infinite number of rational numbers in between the bounds. Which means that the set of limit points of $\Q$ is $\R$
+\subsection*{Problem 5}
+\textbf{a)} Show that $A^0$ is an open set.
+\begin{proof}
+We can say that $x$ is an interior point such that $x \in (x-h,x+h) \subseteq A$. Let us take some interior point $p \in (x-h,x+h)$, this implies that $p$ is also an interior point of $A$. We can then say that $(x-h,x+h) \subseteq A^0$ and that $p \in A^0$. This then implies that $A^0$ is also an open set.\\\\
+Using the same argument as above. We can replace the open intervals with $U$ such that it is an open subset of $\R$. That will then show that if $U \subseteq A$ then $U \subseteq A^0$\\
+\end{proof}
+
+\end{document}

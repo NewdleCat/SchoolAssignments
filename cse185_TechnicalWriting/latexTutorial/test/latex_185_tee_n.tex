@@ -1,0 +1,295 @@
+
+\documentclass[12pt,journal,compsoc]{IEEEtran}
+
+% Copy package text here:
+
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Latex Tutorial}
+\author{My Name}
+
+\date{10/15/2021}
+
+\markboth{ My Name \LaTeX\ Tutorial}%
+{Moulds \MakeLowercase{\textit{et al.}}: CMPE185}
+
+\IEEEpubid{0000--0000/00\$00.00~\copyright~2007 IEEE}
+
+\IEEEcompsoctitleabstractindextext{%
+\begin{abstract}
+This paper is designed to introduce basic \LaTeX\ features to people. The paper goes over simple elements such as creating the .tex file, to learning how to use sections and subsections. The paper will also go over how to use multiple mathematical symbols and how to create tables or images.
+\end{abstract}
+
+\begin{IEEEkeywords}
+CMPE185, \LaTeX\ Tutorial, IEEEtran, journal, \LaTeX, paper, template.
+\end{IEEEkeywords}}
+
+\maketitle
+
+%----- The SECTION Environment -------------------------------------------------------------------
+
+% To create a section, simply type the command \section{} with the name of your section name inserted into the curly brackets {}. The section's body text follows underneath the \section{} command. 
+
+\section{Introduction}
+
+\IEEEPARstart{T}{his} tutorial will go over the basics of \LaTeX\ and should give beginners enough information about the system to create their own papers. It will go over the very basics of the system, such as creating a .tex file and how the \LaTeX\ syntax works. This tutorial will also cover several different features such as creating tables or using different packages to display mathematical equations or symbols. \\\\
+
+\LaTeX\ gives users extreme control over the formatting of their documents. The number of features that \LaTeX\ provides makes writing academic papers a lot simpler than using a regular word processing program such as google docs or microsoft word. For instance, creating math papers will be much easier in \LaTeX\ as once you learn the syntax, typing them down will be much easier than searching for the symbols on google docs.
+
+\newpage
+\section{Basics: Creating the .tex File}
+\subsection{Environments}
+The first thing in \LaTeX\ is understanding the purpose of environments. In order to create an environment you start by typing 
+\begin{verbatim} \begin{} \end{verbatim}
+You then end and environment by typing.
+\begin{verbatim} \end{} \end{verbatim}
+What you put inside the curly brackets is what type of environment you will be using. You can create custom environments or use ones from packages depending on your needs for the paper. However, in order to start anything in \LaTeX\ you need to use the "document" tag. So you would then start your .tex file by typing
+\begin{verbatim}
+	\begin{document}
+	\end{document}
+\end{verbatim}
+Once that is done, everything that you want to appear in the final PDF of your paper will be typed in between these two tags. Environments will be used a lot throughout this tutorial, so there will be plenty of examples that will show its usage, other than simply starting the document.
+\newpage
+\subsection{Reserved Characters}
+There are special characters within \LaTeX\ that are reserved for using the system's special features. For instance the $\backslash$ character is used to start commands or type out special characters within \LaTeX\ . The character $\sim$ is used for creating a space between characters or words. For example if we were to write down the symbols x and y we would get.
+\[xy\]
+In order to leave a space between them, you can not simply use a whitespace character to separate the two characters. This is where the $\sim$ comes in.
+\[x~y\]
+To see what this looks like, here is a simple comparison. This is the code snippet that created the two lines of math above.
+\begin{verbatim}
+	\[xy\]
+	\[x~y\]
+\end{verbatim}
+Another two crucial special characters are $\backslash \backslash$ and \%. $\backslash \backslash$ is used to create a line break. It is technically a macro for the command 
+\begin{verbatim}
+	\newline
+\end{verbatim}
+Where as the \% character is used to create comments in the \LaTeX\ code. This is especially helpful if you are working on a paper with several collaborators, this lets you leave notes for your partners on any section of the paper without flooding the output with random text. This also lets you comment out sections of the paper that you might want to remove without deleting all the code.\\\\
+These are not the only special characters in \LaTeX\ but more will be covered throughout the tutorial. If you wanted to use these characters in text, it is rather simple. For each special character, the only thing needed to be added is a backslash behind the reserved character. For instance,
+\begin{verbatim}
+ \%
+\end{verbatim}
+displays the \% character as such, within text. The only exception to this rule is the backslash. In order to display a backslash, one would need to go into math mode (Math mode will be explained later on) as such
+\begin{verbatim}
+ $\backslash$
+\end{verbatim}
+\subsection{Preamble}
+The preamble in a .tex file is everything that happens before \texttt{$\backslash$begin\{document\}}.
+\subsubsection{Document Class}
+At the very top of the document, before you type anything else you have to specify what document class you want your paper to be in. This can be done by typing the following line at the top.
+\begin{verbatim}
+	\documentclass[options]{class}
+\end{verbatim}
+Within the \texttt{class} tag, this is where you specify the layout your paper will come out with. Some of these tags include \texttt{article}, \texttt{report}, or in the case of this tutorial \texttt{IEEEtran}. The options section, this is where you specify things such as font size, size of the paper, or the layout of your text. For example, a document with 12pt font size and the IEEE format will look like this
+\begin{verbatim}
+ \documentclass[12pt]{IEEEtran}
+\end{verbatim}
+\subsubsection{Packages}
+Packages allow for users to add more functionality or features to the system. For those familiar with programming, it is essentially the same thing as importing packages or libraries to your code. This is done by typing
+\begin{verbatim}
+	\usepackage{package_name}.
+\end{verbatim}
+Some examples of packages are \texttt{amsmath} which helps users create matrices within the paper or the \texttt{graphicx} package which gives users more options when adding images. The usage of packages differs depending on the purpose of the paper, but there are plenty of resources online to help look for the right packages for you.
+\newpage
+\subsubsection{Title and Heading}
+When creating the title for you paper, \LaTeX\ has special commands that assist in the process. The format of your title would depend on your specified document class. In order to set the title, author and date you simply have to use the commands \texttt{title}, \texttt{author} and \texttt{date} respectively. As an example, when creating this tutorial I used these three lines.
+\begin{verbatim}
+	\title{Latex Tutorial}
+	\author{My Name}
+	\date{10/15/2021}
+\end{verbatim}
+There are other options when creating a title, but these three are the core commands that you need. Once these are completed the only thing need to be done is to write the commands
+\begin{verbatim}
+	\maketitle
+\end{verbatim}
+and you title will be rendered at the beginning of the paper.
+\section{Sections}
+When creating a paper, you are most likely going to need to have sections to help divide information. In order to create a section you use the command.
+\begin{verbatim}
+	\section{section_name}
+\end{verbatim}
+You can also create subsections and additional subsections for said subsections. as such
+\newpage
+\subsection{This is a subsection}
+Code for this looks like this.
+\begin{verbatim}
+	\subsection{This is a subsection}
+\end{verbatim}
+\subsubsection{Subsubsection}
+The code for this looks like.
+\begin{verbatim}
+	\subsubsection{Subsubsection}
+\end{verbatim}
+These sections and subsections are all automatically numbered by \LaTeX\. For instance if I were to create another subsection, its number would be incremented automatically.
+\subsection{Another one}
+If you want to remove the automatic numbers for any reason you simply have to add an asterisk before the curly brackets as such
+\begin{verbatim}
+	\section*{name}
+	\subsection*{name}
+	\subsubsection*{name}
+\end{verbatim}
+\section{Body Text}
+When creating regular text in \LaTeX\ it is as simply as typing in a word document. However, there are several commands to keep in mind to edit your text. For instance if you wanted to bold or italicize your text, you can use the commands \texttt{textbf} or \texttt{textit} respectively. If you want to have your text in courier font to show a code snippet you can use the command \texttt{ texttt }. You can also align text by creating an environment and using tags such as \texttt{center} or \texttt{flushleft}. 
+\par
+When creating a new paragraph, you can use the double backslash $\backslash \backslash$ or use the command \texttt{par}. You can also edit the length of your indentations for a paragraph by typing
+\begin{verbatim}
+	\setlength{\parindent}{10ex}
+\end{verbatim}
+The 10ex tag in the command refers to the number of "x" characters your paragraph will be indented by.
+\newpage
+\section{Tables}
+When creating a table, you need two different environments, the \texttt{table} and \texttt{tabular}. In order to create a table you need to enclose the contents of the table with these two tags. An example of a small table in \LaTeX\ might look like this
+\begin{verbatim}
+\begin{table}[]
+\begin{tabular}{ll}
+A & B \\
+C & D
+\end{tabular}
+\end{table}
+\end{verbatim}
+This code generates a table that looks like this
+\begin{table}[!h]
+\begin{tabular}{ll}
+A & B \\
+C & D
+\end{tabular}
+\end{table}\\
+The two \texttt{l}'s next to the \texttt{tabular} tag indicate how many columns there are and how they are aligned. You can also use the characters \texttt{c} and \texttt{r} to align the columns either center or right. The number of characters will signify the number of columns there are.\\\\
+ You can also see the $\backslash \backslash$ at the end of the first row of the table. This signifies that you are the end of the row and want to go down to the next one. In order to create borders around your table, the command \texttt{hline} can be used to create a horizontal line. For vertical lines, the \texttt{|} character can be added between the \texttt{tabular} tags to signify which columns gets border. For example, if we wanted to add borders to the entire table we would change up our original code to look like this instead.
+\begin{verbatim}
+\begin{table}[]
+\begin{tabular}{|l|l|}
+\hline
+A & B \\ \hline
+C & D \\ \hline
+\end{tabular}
+\end{table}
+\end{verbatim}
+\newpage
+This will then generate a table that looks like
+\begin{table}[!h]
+\begin{tabular}{|l|l|}
+\hline
+A & B \\ \hline
+C & D \\ \hline
+\end{tabular}
+\end{table}
+\section{Figures}
+In order to add images, you first need to include the package \texttt{graphicx} by using the \texttt{usepackage} command. Once it has been added, you must create a \texttt{figure} environment and use the command \texttt{includegraphics} as such
+\begin{verbatim}
+\begin{figure}[tags]
+  \includegraphics[tags]{image_filename}
+  \caption{caption}
+  \label{label}
+\end{figure}
+\end{verbatim}
+Make sure that the image file is in the same directory as the .tex file. As an example, let us take this code snippet. Within these environments, you can also use the commands \texttt{caption}, to add a caption to the image and \texttt{label} in order to reference the image in text later on using the \texttt{ref} command.
+\begin{verbatim}
+\begin{figure}[!h]
+  \includegraphics[scale=0.2]{slug.pdf}
+  \caption{Our pride and joy.}
+  \label{fig:slugman}
+\end{figure}
+\end{verbatim}
+This generates the image.
+\begin{figure}[!h]
+  \includegraphics[scale=0.2]{slug.pdf}
+  \caption{Our pride and joy.}
+  \label{fig:slugman}
+\end{figure}
+\newpage
+You can see that in the code snippet that both the \texttt{figure} and \texttt{includegraphics} environments have tags that can be added.
+\subsection{Figure Environment}
+These are the tags available\\\\
+\texttt{h}: place the image here, wherever the code you wrote would be rendered in text\\
+\texttt{t}: place the image at the top\\
+\texttt{b}: place the image at the bottom\\
+\texttt{p}: place the image on the page.
+There are more tags but these are the main ones that need to be known
+\subsection{Includegraphics environment}
+You can edit the image by using several tags, here are a few essential ones\\
+\texttt{width=x}: in order to change the width of the image, \texttt{x} can be replaced with a number or you may also use the \texttt{linewidth} command to automatically fit the image within your margins.\\\\
+\texttt{scale=x}: This changes the overall scale of the image on the final PDF.
+\subsection{Titration Plot}
+
+\begin{figure}[!h]
+  \includegraphics[scale=0.6]{image.png}
+  \caption{A Titration Plot}
+  \label{fig:slugman}
+\end{figure}
+\newpage
+\section{Mathematical Formulas}
+When writing math in \LaTeX\ there are two ways to get into "math mode". You can use two \$ to indicate and inline math equation. or you can use $\backslash [ \backslash ]$ to indicate a display on a new line. For example the code snippets at the bottom will show the differences between the two.
+\begin{verbatim}
+The equation is $y = mx + c$
+\end{verbatim}
+The equation is $y = mx + c$\\\\
+This is an example of the inline math mode, if we use the display mode as such
+\begin{verbatim}
+The equation is 
+\[ y = mx + c \]
+\end{verbatim}
+The equation is 
+\[ y = mx + c \]
+\newpage
+There are many different symbols available for use when in math mode. For instance, the entire greek alphabet is available for use. Other common symbols such as $\pi$ or $\infty$ can also be created by using the commands \texttt{pi} or \texttt{infty} in math mode respectively. There are plenty of resources online that list out all the difference symbols that can be created in \LaTeX\ .
+\par
+In order to do fractions you can use the following example
+\begin{verbatim}
+\frac{a}{b}
+\end{verbatim}
+Which then displays $\frac{a}{b}$.\\
+Superscripting and Subscripting is also very simple in \LaTeX\ is also very simple. However, instead of using a command you use some of the reserved symbols. In order to superscript something you use the \texttt{\^} character. For instance if we typed 
+\begin{verbatim}
+	$x^n$
+\end{verbatim}
+we would get $x^n$. If you with to have multiple characters in the superscript you need to add curly brackets as such
+\begin{verbatim}
+ $x^{abc}$
+\end{verbatim}
+This would then be rendered as $x^{abc}$. The same logic applied when subscripting anything. Instead you use the \texttt{\_} character to signify and subscript. Here is a short example
+\begin{verbatim}
+ $x_{abc}$
+\end{verbatim}
+which would then display $x_{abc}$.
+\section{How To: Acknowledgements}
+Using all the tools that were explained earlier in this paper. You can now format your Acknowledgements section however you wish. This is the section where you give recognition to the people who may have assisted in the paper in any way or form.
+\newpage
+\section{How To: References}
+In order to add a reference, you need to use the \texttt{thebilbliography} environment. Once created, you can create the citation by using the \texttt{bibitem} command. An example of this can be seen here.
+\begin{verbatim}
+\begin{thebibliography}{1}
+\bibitem{ref1}
+	Citation goes here
+\end{thebibliography}
+\end{verbatim}
+From here you can use the label you gave in the \texttt{bibitem} commands to create in text citations by using the \texttt{ref} command.
+\section{Conclusion}
+In conclusion, I think that \LaTeX\ is a good way to create academic papers as it gives users a lot of power with how they want their paper formatted. The number of features that the system provides makes it quite convenient, whether its creating math equations or creating references and in-text citations, \LaTeX\ makes it easy to do all of this.
+
+
+%----- ACKNOWLEDGEMENT SECTION -------------------------------------------------------------------
+% Explain what the asterisk * does in the next line: 
+\section*{Acknowledgements}
+I would like to thank my Math 100 professor who first introduced me to LaTeX. I now use this program for almost all of my math assignments and am much better at this compared to writing it down.
+
+
+%----- BIBLIOGRAPHY ------------------------------------------------------------------------------
+
+% You will need to explain how to include the bibliography section as follows. Explain the environment and how to add new items.
+% Including how \ref, \cite and \label should be included here.
+
+% Reminder: you will need to explain how to include the Bibliography Section and then include your own Bibliography at the end of your own tutorial.
+
+\begin{thebibliography}{1}
+
+\bibitem{IEEEhowto:kopka}
+H.~Kopka and P.~W. Daly, \emph{A Guide to {\LaTeX}}, 3rd~ed.\hskip 1em plus
+  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+
+\end{thebibliography}
+
+
+\end{document}

@@ -1,0 +1,173 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 1, April 9, 2021}
+\rhead{Nicholas Tee}
+
+\begin{document}
+
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+
+
+\subsection*{Problem 1}
+$X = \{ f:\R \rightarrow	\R \}$\\\\
+\textbf{i)} $(X,+)$ Is a group. \\
+\textit{Closure:} take two functions $f,g \in X$. Since $f$ and $g$ are real functions, which means that $f+g \in X$ \\
+\textit{Associativity:} pointwise addition is associative since $x,y,z \in X$ we have $(x+y)+z = x+(y+z)$\\
+\textit{Identity:} pointwise addition has the identity element of the constant function $f(x) = 0$\\
+\textit{Inverses:} For every $f \in X$ there is an inverse element of $-f$\\
+\\
+\textbf{ii)} $(X, \cdot )$ is a group if you exclude the constant function $f(x) = 0$ since that does not have an inverse.\\
+\textit{Closure:} take two functions $f,g \in X$. Since $f$ and $g$ are real functions, which means that $f \cdot g \in X$ \\
+\textit{Associativity:} pointwise multiplication is associative since $x,y,z \in X$ we have $(x \cdot y) \cdot z = x\cdot (y \cdot z)$\\
+\textit{Identity:} pointwise multiplication has the identity element of the constant function $f(x) = 1$\\
+\textit{Inverses:} For every $f \in X$ there is an inverse element of $\frac{1}{f}$\\
+\\
+\textbf{iii)} $(X, \circ )$ is not a group. This is because the operation is not associative. if you have 2 functions $f,g \in X$ then $f \circ g \neq g \circ f$ Which means that it can not be a group.\\
+\newpage
+\subsection*{Problem 2}
+
+\begin{proof}
+Remember the set $S$ from the lecture:\\
+\[
+	S = \{ a \in \N | a=qb+r \text{ for some } q,r \in \Z , 0 \leq r < b \}
+\]
+Since we have proved that the division algorithm holds for all $a > 0$, all we need to do is show that it holds for $-a$. So, what we want to find is\\
+\[
+	-a = q'b + r'
+\]
+\textbf{base case:} a = 0\\
+this is true for all b if $q=0,r=0$, we get:\\
+\[
+	0 = 0 \cdot b + 0
+\]
+assume that $a = qb+r$ this means that, and take $q'=-q$ and $r'=-r$\\
+\[
+	-a = -qb-r
+\]\[
+	-a = q'b+r'
+\]
+This shows that $-a \in S$
+\end{proof}
+
+\subsection*{Problem 3}
+\textbf{a)} Invalid \\
+\textbf{b)} Invalid \\
+\textbf{c)} Invalid \\
+\textbf{d)} Valid \\
+\textbf{e)} Invalid \\
+\textbf{f)} Valid \\
+\textbf{g)} Valid \\
+\textbf{h)} Valid \\
+\newpage
+\subsection*{Problem 4}
+According to the lectures, I will use Axiom \textbf{(8)} which states that For all $x,y,z \in \Z$, if $x < y$ and $z>0$, then $xz < yz$.\\\\
+\textbf{Case 1:} $a>0$ and $b>0$\\
+if we take $a>0$ and multiply $b$ then we get $ab>0$, which means that $ab \neq 0$\\\\
+\textbf{Case 2:} $(a>0 \text{ and } b<0)$ or $(a<0 \text{ and } b>0)$\\
+if we multiply $a>0$ and b together, we will end up with $ab<0$ which means that $ab \neq 0$\\\\
+\textbf{Case 3:} $a<0$ and $b<0$\\
+If we multiply $a<0$ and $b$ then we will get $ab>0$ which means that $ab \neq 0$.\\\\
+this means it has to be the case that either a or b is 0
+\subsection*{Problem 5}
+Assume that $a = -1$ and $b=1$ this means that $ab =-1$ which means that $ab \neq 1$. This is also true if the values of a and b are swapped.\\
+This shows that it has to be the case that $a=b=1$ or $a=b=-1$. and we know that if that is the case $ab=1$ through axiom \textbf{(8)}
+\subsection*{Problem 6}
+$S = \{ n | n \neq 0, n \in \Z \}$ This set satisfies Closure and Inverses but does not cover identity since we have removed 0 from the set of integers.\\
+$S = \{ n | n \geq 0, n \in \Z \}$ This set satisfies Closure and the Identity element, but by removing the negative integers we have removed all the inverses for all elements.
+\subsection*{Problem 7}
+\textbf{i)} In order for $H$ to be a subgroup of $G$ it needs to have elements within it to satisfy the 3 axioms. For example, $H$ can not have an identity element if it has no elements, thus it needs to be non-empty.\\\\
+\textbf{ii)} Assuming that the set $H$ satisfies the Inverses axiom, then that means each element will have its inverse counterpart. Which means that according to axiom of closure that if $a,b \in G$ then $a \cdot b \in G$ which means that $a \cdot b^{-1} \in G$ must also be true. 
+\newpage
+\subsection*{Problem 8}
+We can show this by proof by contradiction. Assume some $x \in \bigcap\limits_{i=0}^{\infty} m_i \Z$\\
+Suppose that $x \neq 0$. This means that $x = m_i \cdot y$ for some $y \in \Z$. This means that $m_i | x$ for all $i$. This is contradiction as we know that all non-zero integers have a finite number of possible divisors. However, this is stating that there is an infinite number of divisors. Which means that it must be true that:
+\[
+	\bigcap\limits_{i=0}^{\infty} m_i \Z = \{ 0 \}
+\]
+\subsection*{Problem 9}
+Assume that $A \nsubseteq B$ or $B \nsubseteq A$ and that $A \cup B$ is a subgroup of $\Z$\\
+This means that there is some element $a \in A$ and $a \not\in B$, likewise $b \in B$ and $b \not\in A$.\\
+However, since $A \cup B$ is a group then we can say that $ab \in A \cup B$. which means that either $ab \in A$ or $ab \in B$.\\
+If $ab \in A$ then that means is must be true that $b \in A$ which is a contradiction.\\
+This proves that $A \subseteq B$ or $B \subseteq A$ in order for $A \cup B$ to be a subgroup of $\Z$
+\subsection*{Problem 10}
+\textbf{a)} $16\Z \cap 12\Z = 48\Z$ \\
+\textbf{b)} $5Z + 7Z = \Z$ \\
+\textbf{c)} $3\Z + (-3)\Z = 3\Z$ \\
+\textbf{d)} $12\Z \cap (3\Z + 9\Z) = 12\Z$\\
+\textbf{e)} $5\Z + (10\Z \cap 55\Z) = 5\Z$
+\subsection*{Problem 11}
+In order to prove that if $H$ and $K$ are subgroups of $G$, then $H \cap K$ is also a subgroup of $G$, we can refer to the three axioms.\\
+\textbf{i)} Assume some identity element $e$. if $e \in H$ and $e \in K$ then we should also have $e \in H \cap K$ \\
+\textbf{ii)} Let $x \in H \cap K$. This would mean that $x^{-1} \in H$ and $x^{-1} \in K$. Since both $H$ and $K$ are subgroups then we can say that $g^{-1} \in H \cap K$. \\
+\textbf{iii)} let $x,y \in H \cap K$. This means that $x \cdot y \in H$ and $x \cdot y \in K$. Which then means that $x \cdot y \in H \cap K$\\
+This shows that if $H$ and $K$ are subgroups of $G$, then $H \cap K$ is also a subgroup of $G$.
+\newpage
+\subsection*{Problem 12}
+Let $n,m \in \Z$. There will be some integers $x$ and $y$ such that $nx + my = 1$.\\
+$d =$ gcd$(n,m)$. This means that $d|a$ and $d|b$. We can then say that $d|(nx + my)$\\
+We can then turn this to $d|1$ since $nx + my = 1$. This means that the gcd is 1. \\
+In order to show that $n$ and $m^2$ are relatively prime we can change the equation as such:
+\[
+	nx + m^2y = 1
+\]
+Since $n,m \in \Z$ we can alter the equation.
+\[
+	nx + m \cdot (m \cdot y) = 1
+\]
+set $m \cdot y = z$
+\[
+	nx + mz = 1
+\]
+With this we can still do the same proof and it would show that if $n$ and $m$ are relatively prime then $n$ and $m^2$ are also relatively prime.
+
+
+
+
+
+
+
+
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+
+\end{document}
