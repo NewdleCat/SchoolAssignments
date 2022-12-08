@@ -1,0 +1,155 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 1, October 9, 2022}
+\rhead{}
+
+\begin{document}
+
+\subsection*{Problem 1}
+\begin{proof}
+First we can recall the definitions of both $O(g(n))$ and $\Omega(g(n))$
+\[ O(g(n)) \in \{ f(n)|\exists c>0, \exists n_0>0, \forall n \geq n_0: 0 \leq f(n) \leq cg(n) \} \]
+\[ \Omega (g(n)) \in \{ f(n)|\exists c>0, \exists n_0>0, \forall n \geq n_0: 0 \leq cg(n) \leq f(n) \} \]
+Now if we look at the intersection of both sets, i.e $O(g(n)) \cap \Omega(g(n))$, $O(g(n))$ is the set such that all $f(n) \leq cg(n)$ and the set $\Omega(g(n))$ is the set such that all $cg(n) \leq f(n)$. Thus the intersection of both sets will be where $c_1g(n) \leq f(n) \leq c_2g(n)$. We can then formally define the set as 
+\[ \Theta(g(n)) \in O(g(n)) \cap \Omega(g(n)) = \{ f(n)|\exists c>0, \exists n_0>0, \forall n \geq n_0: 0 \leq cg(n) \leq f(n) \} \]
+Thus we have shown that both definitions are equivalent.
+\end{proof}
+\subsection*{Problem 2}
+Since the log base is just a constant, I will just have them in base $e$ to make my life easier.
+\textbf{a)} 
+\begin{align*}
+\lim_{n \rightarrow \infty} \dfrac{2^n}{(n lg(n))^2} &= \lim_{n \rightarrow \infty} \dfrac{ln(2) \cdot 2^n}{2n \cdot lg(n)(lg(n) + 1)}\\
+&= \lim_{n \rightarrow \infty} \dfrac{2^n}{2lg(n)+6lg(n)+2}\\
+&= \lim_{n \rightarrow \infty} \dfrac{n \cdot 2^n}{4lg(n)+6}\\
+&= \lim_{n \rightarrow \infty} n(n+1)2^n = \infty
+\end{align*}
+Thus $f(n) = \omega(g(n))$\\\\
+\textbf{b)}
+\begin{align*}
+\lim_{n \rightarrow \infty} \dfrac{\sqrt{n}}{lg(n)} &= \lim_{n \rightarrow \infty} \dfrac{\dfrac{1}{2}n^{-\dfrac{1}{2}}}{\dfrac{1}{n}}\\
+&= \lim_{n \rightarrow \infty} \dfrac{1}{2}n^{\dfrac{1}{2}} = \infty
+\end{align*}
+$f(n) = \omega(g(n))$\\\\
+\newpage
+\textbf{c)}
+\begin{align*}
+\lim_{n \rightarrow \infty} \dfrac{lg(n)^{lg(n)}}{n^3} &= \left(  \lim_{n \rightarrow \infty} \dfrac{lg(n)}{n^3} \right)^{lg(n)}\\
+&= \lim_{n \rightarrow \infty} \left( \dfrac{\dfrac{1}{n}}{3n^2} \right)^{lg(n)} = 0
+\end{align*}
+$f(n) = o(g(n))$\\\\
+\textbf{d)}
+$f(n) = o(g(n))$ because $3^{2^n}$ grows at a lower rate than $2^{3^n}$\\\\
+\textbf{e)}
+\begin{align*}
+\lim_{n \rightarrow \infty} \dfrac{n!}{(n+1)!} &= \lim_{n \rightarrow \infty} \dfrac{n!}{n!(n+1)}\\
+&= \lim_{n \rightarrow \infty} \dfrac{1}{n+1} = \infty
+\end{align*}
+$f(n) = o(g(n))$\\\\
+\textbf{f)}
+\begin{align*}
+test
+\end{align*}
+\subsection*{Problem 3}
+\begin{proof}
+\textbf{a)} If $f(n) \in O(g(n))$, this implies that there exists some constant $c$ such that $c \in \N$ and $c > 1$, so that $f(n) \leq cg(n)$. From here we have it such that
+\begin{align*}
+f(n) \leq cg(n) &\rightarrow lg(f(n)) \leq lg(cg(n))\\
+&= lg(f(n)) \leq lg(c) + lg(g(n))\\
+&\text{since $lg(g(n)) \geq 1$ we can do the following}\\
+&= lg(f(n)) \leq lg(c) \cdot lg(g(n)) + lg(g(n))\\
+&= lg(f(n)) \leq (lg(c) + 1)lg(g(n))\\
+&= lg(f(n)) \leq O(lg(g(n)))
+\end{align*}
+Thus proven that $f(n) \in O(g(n))$ implies that $lg(f(n)) \in lg(O(g(n))$\\
+\end{proof}
+\begin{proof}
+\textbf{b)} $f(n) = O(g(n))$ does not imply that $2^{f(n)} \in O(2^{g(n)})$ This can be proven by counter example. Assume that $f(n) = 2n$ and let $g(n) = n$. We can see that $2n \in O(n)$ since
+\[ \lim_{n \rightarrow \infty} \dfrac{2n}{n} = 2 \]
+However, if we take the limit as such
+\[ \lim_{n \rightarrow \infty} \dfrac{2^{2n}}{2^n} = \lim_{n \rightarrow \infty} 2^n = \infty\]
+Which means that $2^{f(n) }  \not \in O(2^{g(n)})$\\
+\end{proof}
+\subsection*{Problem 4}
+\begin{proof}
+Let $Q(N)$ be some with degree $k$ such that $k \in \N$ and $k >0$. We can say that
+\[ Q(N) = c_1x^{k} + c_2x^{k-1} + ... + c_n \]
+where $c_1, c_2,..., c_n$ are coefficients. Similarly, we can say that $P(N)$ is another polynomial with degree $n$ such that $n \in \N$ and $0<n\leq k$, we can represent $P(N)$ as such
+\[ P(N) = d_1x^{n} + d_2x^{n -1} + ... + d_n \]
+where $d_1, d_2, ..., d_n$ are a different set of coefficients. We can then take the limit of $\dfrac{P(n)}{Q(n)}$ as such
+\[ \lim_{n \rightarrow \infty} \dfrac{P(n)}{Q(n)} = \lim_{n \rightarrow \infty} \dfrac{c_1x^{k} + c_2x^{k-1} + ... + c_n}{d_1x^{n} + d_2x^{n -1} + ... + d_n} \]
+If we take this limit, we know that both $P(n)$ and $Q(n)$ go to $\infty$. So we can use L'hoptials rule and derive both functions. Since, its a polynomial, the functions will keep deriving, until the coefficient of the highest degree term will be left (i.e $c_1$ or $d_1$).\\
+In case that $n < k$, then the limit will be reduce to the following
+\[ \lim_{n \rightarrow \infty} \dfrac{0}{d_1} = 0 \]
+In the second case where $k = n$, then the limit will be reduced as such
+\[ \lim_{n \rightarrow \infty} \dfrac{c_1}{d_1} \]
+If $ \lim_{n \rightarrow \infty} \dfrac{P(n)}{Q(n)} = L$. Then we can say that $0\leq L < \infty$. So $P(n) \in O(Q(n))$\\
+\end{proof}
+\newpage
+\subsection*{Problem 5}
+\textbf{Case 1: a = 1} If $a = 1$ then the expression $f(n)= \Sigma^{n}_{i=1}a^i = n$. Since 1 to the power of anything will simply become 1, so the expression becomes a summation of 1, n n number of times. With this, we can say that $g(n) = n$, we then have 
+\[ \lim_{n \rightarrow \infty}\dfrac{f(n)}{g(n)} = \lim_{n \rightarrow \infty} \dfrac{n}{n} =\lim_{n \rightarrow \infty} 1 = 1\]
+With this we can say that if a = 1, then $f(n) \in \Theta (n)$\\\\
+\textbf{Case 2: a > 1} The closed form for the summation above is essentially just the geometric series
+\[ \Sigma^{n}_{i=1} a^i = \dfrac{a^{n+1} - 1}{a - 1} = \dfrac{a \cdot a^n - 1}{a - 1} = \dfrac{a^{n+1}}{a-1} - \dfrac{1}{a-1} \]
+We know that $\forall n ,\Sigma^{n}_{i=1} a^i < \dfrac{a^{n+1}}{a-1}$ and $\Sigma^{n}_{i=1} a^i > a^n$, so
+\begin{align*}
+c^n &< \dfrac{a^{n+1}}{a-1} - \dfrac{1}{a-1} \\
+\dfrac{1}{a-1} &< \left( \dfrac{a}{a-1} -1 \right)a^n \\
+1 &< a^n\\
+0 &< n
+\end{align*}
+So $f(n) \in \Theta(a^n)$
+\\\\
+\textbf{Case 3: 0 < a < 1}
+In this case, we know that $0 < \Sigma^{n}_{i=1} a^i < 1$, so we can say that $f(n) \in \Theta(1)$
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

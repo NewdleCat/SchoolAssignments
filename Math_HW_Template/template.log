@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.14)  4 APR 2021 19:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.14)  26 APR 2022 15:30
 entering extended mode
 **./template.tex
 (template.tex
@@ -256,7 +256,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (template.aux) ) 
 Here is how much of TeX's memory you used:
  4042 strings out of 479697
- 56374 string characters out of 2867608
+ 56464 string characters out of 2867608
  351083 words of memory out of 3000000
  21111 multiletter control sequences out of 15000+200000
  405733 words of font info for 30 fonts, out of 3000000 for 9000

@@ -1,0 +1,147 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Math Assignment 2, October 26, 2022}
+\rhead{}
+
+\begin{document}
+
+\subsection*{Problem 1}
+Using the limit definitions of little o. We know that if $h(n) = o(f(n))$ then $\lim_{n \rightarrow \infty} \dfrac{h(n)}{f(n)} = 0$. We can then show that $f(n) + h(n) = \Theta(f(n))$ as such:
+\begin{align*}
+\lim_{n \rightarrow \infty}\dfrac{f(n) + h(n)}{f(n)} &= \lim_{n \rightarrow \infty}\dfrac{f(n)}{f(n)} + \lim_{n \rightarrow \infty}\dfrac{h(n)}{f(n)}\\
+&= \lim_{n \rightarrow \infty} 1 + \lim_{n \rightarrow \infty} 0\\
+&= 1 + 0 = 1
+\end{align*}
+We have then shown that 
+\[ 0 < \lim_{n \rightarrow \infty}\dfrac{f(n) + h(n)}{f(n)} < \infty \]
+So we know that $f(n) + h(n) = \Theta(f(n))$
+
+
+
+\subsection*{Problem 2}
+\textbf{a)}\\
+\textbf{Loop Invariant:} At the start of each iteration of the outer loop for some value $j$. The first $j$ elements of the array are sorted, and all the original values are still in the array.\\\\
+\textbf{Initialization:} During the very first iteration of the outer loop(i.e j = 1), The very first elements of the array A[1] will be sorted, all the original values are still in the array.\\\\
+\textbf{Maintenance:} When the $j^{th}$ iteration starts, the previous $j-1$ iterations have the elements from A[1] to A[j-1] already sorted since during this iteration we are placing the current largest value into the A[j-1] position in the array. All original values are still in the array\\\\\textbf{Termination:} When $j=n$ the loop will terminate. Assuming the "maintenance" step is true, then all the values from A[1] to A[n-1] are sorted an the last element of the array A[n] should be the smallest value element. We can then say that all elements in the array are properly sorted, and all the original values are still in the array.\\\\
+\textbf{b)}\\
+Since the outer loop  has a number of $n-1$ iterations, and for each inner loop, there is an average of $\dfrac{n}{2}$ iterations since the inner loop decreases as $j$ increases in value.\\
+In this case we have $f(n) = (n-1)(\dfrac{n}{2})$. We can then say that $g(n) = \Theta (n^2)$
+\begin{align*}
+\lim_{n \rightarrow \infty} \dfrac{(n^2/2-n/2)}{n^2} &= \lim_{n \rightarrow \infty} \dfrac{n/2 - 1/2}{n}\\
+&= \dfrac{1}{2}
+\end{align*}
+So by definition we can say that the runtime of the reverse sort is $\Theta(n^2)$
+
+\subsection*{Problem 3}
+\textbf{a)} For $n \geq 1$ show that $\sum_{k = 1}^{n} (k)(k+1) = \dfrac{(n)(n+1)(n+2)}{3}$. We can use weak induction to prove this statement.
+\begin{proof}
+\textbf{Base Case:  n = 1} we have
+\begin{align*}
+\sum_{k = 1}^{1} (n)(n+1) &= \dfrac{(1)(2)(3)}{3} \\
+(1)(2) &= (1)(2)\\
+2 &= 2
+\end{align*}
+\textbf{Inductive Hypothesis:} assume that $\sum_{k = 1}^{n} (k)(k+1) = \dfrac{(n)(n+1)(n+2)}{3}$ is true\\
+\textbf{Inductive step:} prove for all $n+1$, so show that $\sum_{k = 1}^{n+1} (k)(k+1) = \dfrac{(n+1)(n+2)(n+3)}{3}$
+\begin{align*}
+\sum_{k = 1}^{n+1} (k)(k+1) &= (n+1)(n+2) + \sum_{k = 1}^{n} (k)(k+1)\\
+&= (n+1)(n+2) + \dfrac{(n)(n+1)(n+2)}{3}\\
+&= \dfrac{3(n+1)(n+2)}{2} + \dfrac{(n)(n+1)(n+2)}{3}\\
+&= \dfrac{3(n+1)(n+2) + (n)(n+1)(n+2)}{3}\\
+&= \dfrac{(n+1)(n+2)(n+3)}{3}
+\end{align*}
+Thus we have proven that $\sum_{k = 1}^{n} (k)(k+1) = \dfrac{(n)(n+1)(n+2)}{3}$ for all $n+1$ by induction\\
+\end{proof}
+\textbf{b)} Prove that for some set $S = \{ 1, 2, 3, ..., n \}$ such that $n \geq 1$ and $|S| = n$, that the number of subsets with an \textbf{odd} cardinality is $2^{n-1}$. We can prove this statement with a strong induction proof.
+\begin{proof}
+\textbf{Base case:} When $n = 1$, we have the set $S = \{ 1 \}$. So our subsets with odd cardinality will be $\{1\}$, since the only other subset is the empty set, and it has a cardinality of 0. We also have $2^{1 - 1} = 2^{0} = 1$, so the base case is satisfied.\\\\
+\textbf{Inductive Hypothesis:} Assume that when $|S| = n$ that the number of odd cardinality subsets is $2^{n-1}$. Prove for all $n+1$ that if $|S| = n+1$ that the number of odd cardinality subsets are $2^{n}$\\\\
+\textbf{Inductive Step:} Let $|S| = n+1$ and let $x \in S$. We also can construct another set $S'$ such that $S' = S - \{x\}$ and $|S'| = k$. We can then call the set $E \subset S'$ as all the subsets with even cardinality, and the set $O \subset S'$ as all the subsets with odd cardinality. By definition the size of both sets should be $2^{n-1}$. We can then take the set E, and for each subset, we can take $E \cup \{x\}$. We then have all the odd subsets $O$ that do not contain the element $\{x\}$ and all odd cardinality subsets that do contain $\{x\}$ as $E \cup \{x\}$. If we add their cardinalities together we have $2^{n-1} + 2^{n-1} = 2^{n}$. Thus we have shown that the numbre of odd cardinality subsets of a set $S$, such that $|S|=n$ is $2^{n-1}$\\
+\end{proof}
+\newpage
+\subsection*{Problem 4}
+\textbf{a)}
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+Level & no. Problems & Size of each problem & Amount of "work" at this level \\ \hline
+0 & 1 & n & 5n \\ \hline
+1 & 9 & n/3 & 15n \\ \hline
+... & ... & ... & ... \\ \hline
+t & $9^t$ & $n/3^t$ & $3^t \cdot 5n$ \\ \hline
+... & ... & ... & ... \\ \hline
+leaf & $n^2$ & c & $\Theta (n^2)$ \\ \hline
+\end{tabular}
+\end{table}\\
+\textbf{b)}
+\begin{align*}
+T(n) &= c &\textbf{ iff } n=0\\
+T(n) &= 9T(\dfrac{n}{3}) + 5n &\textbf{ iff } n \geq 1
+\end{align*}
+Let us guess that $T(n) = O(n^2)$. Then we can say that $T(n) \leq kn^2$ such that $\forall n > n_0$ and $k > 0$.\\
+
+\textbf{Base cases}\\
+\[ T(1) = 9c + 5 \leq k + 5 \]
+\[ T(2) = 9c + 10 \leq 4k + 10 \]
+\textbf{Inductive step:} since $\dfrac{n}{3} < n$we have it such that
+\begin{align*}
+T(n) = 9T(\dfrac{n}{3}) +5n &\leq 9kn^2 +5n\\
+&\leq 9k \left( \dfrac{n}{3} \right)^2 + 5(\dfrac{n}{3})\\
+&\leq 9k \cdot \dfrac{n^2}{9} + \dfrac{5n}{3}\\
+&\leq kn^2 + n\\
+&\leq n^2
+\end{align*}
+So we have shown that $T(n) = O(n^2)$
+\subsection*{Problem 5}
+\textbf{a)} $\Theta(n^3)$\\
+\textbf{b)} cant be used\\
+\textbf{c)} $\Theta(\sqrt{n}\log (n))$\\
+\textbf{d)} cant be used\\
+\textbf{e)} $\Theta(n)$\\
+\textbf{f)} cant be used
+\end{document}
+
+
+
+
+
+
+
+

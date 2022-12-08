@@ -1,0 +1,97 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[mathscr]{euscript}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\let\emptyset\varnothing
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 1 Solutions}
+\rhead{}
+
+\begin{document}
+
+\subsection*{Section 1.1}
+\textbf{4.} $\{ x \in \N: -2 < x \leq 7 \} = \{ 0,1,2,3,4,5,6,7 \}$\\
+\textbf{7.} $\{ x \in \R: x^2 + 5x = -6 \} = \{ -2,-3 \}$\\
+\textbf{12.} $\{ x \in \Z: |2x| < 5 \} = \{ -2,-1,0,1,2 \}$\\
+\textbf{15.} $\{ 5a + 2b: a,b \in \Z \} = \{ -2,-1,0,1,2 \} = \Z$\\
+\textbf{17.} $\{ 2,4,8,16,32,64,... \} = \{ 2^x: x \in \N, x \neq 0 \}$\\
+\textbf{21.} $\{ 0,1,4,9,16,25,36,... \} = \{ x^2: x \in \N \}$\\
+\textbf{23.} $\{ 3,4,5,6,7,8 \} = \{ x\in \N : 3 \leq x \leq 8 \}$
+\subsection*{Section 1.2}
+Suppose $A = \{ 1,2,3,4 \}$ and $B = \{ a,c \}$\\
+\textbf{a)} $A\times B = \{(1,a),(1, c),(2,a),(2, c),(3,a),(3, c),(4,a),(4, c)\}$\\\\
+\textbf{b)} $B \times A = \{(a,1),(a,2),(a,3),(a,4),(c,1),(c,2),(c,3),(c,4)\}$\\\\
+\textbf{c)} $A \times A = \{ (1,1),(1,2),(1,3),$\\$(1,4),(2,1),(2,2),(2,3),(2,4),
+(3,1),(3,2),(3,3),(3,4),(4,1),(4,2),(4,3),(4,4) \}$\\\\
+\textbf{d)} $B \times B = \{ (a,a),(a, c),(c,a),(c, c) \}$\\\\
+\textbf{e)} $\emptyset \times B = \{ (a,b) : a ∈ ;,b ∈ B \} = \emptyset$\\\\
+\textbf{f)} $(A \times B) \times B = \{ ((1,a),a),((1, c),a),((2,a),a),((2, c),a),((3,a),a),((3, c),a),((4,a),a),((4, c),a),$\\$
+((1,a), c),((1, c), c),((2,a), c),((2, c), c),((3,a), c),((3, c), c),((4,a), c),((4, c), c) \}$\\\\
+\textbf{g)} $A \times (B \times B) = \{ (1,(a,a)),(1,(a, c)),(1,(c,a)),(1,(c, c)),$\\$
+(2,(a,a)),(2,(a, c)),(2,(c,a)),(2,(c, c)),
+(3,(a,a)),(3,(a, c)),$\\$(3,(c,a)),(3,(c, c)),
+(4,(a,a)),(4,(a, c)),(4,(c,a)),(4,(c, c)) \}$\\\\
+\textbf{h)} $B^3 = \{ (a,a,a),(a,a, c),(a, c,a),(a, c, c),(c,a,a),(c,a, c),(c, c,a),(c, c, c) \}$
+
+
+\subsection*{Section 1.3}
+\textbf{8.} Subsets of $\{ \{0,1\}, \{0,1,\{2\}\}, \{0\} \} = \emptyset, \{\{0,1\}\}, \{\{0,1,\{2\}\}\}, \{\{0\}\}, \{\{0,1\}, \{0,1,\{2\}\}\}, $\\$\{\{0,1,\{2\}\}, \{0\}\}, \{\{0,1\},\{0\}\}, \{ \{0,1\}, \{0,1,\{2\}\}, \{0\} \}$\\\\
+\textbf{13.} $\R^3 \subseteq  \R^3$ is \textbf{true}, because every set is a subset of itself.\\\\
+\textbf{14.} $\R^2 \subseteq \R^3$ is \textbf{false}, because $\R^2$ are vectors of two coordinates while $\R^3$ are vectors of three coordinates.
+\newpage
+\subsection*{Section 1.4}
+\textbf{1.} $\mathscr{P}(\{\{a,b\},\{c\}\}) = \{\emptyset,\{\{a,b\}\},\{\{c\}\},\{\{a,b\},\{c\}\}\}$\\\\
+\textbf{2.} $\mathscr{P}(\{1,2,3,4\}) = \{\emptyset,\{1\},\{2\},\{3\},\{4\},\{1,2\},\{1,3\},\{1,4\},$\\$\{2,3\},\{2,4\},\{3,4\},\{1,2,3\},\{1,2,4\},\{1,3,4\},\{2,3,4\},\{1,2,3,4\}\}$\\\\
+\textbf{3.} $\mathscr{P}(\{\{\emptyset\},5\}) = \{\emptyset,\{\{\emptyset\}\},\{5\},\{\{\emptyset\},5\}\}$\\\\
+\textbf{14.} $|\mathscr{P}(\mathscr{P}(A))| = 2^{2^n}$\\\\
+\textbf{15.} $|\mathscr{P}(A \times B)| = 2^{mn}$
+\subsection*{Section 1.5}
+\textbf{d)} $A - C = \{3,6,7,1,9\}$\\\\
+\textbf{e)} $B - A = \{5,8\}$\\\\
+\textbf{f)} $A \cap C = \{4\}$\\\\
+\textbf{g)} $B \cap C = \{5,8,4\}$\\\\
+\textbf{h)} $B \cup C = \{5,6,8,4\}$\\\\
+\textbf{i)} $C - B = \emptyset$
+\subsection*{Section 1.6}
+\textbf{1 a)} $\overline{A} = \{0,2,5,8,10\}$\\\\
+\textbf{1 e)} $A - \overline{A} = A$\\\\
+\textbf{1 h)} $\overline{A} \cap B = \{5,8\}$\\\\
+\textbf{2 f)} $\overline{A \cup B} = \emptyset$\\\\
+\textbf{2 g)} $\overline{A} \cap \overline{B} = \emptyset$
+
+
+\end{document}

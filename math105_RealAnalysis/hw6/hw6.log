@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.14)  19 AUG 2021 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.14)  26 APR 2022 15:31
 entering extended mode
 **./hw6.tex
 (hw6.tex
@@ -354,7 +354,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2] (hw6.aux) ) 
 Here is how much of TeX's memory you used:
  4640 strings out of 479697
- 65284 string characters out of 2867608
+ 65402 string characters out of 2867608
  378871 words of memory out of 3000000
  21672 multiletter control sequences out of 15000+200000
  411158 words of font info for 49 fonts, out of 3000000 for 9000

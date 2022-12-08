@@ -1,0 +1,233 @@
+\documentclass[letter]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+%% Useful packages
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{graphicx}
+\newtheoremstyle{case}{}{}{}{}{}{:}{ }{}
+\theoremstyle{case}
+\newtheorem{case}{}
+
+
+\lhead{Homework 1}
+\rhead{Nicholas Silva Tee}
+
+
+\begin{document}
+
+\section*{Question 1}
+\subsection*{Part A}
+Using Amdahls law we can calculate the speedup.
+\begin{align*}
+\dfrac{1}{(1 - f(e)) + \dfrac{f(e)}{speedup(e)}} &= \dfrac{1}{(1 - 0.4) + \dfrac{0.4}{8}}\\
+&=\dfrac{1}{0.6 + 0.05}\\
+&= \dfrac{1}{0.65} = 1.538
+\end{align*}
+The overall speedup on the target workload is 1.538
+\section*{Part B}
+\begin{align*}
+\dfrac{1}{1 - f(e)} &= \dfrac{1}{1-0.4}\\
+&= \dfrac{1}{0.6} = 1.67
+\end{align*}
+The max speedup with the coprocessor is 1.67
+
+\section*{Part C}
+First lets calculate the speedup of option-A
+\begin{align*}
+\dfrac{1}{(1 - f(e)) + \dfrac{f(e)}{speedup(e)}} &= \dfrac{1}{(1 - 0.6) + \dfrac{0.6}{1.05}}\\
+&= \dfrac{1}{0.4 + 0.571} = \dfrac{1}{0.971} = 1.03
+\end{align*}
+Then we can calculate the speedup of option-B.\\
+Current speedup = 8 $\rightarrow$ New speedup = $8 \times 1.2 = 9.6$
+\begin{align*}
+\dfrac{1}{(1 - f(e)) + \dfrac{f(e)}{speedup(e)}} &= \dfrac{1}{(1 - 0.4) + \dfrac{0.4}{9.6}}\\
+&=\dfrac{1}{0.6 + 0.042}\\
+&= \dfrac{1}{0.642} = 1.558
+\end{align*}
+I think based on the numbers option-B would have to be a better choice as the overall speedup is much better than compared to option-A
+\section*{Question 2}
+\subsection*{Part A}
+\begin{align*}
+	\text{avg CPI} &= 0.2 \cdot 1 + 0.25 \cdot 4 + 0.3 \cdot 7 + 0.25 \cdot 5 \\
+&= 0.2 + 1 + 2.1 + 1.25\\
+&= 4.55
+\end{align*}
+
+\subsection*{Part B}
+First we reduce the CPI of branches by 1
+\begin{align*}
+\text{avg CPI} &= 0.2 \cdot 1 + 0.25 \cdot 3 + 0.3 \cdot 7 + 0.25 \cdot 5 \\
+&= 0.2 + 0.75 + 2.1 + 1.25\\
+&= 4.3
+\end{align*}
+Next we reduce the CPI of load instructions
+\begin{align*}
+\text{avg CPI} &= 0.2 \cdot 1 + 0.25 \cdot 4 + 0.3 \cdot 6 + 0.25 \cdot 5 \\
+&= 0.2 + 1 + 1.8 + 1.25\\
+&= 4.25
+\end{align*}
+Last we can reduce the CPI of store instructions
+\begin{align*}
+\text{avg CPI} &= 0.2 \cdot 1 + 0.25 \cdot 4 + 0.3 \cdot 7 + 0.25 \cdot 4 \\
+&= 0.2 + 1 + 2.1 + 1\\
+&= 4.3
+\end{align*}
+We can see that if we reduce the CPI of load instructions that it makes the most difference with an average CPI of 4.25
+
+\newpage
+\subsection*{Part C}
+Let $x$ be the CPI of branches. We then have the following CPI after the load and store instruction speedups
+\begin{align*}
+\text{avg CPI} &= 0.2 \cdot 1 + 0.25 \cdot x + 0.3 \cdot 6 + 0.25 \cdot 4 \\
+&= 0.2 + 0.25x + 1.8 + 1\\
+&= 3 + 0.25x
+\end{align*}
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+x       & 4 & 5    & 6   & 7    \\ \hline
+avg CPI & 4 & 4.25 & 4.5 & 4.75 \\ \hline
+\end{tabular}
+\end{table}
+Since the original average CPI was a 4.55, then the max CPI that branch instructions can have whilst still having a net speedup is 6
+
+\subsection*{Part D}
+Old average CPI = 4.55
+\begin{align*}
+\text{avg CPI} &= 0.25 \cdot 1 + 0.25 \cdot 4 + 0.25 \cdot 7 + 0.25 \cdot 5 \\
+&= 0.25 + 1 + 1.75 + 1.25\\
+&= 4.25
+\end{align*}
+Although the average CPI is lower with the new computer. Due to the 1.1x increase in total instructions, the overall execution time of the new computer would overall be much longer, since $4.25 \cdot 1.1 = 4.675$
+\section*{Question 3}
+\subsection*{Part A}
+i) y = t0, a = t1, b = t2, c = t3
+\begin{verbatim}
+ADD t0, t1, t2
+SUB t0, t0, t3
+\end{verbatim}
+ii) x = t0, y = t1
+\begin{verbatim}
+BNE t0, 2, else
+ADD t1, 0, 3
+JAL t2, end
+else:
+ADD t1, t0, 0
+end:
+\end{verbatim}
+iii) a = s0, N = t0, x = t1, i = t3
+\begin{verbatim}
+findX: 
+loop:
+
+LW t2, 0(s0)
+BEQ t2, t1, return
+
+ADD, t3, t3, 1
+ADDI, s0, s0, 4
+BLT t3, t0, loop
+return:
+
+JAL ra, *something*
+\end{verbatim}
+\subsection*{Part B}
+\begin{verbatim}
+li t4, 0 #long total = 0
+whileLoop: #assume t0 is the adress of the head
+beq t0, x0, end #if ptr == 0 then end
+lw t1, 0(t0) #loading ptr->data
+add t4, t4, t1 #adding to total
+lw t2, 4(t0) #loading ptr->next
+add t0, t0, t2 #moving pointer
+jal ra, whileLoop
+end:
+\end{verbatim}
+\subsection*{Part C}
+\begin{table}[!h]
+\centering
+\begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l}
+                                      & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15                     \\ \hline
+\multicolumn{1}{|l|}{beq t0, x0, end} & F & D & X & M & W &   &   &   &   &    &    &    &    &    & \multicolumn{1}{l|}{}  \\ \hline
+\multicolumn{1}{|l|}{lw t1, 0(t0)}    &   & F & D & X & M & W &   &   &   &    &    &    &    &    & \multicolumn{1}{l|}{}  \\ \hline
+\multicolumn{1}{|l|}{add t4, t4, t1}  &   &   & F &   &   &   & D & X & M & W  &    &    &    &    & \multicolumn{1}{l|}{}  \\ \hline
+\multicolumn{1}{|l|}{lw t2, 4(t0)}    &   &   &   &   &   &   & F & D & X & M  & W  &    &    &    & \multicolumn{1}{l|}{}  \\ \hline
+\multicolumn{1}{|l|}{add t0, t0, t2}  &   &   &   &   &   &   &   & F &   &    &    & D  & X  & M  & \multicolumn{1}{l|}{W} \\ \hline
+\end{tabular}
+\end{table}
+There should be two stalls due to dependency issues, which are both simply waiting for the load instructions to write back into the registers 
+\subsection*{Part D}
+The simplest way to improve my current implementation is to reorder the load instructions so that they are next to each other. This way, the add instructions still have the dependency, but only the first add instruction will have to stall. When the stall is finished, the second load instruction should be finished, so the second add instruction should be able to run without stalls.
+
+\section*{Question 4}
+\subsection*{Part A}
+\begin{table}[!h]
+\centering
+\begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l}
+1                       & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20                    \\ \hline
+\multicolumn{1}{|l|}{F} & D & X & M & W &   &   &   &   &    &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  & F &   &   &   & D & X & M & W &    &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  &   &   &   &   & F &   &   &   & D  & X  & M  & W  &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  &   &   &   &   &   &   &   &   & F  & D  & X  & M  & W  &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  &   &   &   &   &   &   &   &   &    & F  &    &    &    & D  & X  & M  & W  &    & \multicolumn{1}{l|}{} \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection*{Part B}
+\begin{table}[!h]
+\centering
+\begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l}
+1                       & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20                    \\ \hline
+\multicolumn{1}{|l|}{F} & D & X & M & W &   &   &   &   &    &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  & F & D &   & X & M & W &   &   &    &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  &   &   & F & D & X & M & W &   &    &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  &   &   &   & F & D & X & M & W &    &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  &   &   &   &   & F &   & D & X & M  & W  &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\end{tabular}
+\end{table}
+\newpage
+\subsection*{Part C}
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l}
+1                       & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20                    \\ \hline
+\multicolumn{1}{|l|}{F} & D & X & M & M & W &   &   &   &    &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  & F & D &   & X & M & M & W &   &    &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  &   &   & F & D & X & M & M & W &    &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  &   &   &   & F & D & X & M & M & W  &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  &   &   &   &   & F &   & D & X & M  & M  & W  &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\end{tabular}
+\end{table}
+I believe that it will reduce the IPC slightly since it simply creates more cycles per loop iteration. The best way to solve this issue is to move the \texttt{addi a1, a1, 8} instruction to right after the \texttt{ld t0, 0(a1)}. With this change, it gets rid of the necessary stalls due to dependency issues.
+\subsection*{Part D}
+\begin{table}[!h]
+\centering
+\begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l}
+1                       & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20                    \\ \hline
+\multicolumn{1}{|l|}{F} & F & D & X & M & W &   &   &   &    &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  & F & F & D & X & M & W &   &   &    &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  &   &   & F & F & D & X & M & W &    &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  &   &   &   & F & F & D & X & M & W  &    &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\multicolumn{1}{|l|}{}  &   &   &   &   & F & F & D & X & M  & W  &    &    &    &    &    &    &    &    & \multicolumn{1}{l|}{} \\ \hline
+\end{tabular}
+\end{table}
+It does not worsen the IPC The extra "fetch" step in the cycle and essentially gets rid of all the stalls that were needed before. Some instructions are finished in later cycles but the design change does not affect the overall number of cycles needed per loop iteration.
+\end{document}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 3 solutions}
+\rhead{}
+
+\begin{document}
+
+\subsection*{Section 2.7}
+\textbf{1)} For every real number $x$, $x^2 > 0$. Statement is \textbf{false} since $0^2 > 0$ is not true.\\\\
+\textbf{2)} For every real number $x$, there exists some natural number $n$, $x^{n} \geq 0$. Statement is \textbf{true}\\\\
+\textbf{3)} There exists a real number a for which $ax = a$ for every real number $x$. \textbf{true}\\\\
+\textbf{4)} for all elements of the power set of the natural numbers $X$, is a subset of the real numbers.\textbf{true}\\\\
+\textbf{8)} For all integers $n$, there exists some subset of the natural numbers $X$ such that $|X| = n$, \textbf{true}\\\\
+\textbf{9)} For every integer $n$ there is another integer $m$ such that $m = n + 5$. \textbf{true}\\\\
+\textbf{10)} There exists an integer $m$ such that for all integers $n$, $m = n + 5$ \textbf{true}
+
+
+
+\subsection*{Section 3.2}
+\textbf{2)} There are 26 letters in the alphabet. So the total number of 3 letter combinations is $26 \times 26 \times 26 = 17,576$\\\\
+\textbf{4)} There are 2 types of coffee, 3 different sizes, and two options of where to have the coffee. So $2 \times 3 \times 2 = 12$\\\\
+\textbf{8)} 10 coins, each coin there are two options, heads or tails. So the answer is $2^{10}$
+
+
+
+\subsection*{Section 3.3}
+\textbf{2)} There are 4 suits, each suit has 13 cards. So we have $4 \times 13 \times 12 \times 11 \times 10 \times 9$\\\\
+\textbf{4)} There are 4 queens, so we have 48 cards left. Furthermore, the one queen can  have 5 positions on the lineup. So we have $5 \times 48 \times 47 \times 46 \times 45$\\\\
+\textbf{12)} Six math books = 6! arrangements. Four physics books = 4! arrangements. Three chemistry books = 3!. Out of the 3 groups there are 6 ways to arrange them. So total we have $6! \times 4! \times 3! \times 6$ = 622,080
+
+
+
+\subsection*{Section 3.6}
+\textbf{1)} 1 10 45 120 210 252 210 120 45 10 1\\\\
+\textbf{2)} 13C5 = 1287\\\\
+\textbf{3)} same as number 2\\\\
+\textbf{4)} $9c3 \times 3^{6} \times -2^{3}$\\\\
+
+
+
+\subsection*{Section 3.7}
+\textbf{1)} There are 100 students studying math, so there are $100 - 33 = 67$ students studying \textbf{only} math. So there are $523 - 67 = 456$ students studying history.\\\\
+\textbf{10)} Out of 6 digits, there are 9 possible options for the first digit, 10 options for the next 4 digits, and for the last one there are 6 options(0, 2, 4, 5, 6, 8). We then have $9 \times 10^{4} \times 6 = 540,000$
+
+
+\subsection*{Section 3.9}
+\textbf{1)} For any number divided by 5, there are 6 possible remainders(0, 1, 2, 3, 4). So if there are six integers, and 5 possible remainders, by the pigeonhole principle, there has to be at least two numbers with the same remainder.\\\\
+\textbf{2)} 13 cards, the worst case scenario is to draw 4 cards from each suit, so 12 cards, and the last card will guarantee at least 5 cards of the same suit.
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

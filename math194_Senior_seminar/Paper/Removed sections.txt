@@ -1,0 +1,127 @@
+\begin{proof}
+First let us show that the operation is bilinear by showing that $[mA +B, z] = [mA,C] + [mB,c]$ such that $a,b,c \in \R^3$, recall that
+\[
+	x = \begin{bmatrix} x_i \\ x_j \\ x_k  \end{bmatrix}
+	y = \begin{bmatrix} y_i \\ y_j \\ y_k  \end{bmatrix}
+	z = \begin{bmatrix} z_i \\ z_j \\ z_k  \end{bmatrix}
+	x \times y = \begin{bmatrix} x_jy_k - x_ky_j \\ x_ky_i - x_i y_k \\ x_iy_j - x_jy_i  \end{bmatrix}
+\]
+Now for some scalar $m$ we have
+\[
+	[mx +B, z]= 
+	\begin{bmatrix} mx_i + y_i \\ mx_j + y_j \\ mx_k + y_k  \end{bmatrix} \times
+	\begin{bmatrix} z_i \\ z_j \\ z_k  \end{bmatrix}
+	= \begin{bmatrix} (mx_j+y_j)z_k - (mx_k+y_k)z_j \\ (mx_k+y_k)z_i - (mx_i+y_i)z_k \\ (mx_i+y_i)z_j - (mx_j+y_j)z_i  \end{bmatrix}
+\]
+\begin{align*}
+[mx,z] + [mB,z] &= \begin{bmatrix} mx_i \\ mx_j \\ mx_k  \end{bmatrix} \times \begin{bmatrix} z_i \\ z_j \\ z_k  \end{bmatrix} + \begin{bmatrix} y_i \\ y_j \\ y_k  \end{bmatrix} \times \begin{bmatrix} z_i \\ z_j \\ z_k  \end{bmatrix} \\
+&= \begin{bmatrix} mx_jz_k - mx_kz_j \\ mx_kz_i-mx_iz_k \\ mx_iz_j - mx_jz_i  \end{bmatrix} + \begin{bmatrix} y_jz_k-y_kz_j \\ y_kz_i - y_iz_k \\ y_iz_j - y_jz_i \end{bmatrix} 
+=\begin{bmatrix} (mx_j+y_j)z_k - (mx_k+y_k)z_j \\ (mx_k+y_k)z_i - (mx_i+y_i)z_k \\ (mx_i+y_i)z_j - (mx_j+y_j)z_i  \end{bmatrix}
+\end{align*}
+
+Next, to show Alternativity for this algebra, we need to show that $[x, x] = 0$
+\[
+	x = \begin{bmatrix} x_i \\ x_j \\ x_k  \end{bmatrix} \text{Then we have } [x, x] = x \times x = \begin{bmatrix} x_jx_k-x_kx_j \\ x_kx_i-x_ix_k \\ x_ix_j-x_jx_i  \end{bmatrix} = 0
+\]
+
+Finally, lets us show that this algebra satisfies the Jacobi identity
+\[
+[x, [y,z]] + [y, [z, x]] + [z, [x, y]] = 0
+\]
+\[
+\begin{bmatrix} x_i \\ x_j \\ x_k  \end{bmatrix} \times \left( \begin{bmatrix} y_i \\ y_j \\ y_k  \end{bmatrix} \times \begin{bmatrix} z_i \\ z_j \\ z_k  \end{bmatrix} \right) + \begin{bmatrix} y_i \\ y_j \\ y_k  \end{bmatrix} \times \left( \begin{bmatrix} z_i \\ z_j \\ z_k  \end{bmatrix} \times \begin{bmatrix} x_i \\ x_j \\ x_k  \end{bmatrix} \right)+ \begin{bmatrix} z_i \\ z_j \\ z_k  \end{bmatrix} \times \left( \begin{bmatrix} x_i \\ x_j \\ x_k  \end{bmatrix} \times \begin{bmatrix} y_i \\ y_j \\ y_k  \end{bmatrix} \right)
+\]
+\[
+= \begin{bmatrix} x_i \\ x_j \\ x_k  \end{bmatrix} \times \left( \begin{bmatrix} y_jz_k-y_kz_j \\ y_kz_i-y_iz_k \\ y_iz_j-y_jz_i  \end{bmatrix} \right) +
+\begin{bmatrix} y_i \\ y_j \\ y_k  \end{bmatrix} \times \left( \begin{bmatrix} z_jx_k-z_kx_j \\ z_kx_i-z_ix_k \\ z_ix_j-z_jx_i  \end{bmatrix} \right) +
+\begin{bmatrix} z_i \\ z_j \\ z_k  \end{bmatrix} \times \left( \begin{bmatrix} x_jy_k-x_ky_j \\ x_ky_i-x_iy_k \\ x_iy_j-x_jy_i  \end{bmatrix} \right)
+\]
+\[
+=\begin{bmatrix} x_j(y_iz_j-y_jz_i)-x_k(y_kz_i-y_iz_k) \\ x_k(y_jz_k-y_kz_j)-x_i(y_iz_j-y_jz_i) \\ x_i(y_kz_i-y_iz_k)-x_j(y_jz_k-y_kz_j)  \end{bmatrix} +
+\begin{bmatrix} y_j(z_ix_j-z_jx_i)-y_k(z_kx_i-z_ix_k) \\ y_k(z_jx_k-z_kx_j)-y_i(z_ix_j-z_jx_i) \\ y_i(z_kx_i-z_ix_k)-y_j(z_jx_k-z_kx_j)  \end{bmatrix} 
+\]
+\[+\begin{bmatrix} z_j(x_iy_j-x_jy_i)-z_k(x_ky_i-x_iy_k) \\ z_k(x_jy_k-x_ky_j)-z_i(x_iy_j-x_jy_i) \\ z_i(x_ky_i-x_iy_k)-z_j(x_jy_k-x_ky_j)  \end{bmatrix} = 0\]
+After expanding and adding all three matrices, all the terms should cancel out. Thus the jacobi identity for the cross product on vectors of $\R^3$ is proven. This makes it a Lie algebra
+\end{proof}
+
+
+
+
+
+
+\section{Lie Groups}
+\begin{definition}
+Let $G$ be a set with two main properties. \\
+  i) $G$ is first and foremost a group\\
+  ii) $G$ is a smooth manifold. \\
+  if $G$ satisfies these two properties, it is considered a Lie group.
+\end{definition}	
+\begin{rem}
+I will not be delving too much into manifolds, but a light understanding of what they are helps. A manifold is a topological space that resembles euclidean space. Essentially, you take a geometric object of some dimension $n$ and try to fit it into a space that is dimension $k$ such that $n > k$. Take the image below as an example. 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.4]{circ.png}
+\end{figure}
+If we take a circle, which is a 2-dimensional object, and zoom in and look at an arbitrarily small segment of the circle, it will look 1-dimensional. An intuitive example might be the Earth, we know that it is in fact round, however from our small perspective, it seems flat. For a manifold to be smooth, it means that for each point in the manifold, there is a tangent space.
+\end{rem}
+Adding to the idea of manifolds each Lie group has a corresponding Lie algebra that acts as its tangent space of the identity element in the group.
+\begin{ex}
+An easy example of a Lie group are the real numbers $\R$ under multiplication.
+\end{ex}
+
+\subsection{Properties of Lie Groups}
+\begin{defn}
+Given two Lie groups $G$ and $H$, we can have a homomorphism of Lie groups given some map between the groups $f: G \rightarrow H$ and a map between the two manifolds(since Lie groups are both). This map can also be homomorphic and isomorphic
+\end{defn}
+
+\begin{defn}
+For some Lie group $G$, for every $a \in G$ there exists a map:
+\[ L_a: G \rightarrow G \text{ and } L_a(b) = ab\]
+We call this a \textbf{left translation}. Similarly, for all $b \in G$ there exists a map:
+\[ R_a: G \rightarrow G \text{ and } R_a(b) = ba\]
+This is called a \textbf{right translation}
+\end{defn}
+
+
+\begin{defn}
+For some group $(G, \cdot)$ if for $x,y \in G$ and $x \cdot y = y \cdot x$ then the group is known to be \textbf{abelian}
+\end{defn}
+
+
+Now lets use this lie group as an example to understand the relationship
+between lie groups and lie algebras
+SO(n) or also known as the Special orthogonal group is the group of rotation
+matrices around a single point, so So(2) would represent the rotations around
+a unit circle, whilst So(3) would be rotations for a unit sphere
+and small so(n) is its corresponding liue algbera
+
+So how do we use it? well for groups like So(n) its kind of hard to visualize
+since its a bunch of transormations especially for higher dimensions. 
+Well with the power of lie algebras we can linearize them. So lets use 
+SO(2) as an example, we can see the circle in the middle representing
+So(2), then all the lines around it would represent the elements
+of little so(2), its lie algebra. 
+
+Another neat little trick that we can use lie algebras for is the exponential map
+What this map does is it takes elemetns from the lie algebra, and maps them into
+the lie gorup. So we can take those tangent vectors, and essentially turn them 
+into elements that exist within the lie group. 
+
+In terms of matrix groups and algebrs, the exponential map would simply be the
+matrix exponential.
+
+Now this image doesn't exactly show that happening with the exponential map, but
+I thought that it was a good representation of what is sort of happending. You can see
+the tangent vector slowly converging towards the curve, and thats exactly what is
+happenening between the lie algerbra and lie group elements.
+
+1:50
+1:00
+2:45
+2:45
+1:00
+1:35
+1:25
+1:10
+
+1:30

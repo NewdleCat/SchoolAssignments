@@ -1,0 +1,13 @@
+Files:
+- main.py --> main part of the program
+- utils.py --> contains the language model classes
+
+How to run:
+
+python main.py
+
+options:
+--smoothing [int] or -s [int]
+	- adds argument for smoothing
+	- 0 by default
+	example --> python main.py -s 1

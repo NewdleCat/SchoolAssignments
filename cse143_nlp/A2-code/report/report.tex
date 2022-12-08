@@ -1,0 +1,127 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{MnSymbol,wasysym}
+\pagestyle{fancy}
+\usepackage{multirow}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Assignment 2, May 17, 2022}
+\rhead{Nicholas Tee}
+
+\begin{document}
+
+\section{n-gram model}
+There are the following perplexities that I got. According to the TA, if the key did not exist in the model, then the perplexity would be considered to be infinity. Hopefully this is correct. 
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+        & train & dev   & test  \\ \hline
+unigram & 976.5 & 892.2 & 896.4 \\ \hline
+bigram  & 77.07 & inf   & inf   \\ \hline
+trigram & 7.8   & inf   & inf   \\ \hline
+\end{tabular}
+\end{table}
+
+\section{additional smoothing}
+Here are the tables of perplexities that I got with the following smoothings
+% Please add the following required packages to your document preamble:
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|llll|l|lll|l|lll|}
+\hline
+\multicolumn{4}{|c|}{a=1}                                                                        & \multirow{5}{*}{} & \multicolumn{3}{c|}{a=3}                                          & \multirow{5}{*}{} & \multicolumn{3}{c|}{a=5}                                          \\ \cline{1-4} \cline{6-8} \cline{10-12} 
+\multicolumn{1}{|l|}{}        & \multicolumn{1}{l|}{train}  & \multicolumn{1}{l|}{dev}   & test  &                   & \multicolumn{1}{l|}{train}   & \multicolumn{1}{l|}{dev}   & test  &                   & \multicolumn{1}{l|}{train}   & \multicolumn{1}{l|}{dev}   & test  \\ \cline{1-4} \cline{6-8} \cline{10-12} 
+\multicolumn{1}{|l|}{unigram} & \multicolumn{1}{l|}{993.2}  & \multicolumn{1}{l|}{908.8} & 896.4 &                   & \multicolumn{1}{l|}{1029.4}  & \multicolumn{1}{l|}{943.9} & 948.2 &                   & \multicolumn{1}{l|}{1067.3}  & \multicolumn{1}{l|}{980.4} & 984.6 \\ \cline{1-4} \cline{6-8} \cline{10-12} 
+\multicolumn{1}{|l|}{bigram}  & \multicolumn{1}{l|}{1442.3} & \multicolumn{1}{l|}{inf}   & inf   &                   & \multicolumn{1}{l|}{2666.8}  & \multicolumn{1}{l|}{inf}   & inf   &                   & \multicolumn{1}{l|}{3497.7}  & \multicolumn{1}{l|}{inf}   & inf   \\ \cline{1-4} \cline{6-8} \cline{10-12} 
+\multicolumn{1}{|l|}{trigram} & \multicolumn{1}{l|}{6244.8} & \multicolumn{1}{l|}{inf}   & inf   &                   & \multicolumn{1}{l|}{10803.3} & \multicolumn{1}{l|}{inf}   & inf   &                   & \multicolumn{1}{l|}{13005.2} & \multicolumn{1}{l|}{inf}   & inf   \\ \hline
+\end{tabular}
+\end{table}
+Im not sure if the way I am doing smoothing, but with what I have, it appears that as I increase the alpha value, the higher my perplexities, so I think that the most viable value of alpha would be 1, simply based off the values that I got. (I might be very wrong)
+\newpage
+\section{linear interpolation}
+Note: For cases where the token did not exist in the bigram or trigram models, I skipped the word and moved on to the next token. If I had done it the other way all the perplexities for the bigram and trigram models would end up as infinity and I was not sure if it was correct.\\\\
+Here are the following perplexities I got with linear interpolation. The three number on the leftmost column are the weights for unigram, bigram and trigram respectively.
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+lamba         & train & dev   & test  \\ \hline
+0.1, 0.3, 0.6 & 11.15 & 18.18 & 18.09 \\ \hline
+0.2, 0.2, 0.6 & 11.5  & 19.28 & 19.18 \\ \hline
+0.2, 0.4, 0.2 & 24.36 & 31.4  & 31.3  \\ \hline
+\end{tabular}
+\end{table}
+These are the perplexities that I got after cutting the training data in half and using that to fit my models.\\
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+lamba         & train & dev   & test  \\ \hline
+0.1, 0.3, 0.6 & 10.78 & 16.08 & 15.82 \\ \hline
+0.2, 0.2, 0.6 & 11.2  & 17.04 & 16.77 \\ \hline
+0.2, 0.4, 0.2 & 22.07 & 27.35 & 26.96 \\ \hline
+\end{tabular}
+\end{table}
+In my case it decreased the perplexities by a little bit. I assume this is because it had cut a lot of words that would initially have been considered as <UNK> which allowed more emphasis on the words that didn't count as <UNK>(more common words).\\
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+lamba         & train & dev   & test  \\ \hline
+0.1, 0.3, 0.6 & 12.05 & 18.83 & 18.3  \\ \hline
+0.2, 0.2, 0.6 & 12.46 & 19.46 & 19.37 \\ \hline
+0.2, 0.4, 0.4 & 15.76 & 21.69 & 21.62 \\ \hline
+\end{tabular}
+\end{table}
+\\I tried it with my code and it seemed to have increased the perplexities. I think because words that appear between 3-4 times would be considered somewhat common, or at least might be important to certain sentences. However, I do think that this is a case by case basis, and in this case it does increase the perplexities.
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

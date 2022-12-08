@@ -1,0 +1,220 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\newtheorem{definition}{Definition}
+\newtheorem*{definition*}{Definition}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 4}
+\rhead{}
+
+\begin{document}
+
+\subsection*{List of definitions (For problems 2 and 4)}
+
+\begin{definition}
+An integer n is even if $n = 2a$ for some $a \in \Z$
+\end{definition}
+
+\begin{definition}
+An integer n is off if $n = 2a + 1$ for some $a \in \Z$
+\end{definition}
+
+\begin{definition}
+Two integers have the same parity if they are both even or they are both odd. Otherwise, they have opposite parity
+\end{definition}
+
+\begin{definition}
+Suppose $a$ and $b$ are integers. We say that $a$ divides $b$, written as $a|b$ if $b = ac$ for some $c \in \Z$. We can also say that $a$ is a divisor of $b$, or $b$ is a multiple of $a$
+\end{definition}
+
+\subsection*{Problem 2}
+\begin{proof}
+By the definition of an odd number, let $x = 2a + 1$ for some $a \in \Z$ 
+\begin{align*}
+x^3 &= (2a + 1)^3\\
+&= (2a + 1)(2a + 1)(2a + 1)\\
+&= (2a + 1)(4a^2 + 4a + 1)\\
+&= 8a^3 + 8a^2 + 2a + 4a^2 + 4a + 1\\
+&= 8a^3 + 12a^2 + 6a + 1\\
+&= 2(4a^3 + 6a^2 + 3a) + 1\\
+&\text{Let } n = 4a^3 + 6a^2 + 3a\\
+&= 2n + 1
+\end{align*}
+(note: the substitution with n is no necessary but makes the answer more clear)\\
+From the definition of an odd number, it is proven that if $x$ is odd, then $x^3$ is also odd.\\
+
+Now to prove the other direction, we need to assume that $x^3$ is an odd number to show that $x$ is also an odd number. If we take the definition of an odd number we can do the following.
+\begin{align*}
+x^3 &= 2a + 1\\
+x^3 - 1&= 2a\\
+&\text{We then factor (x-1) from the left side}\\
+(x-1)(x^2 + x + 1) &= 2a
+\end{align*}
+Here, we can use problem 16 from chapter 4, we know that $x^2$ and $x$ have the same parity. The sum of two integers that are the same parity is even, so the $+1$ in the second half of the product will be odd. However, we know that the equation should be even, since the left side is $2a$. Now we know that $(x-1)$ must be even for the product to be even, so we have it such that $(x-1) = 2a$ and that $x = 2a + 1$. So we can say that if $x^3$ is odd, then $x$ is also odd.
+\end{proof}
+
+
+\newpage
+\subsection*{Problem 4}
+\begin{proof}
+By the definition of an add number, let $x = 2a + 1$ for some $a \in \Z$  and let $y = 2b + 1$ for some $b \in \Z$.
+\begin{align*}
+xy &= (2a + 1)(2b + 1)\\
+&= 4ab + 2a + 2b + 1\\
+&= 2(2ab + a + b) + 1
+&\text{Let } b = 2ab + a + b\\
+&= 2n + 1
+\end{align*}
+(note: the substitution with n is no necessary but makes the answer more clear)\\
+By the definition of an odd number, we can say that if $x$ and $y$ are odd numbers, then $xy$ is also an odd number.\\
+
+...
+\end{proof}
+
+
+\subsection*{Problem 6}
+Suppose $a,b,c \in \Z$. If $a|b$ and $a|c$ then $a|(b+c)$. For this proof we will use the following definiton
+\begin{definition*}
+Suppose $a$ and $b$ are integers. We say that $a$ divides $b$, written as $a|b$ if $b = ac$ for some $c \in \Z$. We can also say that $a$ is a divisor of $b$, or $b$ is a multiple of $a$
+\end{definition*}
+\begin{proof}
+
+From the above statements, we know that since $a|b$ and $a|c$, that $b = am$ and $c = an$ for $m,n \in \Z$. So we have
+\begin{align*}
+b + c &= am + an\\
+&= a(m + n) \\
+&\textbf{let } j = m + n\\
+&= aj
+\end{align*}
+So by definition we can say that $a|(b+c)$\\
+\end{proof}
+
+\newpage
+
+\subsection*{Problem 8}
+Suppose $a$ is an integer, If $5|2a$, then $5|a$. We will use the following definition
+\begin{definition*}
+Suppose $a$ and $b$ are integers. We say that $a$ divides $b$, written as $a|b$ if $b = ac$ for some $c \in \Z$. We can also say that $a$ is a divisor of $b$, or $b$ is a multiple of $a$
+\end{definition*}
+\begin{proof}
+
+By definition we can say that since $5|2a$ that $2a = 5n$ for $n \in \Z$
+\begin{align*}
+2a &= 5n\\
+&\text{Let } n = 2m \text{ since we know that 2a is even}\\
+2a &= 10m\\
+a &= 5m
+\end{align*}
+By definition, we can see that if $5|2a$, then $5|a$\\
+\end{proof}
+
+
+\subsection*{Problem 14}
+If $n \in \Z$ then $5n^2 + 3n + 7$ is odd. We will use the following definitions.\\
+
+\begin{definition}
+An integer n is even if $n = 2a$ for some $a \in \Z$
+\end{definition}
+
+\begin{definition}
+An integer n is off if $n = 2a + 1$ for some $a \in \Z$
+\end{definition}
+\begin{proof}
+
+\textbf{Case 1:} First let us assume that $n$ is even, so by definition, we can write it as $n = 2a$ for some $a \in \Z$. we then have
+\begin{align*}
+5n^2 + 3n + 7 &= 5(2a)^2 + 3(2a) + 7\\
+&= 20a^2 + 6a + 7\\
+&= 20a^2 + 6a + 6 + 1\\
+&= 2(10a^2 + 3a + 3) + 1\\
+&\textbf{Let } m = 10a^2 + 3a + 3\\
+&= 2m + 1
+\end{align*}
+By definition, if $n$ is an even number, then $5n^2 + 3n + 7$ is also an odd number.\\
+\textbf{Case 2:} Second let us assume that $n$ is an odd number, so by definition, we can write it as $n = 2a + 1$ for some $a \in \Z$. We then have
+\begin{align*}
+5n^2 + 3n + 7 &= 5(2a + 1)^2 + 3(2a + 1) + 7\\
+&= 5(4a^2 + 4a + 1) + 6a + 3 + 7\\
+&= 20a^2 + 20a + 5 + 6a + 10\\
+&= (20a^2 + 26a + 14) + 1\\
+&= 2(10a^2 + 13a + 7) + 1\\
+& \textbf{Let } m = 10a^2 + 13a + 7\\
+&= 2m + 1
+\end{align*}
+By definition, if $n$ is an odd number, then $5n^2 + 3n + 7$ is also an odd number.\\
+
+Since we have shown for both cases that $5n^2 + 3n + 7$ is an odd number. We can say that for all $n \in Z$ that $5n^2 + 3n + 7$ is odd.\\
+\end{proof}
+
+
+
+\subsection*{Problem 18}
+Suppose $x$ and $y$ are positive real number. If $x < y$ then $x^2 < y^2$. 
+\begin{proof}
+Since we know that $x < y$. We can say two things by manipulating the inequality
+\[ x \cdot x < y \cdot x \]
+\[ x \cdot y < y \cdot y \]
+From these  two inequalities we can create one larger one as such
+\[ xx < xy < yy \]
+From the inequality above we can then say that 
+\[ xx < yy \]
+\[ x^2 < y^2 \]
+\end{proof}
+Thus we have shown that if $x < y$ then $x^2 < y^2$
+
+
+
+\subsection*{Problem 21}
+If $p$ is prime and $k$ is an integer for which $0<k<p$, then p divides $p choose k$
+\begin{proof}
+From the formula ${p \choose k} = \dfrac{p!}{(p-k)!k!}$, we get $p! = {p \choose k} (p-k)!k!$. Now, since the prime number $p$ is a factor of $p!$ on the left, it must also be a factor of ${p \choose k}(p -k)!k!$ on the right. Thus the prime number $p$ appears in the prime factorization of ${p \choose k} (p-k)!k!$. As $k!$ is a product of numbers smaller than p, its prime factorization contains no p's. Similarly the prime factorization of $(p-k)!$ contains no p's. But we noted that the prime factorization of ${p \choose k} (p-k)!k!$ must contain a $p$, so the prime factorization of $p \choose k$ contains a $p$. Thus $p \choose k$ is a multiple of $p$, so $p$ divides $p \choose k$
+\end{proof}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

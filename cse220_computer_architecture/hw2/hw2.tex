@@ -1,0 +1,129 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\lhead{Homework 2, October 12, 2022}
+\rhead{Nicholas Tee}
+
+\begin{document}
+
+\section*{Question 1}
+\subsection*{Part A}
+16KB cache = 16,384 Bytes = $2^{14}$ Bytes $\Rightarrow$ 32 - 14 = 18 tag bits\\
+64B blocks = $2^{6}$ Byte blocks $\Rightarrow$ 6 offset bits\\
+14 - 6 = 8 index bits\\
+0x00ffb048 = 0000 0000 1111 1111 1011 0000 0010 1000
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+tag & index & offset \\ \hline
+0000 0000 1111 1111 01 & 11 0000 00 & 10 1000 \\ \hline
+\end{tabular}
+\end{table}
+\subsection*{Part B}
+512KB cache = 524,288 Bytes = $2^{19}$ Bytes\\
+16B blocks = $2^{4}$ byte blocks\\
+8 way associative $\Rightarrow$ $2^3$\\
+\textit{Index:} $19 - 3 = 16$ index bits\\
+\textit{Offset:} $4= 4$ offset bits\\
+\textit{Tag:} $32 - 15 - 3 = 12$ tag bits\\
+0x1a2b3c4d = 0001 1010 0010 1011 0011 1100 0100 1101\\
+\begin{table}[!h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+tag & index & offset \\ \hline
+0001 1010 0010 & 1011 0011 1100 0100 & 1101 \\ \hline
+\end{tabular}
+\end{table}
+\subsection*{Part C}
+hit time = 4 cycles\\
+miss time = 28 cycles\\
+miss rate = 1 - hit rate = 1 - 0.75 = 0.25\\
+miss penalty = miss time - hit time = 28 - 4 = 24 cycles\\
+\[ AMAT = 4 + 0.25 \cdot 24 = 10 \]
+AMAT = 10 cycles
+\newpage
+\subsection*{Part D}
+L1 hit time = 2 cycles\\
+L1 hit rate = 0.75 $\Rightarrow$ 0.25 miss rate\\
+L2 hit time = 2 + 8 = 10 cycles\\
+L2 hit rate = 0.5 $\Rightarrow$ 0.5 miss rate\\
+L2 miss penalty = 80 cycles
+\begin{align*}
+AMAT &= 2 + 0.25 \cdot ((10 + 0.5 \cdot 80) - 2)\\
+&= 2 + 0.25 \cdot ((50) - 2)\\
+&= 2 + 0.25 \cdot (48)\\
+&= 2 + 12 = 14
+\end{align*}
+AMAT = 14
+\section*{Question 2}
+16KB capacity\\
+16B block size/cache line\\
+2 way associativity\\
+no. of blocks = $2^{14} / 2^{4} = 2 ^{10} = 1024$ blocks, with two longs each and there are $512$ sets.\\\\
+\textbf{a)}Since each block can hold up to two longs, then the cache should miss every other long. Since if we look for a[0][0] in the cache, it will miss, and then both a[0][0] and a[0][1] will be stored in the cache.\\\\
+\textbf{Cache hit rate:} $50\%$\\\\
+\textbf{b)}Due to the way that the loops access the array, the hit rate will be $0\%$. Since the code accesses the array column wise, there will not be enough space in the cache for a hit\\\\
+\textbf{c)}Compulsory miss, due to a lack in block size\\\\
+\textbf{d)}Conflict miss, due to a lack of associativity. \\\\
+\textbf{e)}Block size, this way more longs can be stored in the cache at a miss.\\\\
+\textbf{f)}Increase associativity
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

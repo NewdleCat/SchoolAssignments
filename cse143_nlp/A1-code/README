@@ -1,0 +1,8 @@
+classifiers.py
+- where most of the code is written
+- both stochastic and gradient descent were implemented, uncomment whichever you wish to use and comment the other
+
+Main Commands
+
+pyhton main.py --model NaiveBayes
+pyhton main.py --model LogisticRegression

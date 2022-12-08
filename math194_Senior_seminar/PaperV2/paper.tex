@@ -1,0 +1,430 @@
+\documentclass[12pt, letterpaper]{article}
+
+
+\usepackage{amsfonts,amssymb,latexsym}
+\usepackage{amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\usepackage{subfig}
+\usepackage{placeins}
+\usepackage{tikz}
+\usetikzlibrary{calc,intersections}
+\usepackage{bbm}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\A}{\mathbb{A}}
+\newcommand{\V}{\mathcal{V}}
+\newcommand{\I}{\mathcal{I}}
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\G}{\mathbb{G}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\B}{\mathbb{B}}
+\newcommand{\T}{\mathbb{T}}
+\newcommand{\M}{\frak{M}}
+\newcommand{\D}{\mathcal{D}}
+\renewcommand{\b}{\frak{b}}
+\newcommand{\E}{\mathbb{E}}
+%   ALGEBRA   %
+\newcommand{\diag}{\ensuremath{\operatorname{diag}}}
+\newcommand{\Span}{\ensuremath{\operatorname{Span}}}
+\newcommand{\codim}{\ensuremath{\operatorname{codim}}}
+\newcommand{\Spec}{\ensuremath{\operatorname{Spec}}}
+\newcommand{\rad}{\ensuremath{\operatorname{rad}}}
+\newcommand{\norm}{\mathrel{\lhd}}
+\newcommand{\im}{\ensuremath{\operatorname{im}}}
+\newcommand{\coker}{\ensuremath{\operatorname{coker}}}
+\newcommand{\rank}{\ensuremath{\operatorname{rank}}}
+\renewcommand{\char}{\ensuremath{\operatorname{char}}}
+\newcommand{\Aut}{\ensuremath{\operatorname{Aut}}}
+\newcommand{\la}{\langle}
+\newcommand{\ra}{\rangle}
+\newcommand{\orb}{\mathcal{O}}
+\newcommand{\obj}{\ensuremath{\operatorname{obj}}}
+\newcommand*\cat[1]{{\tt #1}}
+\newcommand{\End}{\ensuremath{\operatorname{End}}}
+\newcommand{\Hom}{\ensuremath{\operatorname{Hom}}}
+\newcommand{\Ext}{\ensuremath{\operatorname{Ext}}}
+\newcommand{\Tor}{\ensuremath{\operatorname{Tor}}}
+\newcommand{\depth}{\ensuremath{\operatorname{depth}}}
+\newcommand{\gldim}{\ensuremath{\operatorname{gldim}}}
+\newcommand{\pd}{\ensuremath{\operatorname{pd}}}
+\newcommand{\Kdim}{\ensuremath{\operatorname{Kdim}}}
+\newcommand{\Flag}{\ensuremath{\operatorname{Flag}}}
+\newcommand{\Stab}{\ensuremath{\operatorname{Stab}}}
+\newcommand{\tr}{\ensuremath{\operatorname{tr}}}
+\newcommand{\ch}{\ensuremath{\operatorname{ch}}}
+\newcommand{\Sym}{\ensuremath{\operatorname{Sym}}}
+\newcommand{\Irr}{\ensuremath{\operatorname{Irr}}}
+
+%  LIE THEORY  %
+\newcommand{\g}{\frak{g}}
+\newcommand{\h}{\frak{h}}
+\newcommand{\Ad}{\ensuremath{\operatorname{Ad}}}
+\newcommand{\ad}{\ensuremath{\operatorname{ad}}}
+\newcommand{\Der}{\ensuremath{\operatorname{Der}}}
+\newcommand{\Lie}{\ensuremath{\operatorname{Lie}}}
+\newcommand{\U}{\mathcal{U}}
+\newcommand{\gl}{\frak{gl}}
+\renewcommand{\sl}{\frak{sl}}
+\newcommand{\Dist}{\ensuremath{\operatorname{Dist}}}
+
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem*{thm1}{Theorem}
+\newtheorem*{claim}{Claim}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem*{defn}{Definition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{conj}[thm]{Conjecture}
+\newtheorem*{rem}{Remark}
+  \let\oldrem\rem
+  \renewcommand{\rem}{\oldrem\normalfont}
+\newtheorem*{question}{Question}
+\newtheorem{ex}[thm]{Example}
+  \let\oldex\ex
+  \renewcommand{\ex}{\oldex\normalfont}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\title{Introduction to Lie Algebras and Lie groups}
+\date{May 22, 2022}
+\author{Nicholas Silva Tee}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Lie algebras and Lie groups allow us to study systems of continuous symmetries and infinitesimal transformations. Lie algebras are essentially vector spaces over some field and given a binary operation known as the Lie bracket. Lie groups are groups and at the same time smooth manifolds, the Lie algebra associated with the lie group acts as its tangent space. Only matrix Lie groups will be discussed within this paper as an understanding of a manifold structure is not necessary to fully understand the concept. This paper will go over the basic definitions and notions of both algebraic structures, and the connection the two have. 
+\end{abstract}
+
+
+
+\section*{Introduction}
+	Lie algebras and Lie groups are a field of abstract algebra and geometry that allow us to look at continuous symmetries throughout different geometric objects. Imagine the group of rotations for a square, it will only look the same if you rotate it 90 degrees in either direction. However, if you examine a circle, you can rotate it any arbitrarily small amount and it will still look the same. Although a lot of Lie groups and algebra are associated with differential geometry, it has connections to topics such as number theory, analysis, and even combinatorics. Lie groups and algebra have even found usage in computer science and finance.
+
+\section{Lie algebra}
+\subsection{Prior Knowledge}
+Before we start, these concepts are necessary to properly understand the concept of Lie algebras, this section may act as new knowledge or simply as a refresher.
+\begin{defn}
+A \textbf{vector space} or \textbf{linear space} $V$ is a set that is closed under vector addition and scalar multiplication. $V$ must also satisfy all the following properties for all elements $x,y,z \in V$ and some scalars $a,b$:\\\\
+\textbf{Commutativity: } $x + y = y + x$\\
+\textbf{Associativity:} $(x + y) + z = x + (y + z)$ and $a(bx) = (abx)$\\
+\textbf{Identity:} if $e$ is the identity element, then $e + x = x = x + e$ and $ex = x$\\
+\textbf{Additive Inverses:} For every element $x \in V$ there exists an element $x^{-1} \in V$ such that $x + x^{-1} = 0$ this is known as the inverse of $x$\\
+\textbf{Distributivity:} $(a+b)x = ax + bx$ and $a(x + y) = ax + ay$
+\end{defn}
+
+\begin{defn}
+A \textbf{Field} is a set $F$ that satisfies all the field axioms, which are essentially the same as the axioms above for all elements $x,y,z \in F$ and scalars $a,b$.
+\end{defn}
+
+\begin{defn}
+For a vector space $V$, $S$ is known as a \textbf{vector subspace} or \textbf{linear subspace} such that it is a subset of the set $V$ and that:\\
+\textbf{1) } It is non-empty, the zero vector is in $S$\\
+\textbf{2) } It follows all the other properties of a vector space
+\end{defn}
+\subsection{Basics and a simple example}
+First lets go over some basic definitions and examples of lie algebras
+\begin{defn}
+A lie algebra is a vector space $S$ over a field F with some binary operation $[ \cdot, \cdot ]: s \times s \rightarrow s$. This is what we call the \textbf{Lie Bracket}. It must also satisfy the following axioms\\
+\textbf{1. Bilinearity} for all scalars $a \in F$ and vectors $x,y,z \in S$. We have $[ax+y, z] = [ax, z] + [y,z] = a[x, z] + [y,z]$\\
+\textbf{2. Alternativity} For all $x \in S$ we have $[x, x] = 0$\\
+\textbf{3. Jacobi Identity} For all $x,y,z \in S$ we have $[x, [y, z]] + [y, [z, x]] + [z, [x, y]] = 0$
+\end{defn}
+
+Note that depending on the source you are looking at, this second property may appear in different names such as \textbf{skew-symmetry} or \textbf{anti-symmetry}. This is because the alternativity property, combined with its bilinearity implies that $[x,y] = -[y,x]$ for all $x,y\in S$. Hence, the names anti-symmetry and skew-symmetry.
+
+\begin{ex}
+$\R^3$ with the cross product as its operation, so $[v, w] = v \times w$. 
+\end{ex}
+
+When talking about Lie algebras and Lie groups, it is common to see them written down using \textbf{Fraktur letters} which look like $\{ \mathfrak{a,b,c,...} \}$. We will see these letters in use later on.
+
+\subsection{Notions of Lie algebras}
+Now that we know the basic structure or a Lie algebra, let us go over a few properties and notions.
+
+\begin{defn}
+A linear map $H\in Hom(g, h)$ is a Lie algebra homomorphism between two lie algebras $g$ and $h$ such that it is compatible with the lie bracket:
+\[ H: g \rightarrow h \text{ such that } H([a,b]) = [H(a),H(b)] \]
+\end{defn}
+
+\begin{defn}
+For some Lie algebra $g$, then for some linear subspace $h \subset g$ and $h$ is closed under the Lie bracket, such that for all $x, y \in h$:
+\[ [x,y] \in h \]
+then $h$ is known as a \textbf{Lie subalgebra}
+\end{defn}
+
+Using the concept of Lie subalgebras are an easy way of creating new Lie algberas, we will see examples of this in later sections.
+
+
+
+\begin{defn}
+For some Lie algebra $g$, if all elements $x,y \in g$ such that:
+\[ [x,y] = 0 \]
+then we call this Lie algebra \textbf{abelian}
+\end{defn}
+
+This essentially means that for any two elements in the Lie algebra equate to 0 under the Lie bracket, then it is abelian. Similar to abelian groups, this shows that the Lie algebra is commutative. Furthermore, since V is a vector space over F, the field F may be considered a 1-dimensional abelian Lie algebra
+
+\begin{defn}
+If a Lie algebra $g$ is non-abelian and has no non-trivial(not in 0 or itself) ideals. Then we call this Lie algebra \textbf{simple}
+\end{defn}
+
+\begin{defn}
+If a Lie algebra $g$ is a finite direct sum of other simple lie algebras $\{ g_1, g_2, ..., g_n \}$
+\[ g = g_1 \bigoplus g_2 \bigoplus ... \bigoplus g_i \]
+Then we denote this Lie algebra as \textbf{semisimple}
+\end{defn}
+
+
+
+\subsection{More examples of Lie algebras}
+Now let us go over a few more examples of Lie algebras. \\
+
+\begin{defn}
+An endomorphism of a group $G$ or a vector space $V$ is a homomorphism that maps to itself. So for some map $f$, a endomorphism is:
+\[ f: V \rightarrow V  \text{ or } f: G \rightarrow G\]
+This can be denoted as $End(V)$ or $End(G)$
+\end{defn}
+
+Let $V$ be some finite-dimensional vector space over a field $F$. $End(V)$ is the set of all endomorphisms of a vector space $V$. Now when given the Lie bracket $[\cdot, \cdot]$ as such:
+\[ [x,y] = x \circ y - y \circ x \text{ for all } x,y\in End(V)\]
+Where $\circ$ denotes a composition between maps $x$ and $y$, It becomes a Lie algebra, it is also known as the \textbf{general linear algebra}. We can represent this Lie algebra as $\mathfrak{gl}(V)$. It is called the general linear algebra as it is associated with the Lie group $GL(n)$ which is called the \textbf{General Linear group} which will be discussed later on.\\
+
+If we take the vector space of all $n \times n$ matrices over a field $F$ and use the same Lie bracket as such:
+\[ [x,y] = xy - yx \]
+Where instead of a composition of maps, $xy$ denotes matrix multiplication between $x$ and $y$. This is still the general linear algebra, but instead we denote is as $\mathfrak{gl}(n, F)$ or $\mathfrak{gl}_n(F)$.
+
+
+\begin{proof}
+We can see that the first two properties of Lie algebras are immediately satisfied, the only thing we need to do is prove the Jacobi identity, by showing that 
+\[[x,[y,z]] + [y,[z,x]] + [z,[x,y]] = 0\]
+\begin{align*}
+&= x(yz - zy) - (yz-zy)x + y(zx-xz) - (zx - xz)y + z(xy - yx) - (xy- yx)z\\
+&= xyz - xzy - yzx + zyx + yzx - yxz - zxy + xzy +zxy - zyx - zyx + yxz\\
+&= (xyz - xyz) + (xzy-xzy) + (yzx - yzx) + (zyx-zyx) + (yxz-yxz)\\
+&= 0
+\end{align*}
+\end{proof}
+
+An easy way of understanding these concepts are if we simply treat $\mathfrak{gl}(V)$ or $\mathfrak{gl}_n(F)$ as vector spaces, and that they only become Lie algebras when endowed with a Lie bracket.\\
+
+Now let us take a subspace of $\mathfrak{gl}_n(F)$, where it is all the $n \times n$ matrices where the trace is 0. Recall that the trace of a $n \times n$ matrix is simply the sum of the diagonal. For instance, we take some arbitrary $3 \times 3$ matrix $A$
+\[A = 
+	\left[ \begin{matrix}
+	a & b & c\\
+	d & e & f\\
+	g & h & i
+	\end{matrix} \right]
+\]
+Then the trace of the matrix can be denoted as $Tr(A) = a + e + i$\\
+The trace of a matrix also preserves bilinearity, so for any matrices $A,B$ it is true that $Tr(AB) = Tr(BA)$ and that $Tr(A + B) = Tr(A) + Tr(B)$\\
+
+Now when endowed with the same lie bracket as above, this is known as the \textbf{special linear algebra} or $\mathfrak{sl}_n(F)$. Similar to $\mathfrak{gl}_n(F)$, it is named after a Lie group called the \textbf{special linear group}, which will also be talked about later on.\\
+
+We can also show that $\mathfrak{sl}(V)$ is a subalgebra of $\mathfrak{gl}(V)$.
+
+\begin{proof}
+ For elements $x,y \in sl(V)$:
+\[ Tr[x,y] = Tr(xy) - Tr(yx) = 0 \]
+We do not need to expand on the vectors since the trace preserves bilinearity. 
+\begin{align*}
+Tr(x,[y,z]] + [y,[z,x]] + [z,[x,y]]) &= [Tr(x), Tr([y,z])] + [Tr(y),Tr([z,x])] + [Tr(z),Tr([x,y])] \\
+&= Tr([x,0]) + Tr([t,0]) + Tr([z,0])\\
+&= 0
+\end{align*}
+Since all elements in $\mathfrak{sl}(V)$ are closed under the lie bracket, it shows that it is a Lie subalgebra of $\mathfrak{gl}(V)$
+\end{proof}
+
+We can also see that by definition, $\mathfrak{sl}_n(F)$ is an ideal of $\mathfrak{gl}_n(F)$
+
+\subsection{Derivations}
+Let $L$ be some Lie algebra over a field $F$. For $x,y \in L$ We can create an F-linear map $D: L \rightarrow L$ such that:
+\[ D(xy) = xD(y) + D(x)y \]
+We call this a \textbf{derivation} of $L$. So $Der(L)$ is the set of all derivations of the Lie algebra $L$. Furthermore, because $Der(L)$ is closed under addition and scalar multiplication, it is a subspace of $\mathfrak{gl}_n(L)$, and also a Lie subalgebra. This is a great way of finding new Lie algebras, we can take this concept further and create more, let $D_1$ and $D_2$ be derivations of $L$, then we can put them under a lie bracket as such:
+\[ [D_1, D_2] = D_1 \circ D_2 - D_2 \circ D_1 \]
+Is also a derivation, thus at the same time a subspace and subalgera of $\mathfrak{gl}(L)$.
+
+
+\subsection{Structure Constants}
+Let $L$ be a Lie algebra over a field $F$ with basis that we will denote as ${e_1, e_2, e_3, ..., e_n}$. Then the lie bracket $[\cdot, \cdot]$ is determined by $[e_i, e_j]$ as such:
+\[ [e_i,e_j] = \sum	^{n}_{k=1} c^k_{ij}e_k \]
+Where $c^k_{ij}$ are scalars in $F$, we say that they are the \textbf{structure constants} of $L$ with respect to $F$. It is worth note that $c^k_{ij}$ depends on the basis of $ L$ you choose. Different bases will result in different structure constants.
+
+
+
+\section{Ideals}
+\begin{defn}
+For some Lie algebra $L$ and a linear subspace $I$. If $x \in L$ and $y \in I$ such that
+\[ [x,y]\in I \]
+Then $I$ is known as an \textbf{ideal} of $L$
+\end{defn}
+
+Note that for every Lie algebra $G$, 0 and the algebra $G$ itself are always ideals of $G$, these are known as the \textbf{trivial} ideals. It also worth note that every ideal is a subalgebra, however, the reverse is not always true.
+
+Let's take another subalgebra of $\mathfrak{gl}_n(F)$ called $\mathfrak{b}_n(F)$, which is the space that contains call upper triangular matrices. So where $x$ is a cell in the matrix and $i,j$ is the position, then $x_{ij} = 0$ when $i < j$. So a matrix in $\mathfrak{b}_3(F)$ might look like.
+\[ 
+\begin{bmatrix}
+a & b & c \\
+0 & d & e \\
+0 & 0 & f \\
+\end{bmatrix} \in \mathfrak{b}_3(F)
+\]
+We can then label a basis vector of either spaces as $e_{ij}$ where $ij$ is the cell of value 1, while the rest are 0. So a matrix in the basis of $\mathfrak{b}_3(F)$ would look like:
+\[
+e_{12} = \begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 0 \\
+0 & 0 & 0 \\
+\end{bmatrix}
+\]
+ Now, we know that $\mathfrak{b}_n(F)$ is a subalgebra of $\mathfrak{gl}_n(F)$. However, when $n \geq 2$ it is not an ideal. Notice that $e_{11} \in \mathfrak{b}_n(F)$ and that $e_{21} \in \mathfrak{gl}_n(F)$. If we put it into the Lie bracket we get:
+\[
+	[e_{21},e_{11}] = e_{21}e_{11} - e_{11},e_{21} = 
+\begin{bmatrix}
+0 & 0\\
+1 & 0\\
+\end{bmatrix} \times
+\begin{bmatrix}
+1 & 0\\
+0 & 0\\
+\end{bmatrix} -
+\begin{bmatrix}
+1 & 0\\
+0 & 0\\
+\end{bmatrix} \times
+\begin{bmatrix}
+0 & 0\\
+1 & 0\\
+\end{bmatrix} = 
+\begin{bmatrix}
+0 & 0\\
+1 & 0\\
+\end{bmatrix} = e_{21} \not\in \mathfrak{b}_n(F)
+\]
+We can see that it does not satisfy the definition, so although $\mathfrak{b}_n(F)$ is a subalgebra, it is not an ideal of $\mathfrak{gl}_n(F)$.
+
+\subsection{Constructing new Ideals}
+Let's say that we have two ideals $I$ and $J$ of some Lie algebra $L$. With these ideals, it is possible to create new ideals. Recall that ideals are also subspaces and subalgebras, so then we also know that $I \cap J$ is also a subspace of $L$. So by definition, all we need to do is show that if $x \in L$ and $y \in I \cap J$, then $[x, y] \in I \cap J$. From now on we will define a product of ideals as such:
+\[ [I,J] = Span\{[x,y] : x \in I, y\in J\} \]
+Now for $x \in I, y \in J, z \in L$ If we take the jacobi identity and do some rearranging we get:
+\[ [z,[x,y]] = [x[z,y]] + [[z,x],y] \]
+In this equation, $[z,y] \in J$ since it is an ideal, from this we can see that $[x,[z,y]], [[z,x],y] \in [I,J]$, so the sum between them should also exist in $[I,J]$.\\\\
+Let $t$ be an element of $[I,J]$. We can say that a general element $t$ is simply a linear combination of brackets $[x,y]$ such that$x \in I$ and $y \in J$, then $t = \Sigma c_i [c_i, y_i]$ where $c_i$ is some scalar. Now we can say that for some element $z \in L$ we have:
+\[ [z,t] = \left[ z, \sum c_i[x_i,y_i] \right] = \sum c_i [z, [x_i, y_i]]\]
+We can see that $[z, [x_i, y_i]] \in [I,J]$, this then implies that $[z,t] \in [I,J]$. Thus, we can call it and ideal of $L$.
+
+
+\subsection{Quotient Algebras}
+Another way of creating new Lie algebras is through cosets of ideals. Let $I$ be an ideal of a Lie algebra $L$. So a coset of $I$ may be represented as $z + I = \{ z + x : x \in I, z\in L \}$. From this coset we can create a \textbf{quotient vector space}:
+\[ L/I = \{ z+I:z \in L \} \]
+For $w,z \in L$, we can then give the vector space $L/I$ the Lie bracket:
+\[ [w + I, z + I] = [w,z] + I \]
+where the bracket on the right is the one attached to $L$. To make sure that this Lie bracket is well-defined, let $w + I = w' + I$ and $z + I = z' + I$, then we can say that $w - w' \in I$ and $z - z' \in I$. Then we can use the lie bracket:
+\begin{align*}
+[w',z'] &= [w' + (w - w'), z' + (z - z')]\\
+& \text{(We expand using the bilinearity of the bracket)} \\
+&= [w,z] + [w',(z-z')] + [(w-w'),z'] + [(w-w'),(z-z')]
+\end{align*}
+Now since the last three terms all exist within $I$, then it is true that $[w' + I, z' + I] = [w,z] + I$. We have now created a quotient algebra.
+
+
+\section{Matrix Lie Group}
+\subsection{Prerequisite Knowledge}
+Similar to Lie algberas, some prior knowledge is required to understand Lie groups, now recall the following.
+\begin{defn}
+A set $G$ endowed with some binary operation "$\cdot$" is considered to be a group if it satisfies the four axioms.\\
+\textbf{1) Closure:} For any $x,y \in G$ then $x\cdot y \in G$\\
+\textbf{2) Associativity:} For any $x,y,z \in G$, it is true that $(x \cdot y) \cdot z = x \cdot (y \cdot z)$\\
+\textbf{3) Identity:} There exists some element $e \in G$ such that $e \cdot x = e = x \cdot e$ we call this the identity element of the group. \\
+\textbf{4) Inverse:} For some element $x \in G$ there exists an element $x^{-1} \in G$ such that $x \cdot x^{-1} = e$ this is known as the inverse of $x$
+We represent the group and its binary operation as $(G, \cdot)$
+\end{defn}
+
+\begin{ex}
+An easy example of a group are the integers under additions denoted as $(\Z, +)$
+\end{ex}
+
+
+\begin{defn}
+A \textbf{homomorphism} is a map between two algebraic structures that maintain their structure. In the sense of groups it maintains the binary operation, it is a map $f$ between two groups $G$ and $H$ such that:
+\[ f: G \rightarrow H \textbf{ and } f(a,b) = f(a)f(b) \]
+this is known as a \textbf{group homomorphism}
+\end{defn}
+
+\begin{defn}
+A homomorphism that is both injective and surjective is known to be an \textbf{isomorphism}
+\end{defn}
+
+\begin{defn}
+Let $H$ be a subset of the elements within a group $G$. If $H$ satisfies the group properties, then we call $H$ a \textbf{subgroup} of $G$. We denote it as $H \subset G$.
+\end{defn}
+
+These are important to know as when we talk about Lie groups, we will see that they are first and foremost groups.
+\subsection{Definitoin}
+Lie groups are formally defined as the following.
+\begin{definition}
+Let $G$ be a set with two main properties. \\
+  1) $G$ is first and foremost a group\\
+  2) $G$ is a smooth manifold. \\
+  if $G$ satisfies these two properties, it is considered a Lie group.
+\end{definition}
+However, since manifolds are a quite complicated topic, we will only focus on matrix lie groups, which doesn't require full knowledge on manifolds to get a good understanding.\\\\
+Lie groups also adopt the basic notions of groups such as homomorphisms and subgroups, which in this case it would be called a \textbf{Lie subgroup}. You can refer back to the definitions of said notions in the previous section.
+
+\subsection{Examples}
+The first example is called the \textbf{general linear group}, and as mentioned earlier it is associated with the general linear algebra. It is the group of all $n \times n$ invertible matrices with matrix multiplication as its group operation. Similar to the lie algebras, we can denote this group as $GL(n, F)$ or $GL_n(F)$ for some field $F$(normally $\R$ or $\C$). \\\\
+Another group worth mentioning is the \textbf{special linear group}, the group associated with the special linear algebra. It is the set of all $n \times n$ matrices with a determinant of 1 with matrix multiplication as its group operator as well. Since $GL_n(F)$ is the set of all $n \times n$ invertible matrices, then we can say that it is a subgroup of $GL_n(F)$. We denote this group as $SL(n, F)$ or $SL_n(F)$.\\
+
+It it also worth mentioning that every Lie group has a lie algebra associated with it, but not necessarily the other way around. But, how are they related?
+
+\subsection{Connection between Lie groups and their algebras}
+Every Lie group has an associated lie algebra, this lie algebra acts as the tangent space at the identity of the lie group. Why this is important? \\\\
+Lets take another Lie group called $SO(n)$, which is the group of all orthogonal matrices with determinant $-1$. This group is called the \textbf{special orthogonal group}, its associated lie algebra can be denoted as $\mathfrak{so}_n(F)$. It is also known as the \textbf{rotation group} as the matrices are all rotation transformation matrices. Now this group would be quite difficult to visualize as all of its elements are technically transformations. This is where the lie algebra comes in, since it acts as the tangent space at the identity, it essentially allows us to "linearize" the transformations so that we can properly study its elements.\\\\
+We can also see its connection by using the \textbf{exponential map}. Let $G$ be some Lie group and let $g$ be the Lie algebra that is associated with the Lie group. The exponential map is represented as such:
+\[ exp: g \rightarrow G \]
+The exponential map maps elements from the Lie algebra to the Lie groups and is the core of Lie Theory in general. \\\\
+In terms of matrix Lie groups and algberas, the exponential map is simply the matrix exponential as such:
+\[ exp(X) = \sum^{\infty}_{k=0} \dfrac{X^k}{k!} = I + X + \dfrac{1}{2}X^2 + \dfrac{1}{6}X^3 + ...\]
+
+\section{Conclusion}
+Lie theory is the connections between Lie algebras and Lie groups. Lie algebras allow us to properly study Lie groups, especially transformations groups that are not easy to visualize. Lie algebras let us linearise said transformations in order to properly understand its behaviour. Lie algebras also have many different notions that allow us to create new Lie algebras such as ideals and subalgebras. Using all this knowledge, Lie algebras and Lie groups have found many other applications in other fields than just math. For instance, it is a very popular topic within quantum mechanics and gague theory, where they use Lie algebras to study the symmetries within elementary particles in the standard model. Regardless, If you can think of anything with some form of system of continuous symmetries, it is more than likely that there is some for of Lie algebra or Lie group lurking around.
+
+\newpage
+
+\begin{thebibliography}{book}
+
+\bibitem{erdmann_wildon}, Introduction to lie algebras, Scholars Portal, Erdmann, karin and Wildon, Mark J
+
+\bibitem{}Talley, Amanda Renee, "An Introduction to Lie Algebra" (2017). Electronic Theses, Projects, and
+Dissertations. 591. 
+
+\bibitem{imani}Imani, Paniz. Introduction to Lie Algebras - Uni-Hamburg.de. 
+
+\bibitem{ludlpatrick} Kirillov, Alexander. Introduction to Lie Groups and Lie Algebras. 
+
+\bibitem{ting}“Introduction to Lie Algebras and Representation Theory : Humphreys, James E : Free Download, Borrow, and Streaming.” Internet Archive, New York, Springer-Verlag, 1 Jan. 1972, https://archive.org/details/introductiontoli00jame/page/n3/mode/2up. 
+
+\bibitem{yo}Historical Review of Lie Theory 1. 2. the Algebraic ... - UCLA Mathematics. https://www.math.ucla.edu/~vsv/liegroups2007/historical%20review.pdf. 
+
+\end{thebibliography}
+
+\end{document} 
+
+
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+\documentclass[12pt]{article}
+
+
+\usepackage{amsfonts,amssymb,latexsym}
+\usepackage{amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\usepackage{subfig}
+\usepackage{placeins}
+\usepackage{tikz}
+\usetikzlibrary{calc,intersections}
+\usepackage{bbm}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\A}{\mathbb{A}}
+\newcommand{\V}{\mathcal{V}}
+\newcommand{\I}{\mathcal{I}}
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\G}{\mathbb{G}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\B}{\mathbb{B}}
+\newcommand{\T}{\mathbb{T}}
+\newcommand{\M}{\frak{M}}
+\newcommand{\D}{\mathcal{D}}
+\renewcommand{\b}{\frak{b}}
+\newcommand{\E}{\mathbb{E}}
+%   ALGEBRA   %
+\newcommand{\diag}{\ensuremath{\operatorname{diag}}}
+\newcommand{\Span}{\ensuremath{\operatorname{Span}}}
+\newcommand{\codim}{\ensuremath{\operatorname{codim}}}
+\newcommand{\Spec}{\ensuremath{\operatorname{Spec}}}
+\newcommand{\rad}{\ensuremath{\operatorname{rad}}}
+\newcommand{\norm}{\mathrel{\lhd}}
+\newcommand{\im}{\ensuremath{\operatorname{im}}}
+\newcommand{\coker}{\ensuremath{\operatorname{coker}}}
+\newcommand{\rank}{\ensuremath{\operatorname{rank}}}
+\renewcommand{\char}{\ensuremath{\operatorname{char}}}
+\newcommand{\Aut}{\ensuremath{\operatorname{Aut}}}
+\newcommand{\la}{\langle}
+\newcommand{\ra}{\rangle}
+\newcommand{\orb}{\mathcal{O}}
+\newcommand{\obj}{\ensuremath{\operatorname{obj}}}
+\newcommand*\cat[1]{{\tt #1}}
+\newcommand{\End}{\ensuremath{\operatorname{End}}}
+\newcommand{\Hom}{\ensuremath{\operatorname{Hom}}}
+\newcommand{\Ext}{\ensuremath{\operatorname{Ext}}}
+\newcommand{\Tor}{\ensuremath{\operatorname{Tor}}}
+\newcommand{\depth}{\ensuremath{\operatorname{depth}}}
+\newcommand{\gldim}{\ensuremath{\operatorname{gldim}}}
+\newcommand{\pd}{\ensuremath{\operatorname{pd}}}
+\newcommand{\Kdim}{\ensuremath{\operatorname{Kdim}}}
+\newcommand{\Flag}{\ensuremath{\operatorname{Flag}}}
+\newcommand{\Stab}{\ensuremath{\operatorname{Stab}}}
+\newcommand{\tr}{\ensuremath{\operatorname{tr}}}
+\newcommand{\ch}{\ensuremath{\operatorname{ch}}}
+\newcommand{\Sym}{\ensuremath{\operatorname{Sym}}}
+\newcommand{\Irr}{\ensuremath{\operatorname{Irr}}}
+
+%  LIE THEORY  %
+\newcommand{\g}{\frak{g}}
+\newcommand{\h}{\frak{h}}
+\newcommand{\Ad}{\ensuremath{\operatorname{Ad}}}
+\newcommand{\ad}{\ensuremath{\operatorname{ad}}}
+\newcommand{\Der}{\ensuremath{\operatorname{Der}}}
+\newcommand{\Lie}{\ensuremath{\operatorname{Lie}}}
+\newcommand{\U}{\mathcal{U}}
+\newcommand{\gl}{\frak{gl}}
+\renewcommand{\sl}{\frak{sl}}
+\newcommand{\Dist}{\ensuremath{\operatorname{Dist}}}
+
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{definition}{Definition}
+\newtheorem*{thm1}{Theorem}
+\newtheorem*{claim}{Claim}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem*{defn}{Definition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{conj}[thm]{Conjecture}
+\newtheorem*{rem}{Remark}
+  \let\oldrem\rem
+  \renewcommand{\rem}{\oldrem\normalfont}
+\newtheorem*{question}{Question}
+\newtheorem{ex}[thm]{Example}
+  \let\oldex\ex
+  \renewcommand{\ex}{\oldex\normalfont}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\begin{document}
+
+
+\section*{Introduction}
+	Lie algebra and lie groups are an area of abstract algebra and have had many impact and applications in other fields of study such as computer science or physics. In this paper, the basic definitions and concepts of lie algebras and groups, as well as several of their properties. This paper assumes that you, the reader have some understanding of linear algebra, and group theory.\\\\
+	(Personal Note: Applications of both may be brought up within the paper but I haven't yet decided on that, if I do so, it will be at the later part of the paper after I have gone through all of the pure math stuff that I want to write about.)
+
+\section{Lie Algebra}
+\subsection{Definitions}
+\begin{defn}
+A lie algebra is a vector space $S$ over a field F with some binary operation $( \cdot, \cdot ): s \times s \rightarrow s$. This is what we call the \textbf{Lie Bracket}. It must also satisfy the following axioms\\
+\textbf{1. Bilinearity} for all scalars $a \in F$ and vectors $x,y,z \in S$. We have $(ax+y, z) = (ax, z) + (y,z) = a(x, z) + (y,z)$\\
+\textbf{2. Alternativity} For all $x \in L$ we have $(x, x) = 0$ \\
+\textbf{3. Jacobi Identity} For all $x,y,z \in L$ we have $(x, (y, z)) + (y, (z, x)) + (z, (x, y)) = 0$
+\end{defn}
+
+This might be a little jarring to understand at first, so let us look at an example of a Lie Algebra
+\begin{ex}
+$\R^3$ with the cross product as its operation, so $(v, w) = v \times w$. We can show that this is a lie algebra, as if we take the basis vectors $i, j, k \in \R^3$ we can see that Jacobi Identity holds
+\[
+	(i, (j, k)) + (j, (k, i)) + (k, (i , j)) = (i, i) + (j, j) + (k, k) = 0
+\]
+\end{ex}
+(Side Note: I will add more stuff here but I also wanted to include the intro part of the lie group section of my paper in the nugget)
+
+\section{Lie Groups}
+Using the algebraic structures of lie algebras, we can study lie groups. These have had many different applications in the world, with the most famous one being its usage in the Standard Model (which I may or may not gloss over)
+\begin{definition}
+Let $G$ be a set with two main rules. $G$ is a group, and $G$ is a smooth manifold. $G$ is then considered a Lie group.
+\end{definition}	
+\begin{rem}
+A morphism of Lie groups creates a map that will also preserve the Lie group's operation. This means that we can say that $f(x \cdot y) = f(x) \cdot f(y)$ and $f(1) = 1$
+\end{rem}
+\end{document} 
